@@ -1,0 +1,86 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- utter_statements
+- utter_rec_products
+- utter_default
+- action_searchproduct
+- action_tuling
+- action_cleanslot
+- action_xiaoan
+actions:
+- utter_statements
+- utter_rec_products
+- utter_default
+- bot.ActionSearchProduct
+- bot.ActionTuling
+- bot.ActionCleanSlot
+- bot.ActionXiaoan
+config:
+  store_entities_as_slots: true
+entities:
+- amount
+- period
+- return
+- product
+intents:
+- invest_scope:
+    use_entities: true
+- invest_return:
+    use_entities: true
+- invest_manager:
+    use_entities: true
+- invest_risk:
+    use_entities: true
+- invest_period:
+    use_entities: true
+- invest_amount:
+    use_entities: true
+- invest_time:
+    use_entities: true
+- invest_coupon:
+    use_entities: true
+- operation:
+    use_entities: true
+- others:
+    use_entities: true
+- rec_products:
+    use_entities: true
+- product_names:
+    use_entities: true
+- statements:
+    use_entities: true
+slots:
+  amount:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  last_product_information:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  last_product_intent:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  last_product_name:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  period:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  product:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  return:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_default:
+  - text: 换个说法，您能再说一遍吗?
+  - text: 我不理解你，请换个说法
+  - text: 您说什么，我不懂
+  utter_rec_products:
+  - text: 请咨询人工客服，我这里可以查询产品信息。
+  utter_statements:
+  - text: 感谢您对陆金所的支持，还有什么可以帮您的？
+  - text: 我是小陆，有什么可以为您效劳的？
+  - text: 我们一直在努力，还有什么需要咨询的？

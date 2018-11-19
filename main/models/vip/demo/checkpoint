@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/fangning141/interactive_dialogue/_rasa_chatbot_vip/models/vip/demo/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/fangning141/interactive_dialogue/_rasa_chatbot_vip/models/vip/demo/intent_classifier_tensorflow_embedding.ckpt"
