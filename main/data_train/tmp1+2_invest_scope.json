@@ -1,0 +1,2464 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝和陆钱宝是基金。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我想看看私募的产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "看看有没有投向好一点的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "短期"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是否有其他短期的稳妥点的其他方案？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "放哪个活期比较好？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个不是活期吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "智理财899798"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问智理财899798属于固定理财产品吗？还是属于基金产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "那些短期产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安e"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "p2p"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "安e是p2p吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "智慧8+"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "能否介绍下智慧8+"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "不是基金是吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是不是房地产项目"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金并购"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "国金并购说到底还是基金"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是基金类的吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "主要是这个标的比较一般，远不如银联。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "有国金的推介材料么，你发我看一下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "请问这个是什么产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华短债"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安大华短债债券型基金吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问爱理财这款产品怎么样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "活期理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "私募产品"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是私募产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "中能硅业"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这篇文章之于江苏中能硅业是否可以分析一下投资方向"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "return",
+                        "start": 12,
+                        "value": "7.7%"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "感觉没买对时间这期出现了7.7%的底层资产也类似"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "有个100万在委托中，是什么产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这是网贷吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私理财"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "私理财就是私募吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我想了解一下爱理财是什么类型产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝t+1"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝t+1是什么性质的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "杠杆债券票据基金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "杠杆债券票据基金，玄不玄？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 5,
+                        "value": "9.7"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "那上面那个9.7的不是货币基金吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是什么底层项目么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个产品现在看不见了，都不知道他的投资方向？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "路金宝t+0"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "路金宝t+0就是个货币基金是吧?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "呵呵，尊理财属于什么性质？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "像这种的是什么类型"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "尊理财属于什么性质的产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "陆钱宝是啥？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "没看到尊理财投资标的呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个产品是私募吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是什么样的项目"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "在什么类型里"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是什么？想了解一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "return",
+                        "start": 1,
+                        "value": "7.7"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "像7.7的这种是私募么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "稳赢"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "之前买的稳赢产品是**型理财产品吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是私募吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "投资爱理财如何？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "南孚电池的私募投资如何？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "债权型基金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是债权型基金"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "请介绍一下产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安宝金色人生"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安宝金色人生是不是基金产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是买的基金吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "pe私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "你要帮我了解这个pe私募到底现在是何情况？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "今天这个项目是做什么的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "标的公司是谁物色的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "200万"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我想了解一下这个200万是什么类型的理财产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智慧8+"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "智慧8+就是基金什么的组合，是吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中风头"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "中风头有具体公开是投资哪几个项目吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问存单宝是活期吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "那个备案的项目底层资产是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "中风投天诺投资"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我想了解所持有的中风投天诺投资的明细投资股权组成，去哪里查？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "grh2产品"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "grh2产品投资什么标的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "国金不是私募吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这两笔尊理财的底层数据清楚的给我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财5号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "爱理财5号是什么理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "陆钱宝是什么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "投资策略咨询"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "我的理财里有这样的产品吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "12"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "18个月"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "100万起的，12和18个月是什么产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是个什么产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "嘉实超短债"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "你昨天说的嘉实超短债我看了下，是基金产品吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "天添盈4号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "天添盈4号好吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "现金嬴"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现金嬴是证券类"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是啥产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "属于定期还是活期？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是投资一级市场还是二级"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "跃跃升"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问跃跃升是什么产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单保"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "return",
+                        "start": 11,
+                        "value": "8.1"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单保是什么产品，收益8.1"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "跃跃升"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "跃跃升是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "宝宝类"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "属于宝宝类的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "陆金宝t+1也是活期产品吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "保险类"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是保险类的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个投资标的宁波新杉是个什么公司？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华日增利"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安大华日增利是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "安益"
+                    },
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现在的慧盈和原来的安益是一样吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请教请教存单宝是基金吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私理财产品"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "私募资金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "私理财产品是私募资金吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是基金吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华短债e"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安大华短债e?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是什么产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "国泰是股票基金吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这些固定收益类产品底层都是些什么项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "增赢宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "您好请问增赢宝是什么类型的项目呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "智慧8+"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问这智慧8+是什么东东"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个产品是固定收益的呀？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "项目方向是？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是基金是吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是什么方面的投资?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华短债e"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安大华短债e是基金？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是什么项目呀。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "p2p"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "固定期理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "不是p2p也是固定期理财"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "麻烦你把这个产品的标的发给我看下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "存贷宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现在那个存贷宝是啥"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是什么项目"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "信托"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这类产品是信托吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智慧8"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "智慧8是什么产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "p2p"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "p2p活期定期都一样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "对应什么标的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "你们的尊理财都是投些什么项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "优选_安心e"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问优选_安心e是什么样的产品?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "上次给我推荐短期理财是何种？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "我了解产品结构和信息"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "彩虹"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "产品结构和以往的彩虹有什么区别？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "底层资产是什么?增信是什么?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "他是基金吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是什么产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个像是股权类？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个算什么产品？这个不确定性在哪里？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是基金板块？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安增益4号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "安增益4号丅这个产品如何？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "6.8"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "6.8这项目标的还可以吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "智理财是属于什性质的产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝t+1"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝t+1是什么性质？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "优选安心e"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "优选安心e和慧盈安e有什么区别？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "理尊+项目"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "理尊+项目是定期的吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "富盈和智理财区别"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "它属于基金类型吧！"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "亨理+"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "亨理+是什么性质的产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "昨天买的尊理财，想看一下标的，不知怎样打开？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "什么标的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财5号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "爱理财5号，服务期限，灵话赎回，是属于活期吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "投资方向知道吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是什么产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "债券基金吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是基金？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是个什么样的产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "基金型"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "股票型"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这是基金型还是股票型的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "久铭久盈2号"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "久铭1号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个是你们久铭久盈2号跟久铭1号同策略的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "请问我这个是什么产品，怎么看不到详细的介绍"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个产品上面也没有描述他是什么产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "问一下我这次买的产品是不是属于基金"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是什么产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个投资范围没看懂"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "不过您说的那个国金是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "信托产品"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个是信托产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "现金赢"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现金赢是基金吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财5"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "爱理财5号介绍一下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个是定期么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一个月"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "一个月的是什么产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安e＋"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "安e＋是啥"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝应该放在股票类里面"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "都股票型啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这些资产包我都无法看标的资产是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "金通人生"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "定期"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "保险类型"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "金通人生是定期不是保险类型吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "股票型基金？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "lof"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "lof是什么产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个属于基金吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "平安大华"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问平安大华的项目是什么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "固收类"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是固收类吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "070009"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "070009是具体做什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我做慧盈要做多久是合适的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "180227049000"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问180227049000，这个标是怎么了，为什么在其它里面"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "尊理财是什么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是基金吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 3,
+                        "value": "7%多"
+                    },
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "一年期7%多的是什么项目"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "主要投资什么项目呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "尊理财不是理财产品吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "私募吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "150万"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "债权"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "product",
+                        "start": 24,
+                        "value": "股权"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "已经买了150万。这个项目是债权对吧？不是投资于股权？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "40亿"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "pe项目"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个pe项目现在募集40亿元的资金用途是什么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "短债资金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问您推荐的短债资金具体是哪款？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是基金？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个存单宝是什么东西？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "活期=陆金宝吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "投资标的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "你们的尊理财是投资什么产品的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "股票型"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个是股票型的吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "私募基金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "这个也是私募基金？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个产品投向是哪里？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "360专项基金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "可以给我解释一下360专项基金是怎么操作的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "资管"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "什么是资管？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "债券基金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "债券基金不是很了解"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华日增"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "平安大华日增是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智慧8+"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "智慧8+是什么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "财富汇"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "哪个属于财富汇，尊理财吗。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "私募资管"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "还是私募资管吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "005754"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "005754是小额资金投的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "存单宝丅＋1"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问存单宝丅＋1也是活期存款吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我想请问存单宝属于基金吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "国金的投资方向不是一个单个项目吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "请问这款短债背后投资的是什么产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "存单宝是基金产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "陆金所定期项目在哪里才能看到？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "智慧美元"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "我买的智慧美元，它的投资标底是什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "类似风投，是吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "314天"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "说的是314天的那个定期吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "活期吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆线宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "陆线宝是什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "我看收益还可以，但对它不了解"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安增益4号t+31"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "return",
+                        "start": 21,
+                        "value": "5.09%"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "安增益4号t+31,短期理财7日年化收益率5.09%，这是一款什么产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "汇通渝跃"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问汇通渝跃是个什么产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是固定收益么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这个资金的最后投向能给一个确认么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "你知道底层资产吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "天添盈"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "天添盈是投资货基吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "乐享智投是什么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "大华"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "大华不是给基金吗。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池股权"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "南孚电池股权想了解一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆黄金"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "陆黄金是指?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "是基金还是黄金实物？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私理财sca441号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "私理财sca441号是基金类产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "是这个财富汇的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "什么类型的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "这是基金？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "都是些什么产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "好，现金类理财也少了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "李经理，怎么购买类固定收益理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "鑫理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "爱理财鑫理财都是投资啥的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财5号"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "爱理财5号是什么类型的产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_scope",
+                "text": "请问这产品您觉得如何"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "广发收益宝"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "广发收益宝是什么类产品?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "鑫理财"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "鑫理财和智理财是基金。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问智理财属于固定理财产品吗？还是属于基金产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "p2p"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "智理财是p2p吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "有智理财的推介材料么，你发我看一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "银河水星"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "120万"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "银河水星是一个120万的定期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "银河水星"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "银河水星是什么样的项目"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "银河水星"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "私募"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "银河水星是私募吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "银河水星"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请介绍一下银河水星产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "现金赢日增利"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现金赢日增利是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "现金赢"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "p2p"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "现金赢不是p2p也是固定期理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "货币增强"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "昨天买的货币增强，想看一下标的，不知怎样打开？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "货币增强"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "货币增强是具体做什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "货币增强"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "货币增强是啥"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "货币增强"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "请问货币增强，这个怎么了，为什么在其它里面"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "任我行"
+                    }
+                ],
+                "intent": "invest_scope",
+                "text": "昨天买的任我行，想看一下标的，不知怎样打开？"
+            }
+        ]
+    }
+}

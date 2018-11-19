@@ -1,0 +1,153 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "是同一个项目，但资产管理人不同？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "基金管理方是什么水平？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "资金托管是谁啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "这样的项目是由哪个监管部门管理？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "什么公司发布的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "你指的管理公司是指谁？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "国金是管理人我就放心了！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "基金管理人到底是谁？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "哪家知道吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "你们是管理人吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "平安大通"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "另外这个不是平安大通管理的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "是哪个公司"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "马上要发行的尊理财，管理人托管方都是平安吧？？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "是要所有底层合同管理人吗提出吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "基金管理人怎么没有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "你需要问一下管理投资的操作人"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "管理人是?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_manager",
+                "text": "刚才说的新三板企业是哪一家"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "ipo"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "那么这次ipo的运营方是谁？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "财富证券"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "管理人是财富证券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_manager",
+                "text": "马上要发行的智理财，管理人托管方都是平安吧？？"
+            }
+        ]
+    }
+}

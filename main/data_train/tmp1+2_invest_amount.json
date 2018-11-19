@@ -1,0 +1,3084 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我之前买的就是100万起投"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "一万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "怎么上面显示是一万元起投的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我看也是100万起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 46,
+                        "entity": "amount",
+                        "start": 42,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我看到第一次是有金额限制（100万以上）。是不是以后的投资就没有这个限制了，可以低于100万（不是追加）？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点金额多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100起的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "return",
+                        "start": 1,
+                        "value": "7.2"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "有7.2多少钱能买是理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "陆金所私募100万起投吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "一般这些项目起投是多少的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额是多少呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "3000000"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在尊理财只有3000000起的项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100的起点吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 16,
+                        "value": "征途"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "return",
+                        "start": 21,
+                        "value": "5.6%"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "下周一早上9点有一个月短期产品：征途，收益5.6%左右，有起投金额吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆国际"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "陆国际的产品起投金额多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "中能项目起点多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个投资起点金额是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "50万"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财是50万还是100万元起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点资金多少?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资额度多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "银河水星"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "银河水星门槛是多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最少追加多少钱？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这次最低金额有要求吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个门槛资金多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "久盈"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "久盈多少起卖？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "500万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "提现额度是不是500万每天？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这是百万投资起的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "10元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "刚才投资的项目10元就可以起投的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "1万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "为什么还会有1万多起投的？？？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这是多少起投的?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "是无门槛的吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我看到是300万起做"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "6个月"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 3,
+                        "value": "7.3"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "6个月7.3多少起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个项目最低投资门槛多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起步多少大概？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起步多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低金额多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "只是想知道起步点多少而已，我没那么多钱投。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个项目起投多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我没有看到你之前说的100起投的项目"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少起卖"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "五百万"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "平安大华"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你说的这个平安大华是五百万起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "每次追加有何限制？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "每次追加有金额规定吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "首投100万起"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "早上看见有这个，300万起"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资金额多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "月份前的100是指100万起投吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "20万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "每天最多只能取现20万吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "300万"
+                    },
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财是300万起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100万起的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "10160元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "“产品详情”页面上的“起投资金”10160元？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资额多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金并购基金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "国金并购基金正常情况下起投门槛至少多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最少的投资金额多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在定期产品都要百万起买了吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "10160"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "已经购买了，但是我看怎么起投金额变成10160了呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "要100万起步吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这个之前发的起投是100万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "amount",
+                        "start": 23,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中风投"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "中风投要是有后期发新项目，麻烦给我说一声，起投100万的。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "一百万"
+                    },
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "百万定期产品，是一百万起投吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "那个基金起投金额多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "好的也是百万起呗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个产品最低投资额是多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这类起投额多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "陆金宝t+1赎回，单笔或者单日是否有限额？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中能"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "中能起点要100万呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少金额起？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个项目最低要投多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "有起投金额要求么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "t+0"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "1万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "是t+0一天只能赎1万？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "t+1"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "t+1一天能赎多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "11011基金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "11011基金，想再补一点可以吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "是100起的吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个并购基金起点多少钱"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "需要投资多少钱"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财基本都是100万起对么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "零活宝"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我钱已经转到零活宝了，下次有百万起投的提前告诉我怎么投"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "百万起投的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "还能再追加吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "t加0"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我想问t加0赎回有数额限制吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "一百万"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "江苏中能"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你介绍的江苏中能也是一百万起投的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "均是100万元起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少金额起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 21,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "所有平台的私募都是吗？100万起投，账户得300万?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "所有私募起投均需100万吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个产品门槛多高？不记得了？还没有正式上架吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起点要100w吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "是百万起投吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个是私慕操作嘛？起投是多少呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "一万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "为什么7月1日起，一天只能体现一万啦？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "两年"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "两年的多少起投"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "怎么投，门槛多高"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少钱起点"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": " 100万起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财起点多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚股权"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "南孚股权起点多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "那个是不是要100w起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这些私募购买的话需要什么条件吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投是100万吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "amount",
+                        "start": 20,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "兆米国金顶泰基金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "另外，兆米国金顶泰基金的起投金额能否小于100万？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "101.6万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "是不是最少需要101.6万？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "500"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "写了500起投"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投金额一百万，筹不来"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "50万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你居然推荐我最低50万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我怎么没有看到100万起投的产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "也是100起吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投额有两种"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "美元起投金额是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "101.6万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "在投资首页就能看到，起投是101.6万??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "信中利"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "101.6万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "信中利这个产品起点也是101.6万吗？??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "中硅的项目多少金额起售?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低需要多少资金？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起购金额是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "也是要100万起购的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "需要一百万以上是吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "米桥投资基金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "米桥投资基金？起投金额多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额太大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "我可以买吗？多少钱起买？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "300w起"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "有300w起的更好"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低多少起投"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "pe股权"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问老师pe股权投资最低要多少钱?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100多万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投金额要100多万？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "10160"
+                    },
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中能"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "中能起投怎么变成10160"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "一万多元"
+                    },
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "二号"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问二号的起投金额为什么是一万多元呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在1万起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "是多少万起的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "不够一百万买不成吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这个项目是100万起购吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "005756"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "005754"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "005756和005754起购金额有什么区别"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "pe"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "pe多少起投"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "是两百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "下午的产品是100万起还是两百万？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个投资多少钱起？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低起投资金是多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在尊理财要300万起投了呀？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "门槛是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "目前起投金额应该都是100万吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "120万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "前阵子有个120万起投的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资金额?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "为什么这个变成一百万起投呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100万起投的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额是多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "然后多少万起买？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少钱起售"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "门槛多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "现在说起投金额高了?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "智理财"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "32万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你上次给我说买智理财产品**是买32万起吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "跃跃升"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "跃跃升，我买过100万？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "可以100万起的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "手机app上只看到追加投资+"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "继续投资慧盈能买多少如何？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "没有100万起买的产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "1w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "比如可以加个1w么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个什么时候可以追加啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "没注意最少要100万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "12万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "12万起投吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在新的尊理财都要300万起了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个项目多少起投"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "现在只可追加啊。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "百万起投的吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "另外你说的那种起投多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "最近有没有100万起的产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额多少呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投金额多少？100万还是300万？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "投资门槛是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "沪深300"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "沪深300定投，每月最低多少钱？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "return",
+                        "start": 9,
+                        "value": "7.4%"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "amount",
+                        "start": 23,
+                        "value": "1万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "今天下午3点尊理财7.4%的很快就售完了，起步1万元？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "百万起投的啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "可是起点100，怎么尝试"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "大华"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "大华现在追加投资可以吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这个尊理财一般都是100万起步的对吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起步资金多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "就是那个百万起的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万以上"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财都得100万以上的投资吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "10000元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投资金怎么只是10000元了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个起步要求多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少钱起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个最低投资多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "3万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我再追加3万元，可以吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问100万起点的尊理财还有吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额真的不一样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "30万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "7月改为30万起投吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "都是百万起对吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "也是百万起售？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "几十万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "定期都要几十万??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "平安借贷"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我看上周有那个平安借贷的百万起投的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少钱起存"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "有金额起点吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少钱起售"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "同盈CDB"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "同盈CDB门槛多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起板投资是多少金额"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "101万"
+                    },
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "国金的投资至少要101万?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投资金多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "500万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "500万起啊，太多了，放弃??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100起购吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "那个保险公司的多少万起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "101.6万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起投是101.6万，是吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "300"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我还看了一下，300起"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "须要多少金额起"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低多少起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起点100万吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "amount",
+                        "start": 25,
+                        "value": "二万"
+                    },
+                    {
+                        "end": 37,
+                        "entity": "amount",
+                        "start": 35,
+                        "value": "万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "在固类收益中标明百万才能购此款产品，我今早刚刚又购二万，且此款产品上说万元起购呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "return",
+                        "start": 3,
+                        "value": "7.2%"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你说的7.2%起投金额是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "几万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "不知道哪里买几万起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你说的百万起售的高端产品没有啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "乡少起买？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在都要百万起"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "return",
+                        "start": 6,
+                        "value": "7.4%"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "1万元起"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "不知道为什么7.4%的这款标示是1万元起"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投资金是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100起。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "101.6"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "只能101.6起"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "1万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这个为啥是1万起投了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "跃跃升"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "跃跃升能追加投资吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "近期有百万起的理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "300万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问，以后的尊理财产品起点金额都会是300万吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "股权投资最少资金多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "也是100万起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财睿普1号"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 11,
+                        "value": "100万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财睿普1号的起投是100万元？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "1万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "显示是1万起投的么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "南孚电池有没有最小资金要求？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "南孚电池"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "也就是说南孚电池起投100万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "最近没有100万起的尊理财产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投金额？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起点金额"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    },
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100是起点，为什么还让修改金额，难道少于100也可以？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财起点太高了。100万"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "金额多少起？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "那买过100万后面可以再追加吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "金色人生"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问有机会追加吗？现金色人生已到账"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "最近百万起投的有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "10160"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "怎么起步变成10160元了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "5万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "5万起头的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "5万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "那购买一个产品要多少金额以上？5万美元吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "下周一的产品是100万以上就可以了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "一百万起吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "1万"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "这产品是1万起步还是100万起步？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "是100万起步吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "投资起点多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "100w"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": " 尊理财的起点是100w?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "此产品起步购买是多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起投资金多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 28,
+                        "entity": "amount",
+                        "start": 25,
+                        "value": "20万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "请问下这款我已经买进去100万，要继续再追加点比如20万，怎么买不进了，说超过投资设限"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "几万元"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "刚才还有几万元，我追加购买了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起购也是100?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "只能追加"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "起步100万。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100w起定投有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "南孚电池，股权投资的最低额度是多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "金额是多少起点"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个项目多少起"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "周五百万产品出来了吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起步投资多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "16:30上架的产品在定期里吗，起投金额多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "为什么两个理财起始投资金额不同"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "久盈"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "久盈有投资门槛"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "100万起投，门槛太高"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "多少开始买"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.7"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "7.7那个门槛是多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这支产品有金额限制吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "500万"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "大中华基金"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "那个大中华基金起步购买500万门槛"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "最低投资100万？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "最低投资额多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "你那边要多少起买?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我以为起始金额是100w"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "起购金额？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_amount",
+                "text": "这个起投是多少呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "天天赢"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "我朋友准备继续追加天天赢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财是不是要100万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "富盈"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "六百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你说的这个富盈是六百万起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "富盈的产品是多少起投的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "富盈7852"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你介绍的富盈7852也是一百万起投的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈"
+                    },
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "富盈是百万起投吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈7852"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "富盈7852起点多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "信理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "信理财的起投金额是多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "信理财"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "30000"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "现在信理财只有30000起的项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "信理财3075"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "信理财3075多少金额起售?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈7852"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "富盈7852是百万级投的么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈7733号"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "富盈7733号是百万级投的么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "富盈213123"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你介绍的富盈213123也是一百万起投的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "慧盈-安e+"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "你介绍的慧盈-安e+是百万起投？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "智理财起点资金是多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "鑫理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "鑫理财起点资金是多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_amount",
+                "text": "尊理财的起点资金是多少？"
+            }
+        ]
+    }
+}

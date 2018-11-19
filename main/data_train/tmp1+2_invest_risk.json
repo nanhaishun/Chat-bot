@@ -1,0 +1,2374 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险系数大么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "尊理财风险为中啊?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个有没有crs风险?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "在平安理财买了不少不知风险低还是高"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大我不敢买呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "再帮我确认下有没有平安承保吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这个产品年限好长啊，5年，为什么风险等级这么大，既然有担保？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募资管"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私募资管感觉上风险还有点高"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那个4颗半星，我比较喜欢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "大概风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "而且风险低一下的??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "是不是尊理财相对来说风险是比较小的呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "项目有什么风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募资管"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私募资管有什么风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "会不会有兑付风险？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不会有啥风险吧??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "按理来说赊店老窖应该是国字号的企业不存在高端风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不是小贷公司有，有风险不"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "怎么样是不是四星。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "你的意思是说没什么风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个要靠谱一些吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "中风险是什么概念？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有没有什么风险？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.05"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "7.05产品风险等级请发链接谢谢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不会是有风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "之前短债的收益大概是什么情况，风险可能是什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "是平安担保的么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "征途"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "征途风险等级高吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "南孚**风险会是什么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险概率多大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "产品没出风险吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "怎么回事啊是不是出风险了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险是什么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个产品靠谱吗？风险等级多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险会不会高呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安汇通"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "平安汇通是几颗星？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "你们爱理财有风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有风险吗?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "资金放里面有风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "现在市场风险太大了，担惊受怕呀！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "是不是还有损失的风险？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "系数怎么才三颗星"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个项目的风险测评是几星呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "国金并购"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "南孚电池与国金并购从风险性收益性帮我比较分折一下，那个更好？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那个风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个保险好吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "我问下这个的风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "谁担保的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这种有风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "里面产品风险高哇？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "电池项目投资期长了，我吃不准风险度"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我预约的尊理财～资管，风险很大吗？会产生同吉9号、10号的风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "最近新的政策对购买这些产品的风险是不是加大了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "目前产品是不是风险大了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有风险？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "你好这个系统风险是什么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 5,
+                        "value": "8.4"
+                    },
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "网贷现在有8.4。你建议买吗？风险太高了吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "四颗星的算是比较的了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "还是不清楚风险想再学习下再碰"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这些风险大不大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大的不要"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "还不了解产品的特点，风险情况"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个投资风险大吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大不大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "请问这有风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "怎样风险"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "400多天"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "有个400多天的理财产品，风险大不大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险大吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这种的风险大不"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个会有风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个项目建设很久了。不知有没有运行风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "它是做票据的，风险为啥高？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险多大"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财70b325号"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "尊理财70b325号，看了说明书，貌似没有抵押物，只有增信措施？你帮忙评估一下风险，说明一下风险提示？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "网贷"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "网贷，慧盈安e请问这个项目风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "请问这个风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个没风险吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这种产品风险大不大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "想咨询下，这个项目风险大吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险系数多少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "安全度高吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "安全度怎么样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险远远高于定期是吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "百万理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "百万理财这个风险大吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "存单宝啥产品，风险大吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "怎么变直投了呢？风险提高了嘛"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险高"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险属于什么类型"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "请问风险系数怎么认定啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "请问风险系数有多大呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募私理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私募私理财，这个投资风险如何"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募-私理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私募-私理财安全性怎么样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "可否介绍一下这个产品？到底多大风险？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "是不是尊理财产品基本都没啥风险的啊??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "安e是不是以后有可能不能转让了？听其他人说有政策风险。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "环球盈"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "环球盈的风险等级如何，底层资产的**性如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "收益保障吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "爱理财这个项目怎么样风险系数高吗适合投资吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有什么风险?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "过往的投资情况报告有么，也不清楚风险如何"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "主要的亏损风险是啥"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那本金损失的风险大么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "总体风险指数多高？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个产品的风险在哪里？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我想了解一下、乐享智投是平安公司担保的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "会不会有风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有担包吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "重阳私募"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "重阳私募风险大吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "488天"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "比起之前488天的哪个更可靠"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 2,
+                        "value": "8.04"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "利率8.04是不是风险很大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险大不"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "一百九十万"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 3,
+                        "value": "七点七"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "买到了七点七的一百九十万有风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "天添盈"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "月月升"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "天添盈和月月升风险度是一样的吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "30天"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "30天持有，可以随时取现，有分险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这款私募理财保险评级三星半，会不会有点不牢靠？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "4星?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级等资料在哪里看?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有逾期风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险比起来如何"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "并购私募"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "你们推出的并购私募风险如何"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "嘉实超短债"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "嘉实超短债风险系数怎么样？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "大华短债"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "大华短债项目里没有看到4颗半星"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个产品风险度如何?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "陆钱宝t十1"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "国开泰富货币a000901"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "请问一下陆钱宝t十1优选（国开泰富货币a000901)该产品如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "4个半星?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "107747.12元"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "财富汇24m453a号"
+                    },
+                    {
+                        "end": 46,
+                        "entity": "amount",
+                        "start": 42,
+                        "value": "三百多元"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我投资107747.12元的财富汇24m453a号，还是五星低风险项目，几天就要损失三百多元，怎么回事？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "具体怎样？风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个产品保险系数如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个基金风险大吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "鑫理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "那跟鑫理财的风险比较？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "请问这款尊理财100万，风险大吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财5号"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "爱理财5号风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个稳定吗，可以投吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "评测是中风险没什么问题的吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "想了解下安全性问题"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那很安全了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "没买过这么多的，这个风险等级和我以前买的一样吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "智理财项目的稳定性如何?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不知道风险程度怎样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有亏损的风险没"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这些产品评级是几颗星？风险怎么样?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "产品风险几星？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不是担保公司或保险担保的吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "中风险？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "招商"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "易方达"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "考虑买招商的和易方达但易是指数型风险会不会比较高"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "国金并购"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "为什么国金并购的等级为“高风险”？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个是平安担保吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "基金风险太高了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不会有风险吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "财富汇"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "彩虹"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "他是不是和财富汇、彩虹一样，比较稳妥。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "陆钱宝好像比陆金宝收盖高，它的稳定性如何？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "陆金宝稳吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "意思是活期只有陆金宝稳吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "金通人生16号组合8期"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": " 金通人生16号组合8期抗风险能力怎样，"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有保险吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "尊理财？风险是什么等级？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "阳光私募"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我想问下阳光私募基金风险大吗？能按它说的利率兑现吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个收益挺高的，还灵活取回，保险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这份是最低风险的吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "鸿道全"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "鸿道全这个风险给我分析下，下午行不？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "资管"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "资管现在风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个有保险公司承保吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险高吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "我看是4颗星，都是安全的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "90天"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "投资90天的这款产品风险应该不大吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "请问慧盈安e是否安稳"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "我想咨询一下这几个稳定吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "包括风险和尊理财比呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "慧盈安e"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "period",
+                        "start": 12,
+                        "value": "6个月"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "return",
+                        "start": 15,
+                        "value": "6%"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "刚刚看了一个产品慧盈安e6个月6%，五颗星，这个应该不错吧?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "鑫理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "鑫理财的活期安全性没问题吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级几科星"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "国金证券并购基金"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "你认为投资国金证券并购基金这个项目有没有本金风险？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "131万"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这个产品和之前买的131万那个产品，那个风险大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "你认为还有什么风险呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这里面会不会有人为风险呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "pe"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我看最近也有关于pe违约风险的事件也特别多？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大不大?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级是怎么排的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "会不会出现系统性风险啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "尊理财这个产品的风险系数，会不会逾期"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险等级？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那风险是几星？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "ppt里面写的是高风险?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "财富汇"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "彩虹"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "他是不是和财富汇、彩虹一样，比较稳妥？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "智理财风险不高吧。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "产品没有问题吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "都是有风险的投资，不要了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "不知网贷的风险如何"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险主要是什么呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝t＋1"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "存单宝t＋1可以买吗？有风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险怎么样？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "也是4星产品吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "5星风险还是最小？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险收益怎么样"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "定期"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "定期是几个星"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险性呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "低风险？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "南孚资金就是稳妥的？收益也***？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "时间也很久"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这种风险还是很大的，时间也很久"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "陆钱宝基金理财活期的有风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "货币基金"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "货币基金利率比一般活期要高，有风险吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "不要有什么风险"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "以及这个也是某地产项目投资，风险不小"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "刚刚我买的那个尊理财和早上那款有什么不同吗？我是说风险方面。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险是什么呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "安邦"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "product",
+                        "start": 19,
+                        "value": "安邦"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这是安邦的产品。有点危险吧。我不太信任安邦。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个如何，风险不大吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝t+1"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "陆钱宝t+1优选，风险比较低吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个算什么风险很高？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险比起基金呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我想问一下尊理财风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险可控吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那好想风险大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "还是有点风险的啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那它有亏本的可能啊！不象活期存款？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "尊理财的风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险比较大吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "优选安心e"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我昨天买了一笔优选安心e，这个风险大吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "私暮"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这个私暮是不是风险较大？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "然后把风险调到最小利益**化"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个产品风险情况怎么样？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "南孚"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我看风险评估南孚是高风险，国金是什么，这个怎么说"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "return",
+                        "start": 4,
+                        "value": "7.7"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "现在出的7.7的尊理财风险性怎样？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "存单保"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": " 存单保是几星级的产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "什么风险级别"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有没有什么风险"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私理财"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "私募产品"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私理财是私募产品吗？有风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "私理财风险高吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "听说有一款尊理财产品出问题了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "现在买是不是有风险啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险依然吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险体现在哪里？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "存单宝可以买吗？这个风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "是否除了平安保险公司出问题，否则没有任何风险，可以这么理解吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "平安汇"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "定期资管产品"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "请问那个平安汇定期资管产品风险？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "我看是四颗星，大概率？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "稳定?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "存在什么风险呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.4%"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "7.4%的尊理财风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个投资风险大不"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险很高吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险大吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "pe"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "说pe风险大的很"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "看到风险等级是中级呀??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个基金看了一下风险大么，没买过，不太敢买??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险大不大"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "安e十"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我的活期全部转买安e十了，你说靠普吗，风险大吗."
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "而且基金风险大大啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个风险如何？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "你们自己的风险级别是什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这肯定是风险很高吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险度较低？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "国金的风险好像很大"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险反而低？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "风险怎样？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这种我没有买过风险怎样"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有什么风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个可靠吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "有风险??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "那个有风险，谁知道呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "这个有啥风险吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "可靠性高吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "你推荐的这个风险大吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_risk",
+                "text": "高风险项目吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "乐享"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "他是不是和乐享、乐享智投，比较稳妥。？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "乐享"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "乐享，稳定?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "乐享"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "乐享，风险比较低吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "乐盈"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "这些小贷很多是乐盈的，会不会出现系统性风险啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "请问乐享智投是否安稳"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "稳盈-变现通"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "稳盈-变现通风险大吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "稳盈-变现通"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "稳盈-变现通是平安公司担保的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "稳盈变现通"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "稳盈变现通，你帮忙评估一下风险，说明一下风险提示？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "慧盈风险会是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我最近收到一个慧盈可以投不知道你觉得这个靠不靠谱有没有所了解"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "乐享"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "乐享靠谱吗？风险等级多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我想问下财富汇风险大吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "财富汇抗风险能力怎样，"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "财富汇风险会是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "智享"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "我最近收到一个智享可以投不知道你觉得这个靠不靠谱有没有所了解"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈213123"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "富盈213123风险会是什么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "金色人生"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "金色人生有啥风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "稳盈-安e+"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "稳盈-安e有啥风险吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "弘康投连险"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "弘康投连险，风险比较低吧!"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "弘康投连险"
+                    }
+                ],
+                "intent": "invest_risk",
+                "text": "弘康投连险，稳定？"
+            }
+        ]
+    }
+}

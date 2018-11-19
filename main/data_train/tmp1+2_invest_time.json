@@ -1,0 +1,3396 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有百万尊理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天百万的还发吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天百万的发了吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安增益"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "安增益的这款是每天3点抢购的么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这几天会有一百万的定期产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财固定效益类的何时有产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问今天下午还有尊理财是产品吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "每天什么时候放出来啊？我看现在没有额度啊。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "安e一般几点上架？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这几天定期理财几点上架，提前能有信息吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "何时有慧盈产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万以上"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有没有100万以上的产品了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "真格基金"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "真格基金什么时候还有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "半年期"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有没有半年期的尊理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财产品今天会上线吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": " 尊理财产品每天什么时候上架？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这几天有尊理财产品上架吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "汇安天天盈4号"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "汇安天天盈4号，每天还能申购吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "节节高"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "跃跃升"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": " 我看到有节节高和跃跃升的产品。请问明天是否早点申购就可以了？大概几点？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近日有没有尊理财项目？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "最近还有类似产品吗?我现在都在活期里。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "请问三点出来的是哪个理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "新发的安e今天还会有么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我的资金到了，什么时候有尊理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天尊理财什么时候上"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财上架告诉我一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 11,
+                        "value": "久盈智投"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问平安金管家中售卖的久盈智投每天什么时间开始发售？每次进去看都售馨"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "资金已经到位，明天几点开售？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "明天什么时候？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "有那个平安担保的尊理财提前通知下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "金通人生"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期会有金通人生项目推出？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有百万产品吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下一期产品啥时候"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "如果有的话这个是每天早上几点发售啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财明天有吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "帮我看一下这两天什么时候还有呐"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下周一大概几点呵"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "一年的什么时候有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "一年期最近还有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有尊理财吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "后面什么时候有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候有尊理财呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天尊理财上架时间？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这几天还有尊理财申购吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 4,
+                        "value": "7%"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "再有超过7%的尊理财请电话通知我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "又一款尊理财售光了。怎么才能买到啊?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "现在安e什么时候有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近没有尊理财产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "product",
+                        "start": 19,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "有尊理财产品请及时通知，我备有资金待买尊理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "倾向于买比较保守的尊理财这类产品，这周会有什么上架吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈安e产品还有吗？一般什么时候可以买？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "有就跟我说吧，大概哪天有上线"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近尊理财产品有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "你们尊理财都是几点上？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下来要等哪天才有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "类固定收益类产品还会出吗？估计什么时候？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天的项目什么时间起售？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那后面是什么时候呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "现在能知道今天的项目什么时候上吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "平安汇盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": " 尊理财的平安汇盈产品近期有没有上架的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "汇盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财的汇盈产品几时有上架？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有高点的尊理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "return",
+                        "start": 7,
+                        "value": "7.5%左右"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期还有尊理财7.5%左右的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "return",
+                        "start": 2,
+                        "value": "7.7"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "想买7.7的。大概什么时候有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "return",
+                        "start": 1,
+                        "value": "7.7%"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "您7.7%的尊理财以后还会有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我想咨询下最近有没有尊理财的项目开售??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近还有尊理财项目的话，请记得通知我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "明天还有百万的尊理财产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期尊理财的排期，告知我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "一年内"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期尊理财的一年内的排期告诉我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "你能告诉我下次尊理财，是什么时候发行么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "昨天的尊理财不是太适合我，没太看懂里面的投向，下次你知道是什么时间点么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "如果有新的时间点，还请告诉我一下。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "一年期以内"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "如果有一年期以内的尊理财，还请告诉我一下。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "产品什么时候出来"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100w"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "有100w起的排期吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "啥时候有尊理财上架呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "本周有安排尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "高端宝"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "高端宝啥时候开售"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问近期有没有尊理财的产品发布，有的话提前跟我说一声，麻烦你了！"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我看到的所有尊理财，都募集结束了，有在售的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "财富汇"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有没有财富汇尊理财产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "怎么还没发这些尊理财产品"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "又错过了。不知道什么时候有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "何时募集?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候起投？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "啥时候上啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问最近会发行以前财富汇那种定期项目吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财项目什么时候上架？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有上线尊理财的计划吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "天添盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "天添盈这几天还是不开放？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "知道几时正常开放？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "有没有准确的上架安排？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "金通人生"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有金通人生发行吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "金通人生"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近15天有金通人生不"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下周有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "安e什么时候有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "现在尊理财是不是都没有呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "那个国金后续还会再有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候会有?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这周什么时候会有?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "一年"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 5,
+                        "value": "7.5"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问一年期7.5的产品何时上线？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天到底还盼告。有无尊理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "哪天有新的有担保的尊理财上线？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问最近还有尊理财项目吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这个啥时候能买呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "月月升2号"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "月月升2号什么时候还会开放"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近会上尊理财100万的产品？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近看看尊理财有没有产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财有产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "保尊宝"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问现在还有什么可以投资的保尊宝产品？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "最近尊享有项目吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这二天还会有这种产品吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "大概这二天会有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天早上有个尊理财一年期的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "是明天还有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问近几天还有尊理财吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "后面产品排期来了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财今天有啥项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这几天如果有尊理财的话，麻烦提前通知我一下啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 1,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "有尊理财的消息，请及时电话通知我吧。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "天盈1号"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "天盈1号，十点买的到吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "没抢到，明天还有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有尊理财项目吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "短期"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊享理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "短期尊享理财的最近有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "短期"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "本周有短期的尊理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "刚才去看尊理财，今天是上线就卖完了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "到底每天什么时候上线？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有没有尊理财上线？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财最近会有吗?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时间"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有没有尊理财？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天有没有上过线啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今明还会有产品上吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "私理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这星期尊理财或者私理财还会发吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "有新的尊理财商品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财还没有项目吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财的产品提前通知我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "为什么今天有尊理财品不给我及时打电话通知我呢？再什么时候有，请立即电话通知。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "关于尊理财能否预告？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有些啥尊理财产品要上架？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候开始卖的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "产品什么时候上？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "你们最近尊理财都没有上线啊。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近尊理财还有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "本周几可以购买？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天有上架吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "本周尊理财项目何时发布?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天何时有?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天何时有尊理财项目?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天几点有?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "短期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候有短期定期产品发售通知一下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那个项目啥时候可以开始？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "你看下今天会出尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天还有尊理财推出来吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "return",
+                        "start": 3,
+                        "value": "7.7"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有7.7的尊理财的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "就是问你今天的排期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "下周有尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时间发行尊理财产产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "一般尊理财产品什么时间上架？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "现在能买吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问尊理财还在什么时候有发售？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下午的产品还没上架吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有尊理财产品发吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问近期有百万的尊理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "乐享智投"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "product",
+                        "start": 15,
+                        "value": "久盈智投"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "6--12月"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "如果发售6--12月乐享智投和久盈智投的产品，能否通知我一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1百万"
+                    },
+                    {
+                        "end": 27,
+                        "entity": "return",
+                        "start": 23,
+                        "value": "5.14"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我有1百万，为何活期买不到了？每天10点开放的5.14活期能帮我操买到吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "节节高"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "节节高能投吗？何时可以投"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈还有吗?何时会发标?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期尊理财有项目吗。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "定期理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "如有近期定期理财的发布计划，能否给我发一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年期"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "period",
+                        "start": 14,
+                        "value": "半年"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "一年期的我暂时不考虑考虑那个半年了吧？那个什么时候上线？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天早上几点开始啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "能否通知下什么时候会有标"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "问一下今天的理财产品什么时候发？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.7"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "441天"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "7.7的441天的尊理财上线前请提醒一下，谢谢！"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有100万的定期吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "半年"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "半年的尊理财能提前播报一下吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "半年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "记得你说这周有半年期理财，还有吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "问下之前申请的那个是何时开始?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "286天"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "286天什么时候上"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "货币基金"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "货币基金要3日后才能买？？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "天添盈"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "286天"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天没有天添盈也没有286天产品对吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "天添盈"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "286天"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天没有天添盈也没有286天产品什么时候会有呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "5分钟后上架吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "固收"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "后面固收排期出来没?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候发产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我想问下乐享智投项目陆金所app能买到吗什么时候有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这个产品每天都有吗？刚看到售罄了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "一般什么时候发布？0点？看产品卖得很快"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "您好尊理财大概什么时候上，我总买不到"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我还是买点尊理财吧！尊理财每天什么时候出"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天确定有尊理财产品啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.5"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "7.5的理财什么时候会有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "一年期"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "还有一年期的尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "明后天还有一年期的吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "明后天有一年期吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财未成立，请下周有尊理财早电话告之，再买进"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "节后平安担保的尊理财还没有上架计划？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财70b131"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财70b131是什么时候的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "中下旬会有更多尊理财产品上线么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那个项目什么时候发？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "征途"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "征途是明天开售，对吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财产品什么时候上线啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下次什么时候上"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "一般是几点发售"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈现在什么时间段发标？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "排期出来了伐"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "百万"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "百万的还推吗？排期准备什么时候出来"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天还没有产品推出吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天明天还有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "麻烦留意一下这几天有没有，如果有我麻烦再通知我一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "帮我看看尊理财什么时侯有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财售完。请问下一期何时上架"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今有产品上架吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财有上架吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "半年内"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "现在的半年内的智理财每天什么时候更新啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天有新品上架？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问尊理财项目一般几点上线？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候还有，请提前告诉我。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "下午有没有尊理财产品上架"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这周产品排期出来了吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "12个月的什么时候上架"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问网贷每天一般几点开售"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有尊理财吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "能早点告诉排期吗？以便安排资金"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "明天还会有尊理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "product",
+                        "start": 18,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "period",
+                        "start": 13,
+                        "value": "1年左右"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "下周一给我发下排期，希望是1年左右的尊理财"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期还有尊理财么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近有新发尊理财麻烦通知我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这周尊理财什么时候出"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "最近还发售吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近的尊理财很快给秒，一般产品是几点推出"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "下星期尊理财有没有一年期的产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "现在尊理财排期还没出？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "一年"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "两年期"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "慧赢"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有没有一年或者两年期的慧赢产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这几天将要发售的尊理财，有哪些"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这周还有产品上吗？没有我就把资金转走"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "6.8"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "6.8的什么时候上？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "下周一有没有定期尊理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "period",
+                        "start": 12,
+                        "value": "6一12亇月"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "近期有无尊理财可投？**6一12亇月"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "上次提到六月份新产品出来大概是什么时候啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "半年以内"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "这两天有半年以内的100万的尊理财项目吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "半年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有半年期的项目上线吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问最近什么时候有慧盈安e放出来？谢谢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "您好，我看vip项目中已经都募集结束了，大概多久还有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "大概什么时间上"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那预计什么时候可以正常投啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财一般什么时候开售的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那个产品什么时候上线"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "几号会上线，不能让我资金一直闲置着"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "每天的排期会什么时候出来告诉我个确定的时间我进来软件找你"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "智理财什么时候有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "网贷几点开始销售？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "鑫理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "新的鑫理财什么时候有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财的，什么时候会再有啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "几点开售"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "产品还没有出来?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "现在没有的话，今天还会有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下周一还会有其它吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "周一还会有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "下周一应该还会有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天5点还有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "慧赢安逸"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问下，最近慧赢安逸为何没有产品发售呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "后续还会如期发行吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "pe股权"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近还有其它pe股权吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问，下周有尊理财产品吗，如有能否提前告知"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财项目何时出来?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "本周何日上架不能确定?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候还会有尊理财啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "有没有尊理财的产品排期，一上架就募集结束了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近还有尊理财定期产品吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈上架有规律吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈什么时候上架"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "慧盈安e近期有发售吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "又错过一次机会，过几天还有吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "什么时候可以买"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "跃跃升"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "目前跃跃升暂停投资了，问下什么时候开放购买？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近还有尊理财产品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天还有尊理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近好像有尊理财，很快就卖完了，什么时间还有，你能告诉我准确的认购时间吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有慧盈不？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候还有我能买的尊理财？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "网贷一般几点发"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "100万起"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "我想问一下100万起的理财下个月有没有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "平安大通"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天什么时候发布了平安大通产品"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "product",
+                        "start": 17,
+                        "value": "定期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "22日我有产品到期，请问100万的定期一般什么时候抢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "高端宝"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "高端宝现在还有吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "这个什么时候还有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "高端宝天添盈"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "高端宝天添盈10点有售啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "你好今天有定期尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "网贷何时有"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "能知道哪天可以买那个理财吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "慧盈安e+"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "请问现在慧盈安e+产品什么时候放出来啊，有什么时间规律么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "明天几点开始"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "安增益"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天安增益几点上架？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财何时上架"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.7"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "period",
+                        "start": 8,
+                        "value": "400多天"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "7.7的尊理财，400多天的还有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "短期"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天有短期的尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天还有尊理财吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财最近都没有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "return",
+                        "start": 2,
+                        "value": "8点4"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天8点4的没有吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近尊理财还会有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "类固定"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "最近什么时候还有类固定的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "那我什么时候能买"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "period",
+                        "start": 16,
+                        "value": "一年两年"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候有固定收益率的产品？时间一年两年的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "今天是不是有尊理财上架的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "7.2"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "7.2的这个上了么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "一年期的你提前通知我哈"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "本周还有产品吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天没有产品？明天会有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "尊理财一般几点开售？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "定期"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "定期有新的排期通知了没呀？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "有新排期了么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天有新的排期消息么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "有没有新的排期出来？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "类固定收益"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "类固定收益的理财这周还有么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_time",
+                "text": "什么时候还会有“尊理财”发布？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "今天也不上了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_time",
+                "text": "排期表大概什么时候会有"
+            }
+        ]
+    }
+}

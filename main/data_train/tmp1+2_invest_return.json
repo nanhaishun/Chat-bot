@@ -1,0 +1,8794 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "我看到了，感觉收益都很低。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "上市8%年化不上市12%年化？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 2,
+            "value": "8%"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "现在没什么好投资吗？利率太低了??",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率知道吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在陆家的产品和银行理财利率差不多也没什么优势了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "私募都不是固定收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "重阳拿1-2个月呗？扣除申购赎回费用，估计收益率？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 3,
+            "value": "1-2个月"
+          }
+        ]
+      },
+      {
+        "text": "看看是多少利率哈，100万财富汇。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 9,
+            "value": "100万"
+          },
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 13,
+            "value": "财富汇"
+          }
+        ]
+      },
+      {
+        "text": "这个收益率为什么是7.56%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 9,
+            "value": "7.56%"
+          }
+        ]
+      },
+      {
+        "text": "近一年涨16.58%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 4,
+            "value": "16.58%"
+          }
+        ]
+      },
+      {
+        "text": "目前收益14.6%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 4,
+            "value": "14.6%"
+          }
+        ]
+      },
+      {
+        "text": "都买了7.4的了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "固定4.7的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "4.7"
+          }
+        ]
+      },
+      {
+        "text": "利率就是10，是吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "10"
+          }
+        ]
+      },
+      {
+        "text": "一般收益率多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "想问一下网贷实际到手收益率是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "预计年化收益有吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单宝的收益不固定？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝"
+          }
+        ]
+      },
+      {
+        "text": "7.3是年华收益吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.3"
+          }
+        ]
+      },
+      {
+        "text": "你好，我买的彩虹系列是提前还款了么？之前是到11月，现在我看系统里是5月22日，而且预算受益也下降了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "彩虹系列"
+          }
+        ]
+      },
+      {
+        "text": "昨天是7.7的。7.47太低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "7.7"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "7.47"
+          }
+        ]
+      },
+      {
+        "text": "这个产品太奇葩，时间怎么长。收益还不算高。继续等吧。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "period",
+            "start": 12,
+            "value": "长"
+          }
+        ]
+      },
+      {
+        "text": "超过18个月除非收益超高，否则就不用告诉我我了。如果产品好你再给我家人打电话",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "period",
+            "start": 2,
+            "value": "18个月"
+          }
+        ]
+      },
+      {
+        "text": "收益虽然低点，资金不会躺着",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个是固定4.98%吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 5,
+            "value": "4.98%"
+          }
+        ]
+      },
+      {
+        "text": "请问你说的利率比较高的活期在哪里呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这样下去尊理财年化收益率要打折扣，没有标出的这么高。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 4,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "那8%是指年回报吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 1,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "中短期的预期收益大概在什么范围内呀",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "哦！收益多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "181天的有两种收益率？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 0,
+            "value": "181天"
+          }
+        ]
+      },
+      {
+        "text": "是保收益的吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "1年期的一般都会在7.5左右吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "1年期"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "他是保底8个点吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "8个点"
+          }
+        ]
+      },
+      {
+        "text": "刚投了国金并购。问一下，超过8%，管理人收20%业绩，这20%包括前面的8%还是剔除8%意外之后的收益的20%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 3,
+            "value": "国金并购"
+          },
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 14,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "年化相当多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个年化率多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "目前看到的最多也只有四点多，比以前低了很多。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "四点多"
+          }
+        ]
+      },
+      {
+        "text": "国金最低收益有多少？最***能达到多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "国金"
+          }
+        ]
+      },
+      {
+        "text": "40%部分明白了，管理方时代伯乐拿超额收益的20%啥意思",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "return",
+            "start": 22,
+            "value": "20%"
+          }
+        ]
+      },
+      {
+        "text": "短期利息比银行还低。那我不如转到银行了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "遥遥无期了，收益率大打折扣??",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "陆钱宝t+1怎么样？收益高吗？**吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "陆钱宝t+1"
+          }
+        ]
+      },
+      {
+        "text": "投了6.8%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "6.8%"
+          }
+        ]
+      },
+      {
+        "text": "平安大华的收益率，感觉很一般呀",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "预计年收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "时间比较长，要扣除不少费用，希望最后的收益能不错",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "你好，请问国金收益率实收大概有多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 5,
+            "value": "国金"
+          }
+        ]
+      },
+      {
+        "text": "直接退出的实到手多少收益，转股退出呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "12.5%已经扣除20%业绩报酬了吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 0,
+            "value": "12.5%"
+          }
+        ]
+      },
+      {
+        "text": "请问这期间怎么算收益呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "陆国际有固定收益产品吗，收益率大约多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "业绩报酬中超过20％的部分提取60％作为业绩报酬怎么理解。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "陆钱宝有一个8.几的，怎么比别的高那么多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "8.几"
+          }
+        ]
+      },
+      {
+        "text": "对于并购基金的退出年化收益率15%是税前还是税后收益?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 14,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "收益超过8%时，业绩报酬20%的基数是什么?感觉挂网资料描述不清楚。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "超过8%"
+          }
+        ]
+      },
+      {
+        "text": "你说的预期是指年化吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "好的，收益怎么样",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "活期一个月之后赎回，收益8.33%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 12,
+            "value": "8.33%"
+          }
+        ]
+      },
+      {
+        "text": "陆金宝t+1，可以吗？\\n利率是固定的吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "陆金宝t+1"
+          }
+        ]
+      },
+      {
+        "text": "我持有的3月15日起收益的智理财b863178为什么到现在的单位净值还是1.0，没有任何收益？帮我查查，谢谢！",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "product",
+            "start": 13,
+            "value": "智理财b863178"
+          }
+        ]
+      },
+      {
+        "text": "定期的收益稳健点至少5%以上",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 10,
+            "value": "5%"
+          }
+        ]
+      },
+      {
+        "text": "只有6.72把",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "6.72"
+          }
+        ]
+      },
+      {
+        "text": "最近固定收益的产品怎么这么少还是这么低",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我觉得利息都不是很高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "想问我持有的万家瑞和是否还是赎回为好？感觉收益不高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "万家瑞和"
+          }
+        ]
+      },
+      {
+        "text": "两种收益差不多的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是智理财。系统通知赎回日期时能否告知下一期的收益率呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 1,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "年化7.3的那个",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "7.3"
+          }
+        ]
+      },
+      {
+        "text": "买了7.2的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "t＋30天后免手续费，这个的收益率比陆金宝高吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "债券基金收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率多少的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "扣除所有费用，回报率大概多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "约为6左右吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 2,
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "text": "爱理财五号活期利息这么高？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "爱理财五号"
+          }
+        ]
+      },
+      {
+        "text": "现在的产品收益都这么低了，财富汇好像没有了，我资金暂时不用买什么好？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 13,
+            "value": "财富汇"
+          }
+        ]
+      },
+      {
+        "text": "以前买的高点收益(6以上)找不到了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "6以上"
+          }
+        ]
+      },
+      {
+        "text": "5%的那个",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "return",
+            "start": 0,
+            "value": "5%"
+          }
+        ]
+      },
+      {
+        "text": "什么时间回款，另近期有好的尊理财吗。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 13,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "你好，我帐上有一百万，想向一下怎样理财收益高且稳定",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "amount",
+            "start": 7,
+            "value": "一百万"
+          }
+        ]
+      },
+      {
+        "text": "我看刚上线，利率估计哪里来的呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "到手收益好像少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "请给我发一个网贷p2p的每月不复投的扣除转让手续费的实际利率表",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 6,
+            "value": "网贷p2p"
+          }
+        ]
+      },
+      {
+        "text": "请问四个月，五个月，六个月转让实际年化利率分别是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 2,
+            "value": "四个月"
+          },
+          {
+            "end": 9,
+            "entity": "period",
+            "start": 6,
+            "value": "五个月"
+          },
+          {
+            "end": 13,
+            "entity": "period",
+            "start": 10,
+            "value": "六个月"
+          }
+        ]
+      },
+      {
+        "text": "国金那个项目退出收益约为10%一35%是年化收益率么?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 12,
+            "value": "10%一35%"
+          }
+        ]
+      },
+      {
+        "text": "是不是年化25%左右，还是总的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "25%"
+          }
+        ]
+      },
+      {
+        "text": "预计年化收益能达多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单宝的产品七日年化收益率多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝"
+          }
+        ]
+      },
+      {
+        "text": "想麻烦您帮忙看一下我这笔理财的利率是不是有问题，算下来好像差挺多的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我现在转让产品，我的收益率是多少？6.5?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "return",
+            "start": 17,
+            "value": "6.5"
+          }
+        ]
+      },
+      {
+        "text": "可以的，收益多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "保尊宝的百万理财，7.1%什么时候有",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "7.1%"
+          },
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "保尊宝"
+          }
+        ]
+      },
+      {
+        "text": "你说的31天的富盈宝5．05％吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "period",
+            "start": 3,
+            "value": "31天"
+          },
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "富盈宝"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 10,
+            "value": "5．05％"
+          }
+        ]
+      },
+      {
+        "text": "这个产品每天的7天收益率都不一样",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "上次t+31才上线几天，收益率就那么低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "t+31"
+          }
+        ]
+      },
+      {
+        "text": "000128这个没看懂！它的基金净值只有1.28!折算成年利率是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "000128"
+          }
+        ]
+      },
+      {
+        "text": "今天的年化收益率只有4.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "4.5"
+          }
+        ]
+      },
+      {
+        "text": "国金二号，预期收益目标是多少。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "国金二号"
+          }
+        ]
+      },
+      {
+        "text": "年利率6.8%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 3,
+            "value": "6.8%"
+          }
+        ]
+      },
+      {
+        "text": "为什么呀那我怎么算我到期有多少收益呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我以前都是看到期收益额知道自己多少收益的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那请你帮我算一下10万两个月后转的话扣除服务费能赚多钱",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "amount",
+            "start": 8,
+            "value": "10万"
+          }
+        ]
+      },
+      {
+        "text": "请问这个收益是固定收益吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "信理财没有收益率可参考，直接投，我赎回的时候，参考是什么呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "信理财"
+          }
+        ]
+      },
+      {
+        "text": "收益多少？你刚说的10日那个",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "平安大华你说的是哪个？回报率是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "平安大华"
+          }
+        ]
+      },
+      {
+        "text": "那边收益率是多少只能绑定一张银行卡？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "增赢宝4点多年化",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "增赢宝"
+          },
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "4点多"
+          }
+        ]
+      },
+      {
+        "text": "按以往经验预期收益应该是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个是新基金吧受益如何",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我们公司也是独角兽还在排队呢??证监会的问题很多的??上市真的是个运气问题了，真上了发行价的限制、锁定期和退出时机都是问题，上不了就是不到6个点的回报了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 6,
+            "value": "独角兽"
+          },
+          {
+            "end": 72,
+            "entity": "return",
+            "start": 69,
+            "value": "6个点"
+          }
+        ]
+      },
+      {
+        "text": "我意思是总结算周期拉长了几天，收益率会有点降低。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "7.4实际是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "陆钱宝七日年化8.63%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "陆钱宝"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 7,
+            "value": "8.63%"
+          }
+        ]
+      },
+      {
+        "text": "回报率21%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "21%"
+          }
+        ]
+      },
+      {
+        "text": "现在这几只收益都不算高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "请问存单宝t+l有8.4%的收益吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 2,
+            "value": "存单宝t+l"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "8.4%"
+          }
+        ]
+      },
+      {
+        "text": "收益率大概多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没有稍微高的收益的理财？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "演算一下慧盈安e的收益，以1万元为例，每月收款后不再投资的；收款后再投资，如年收益4．5的。谢谢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "慧盈安e"
+          },
+          {
+            "end": 16,
+            "entity": "amount",
+            "start": 13,
+            "value": "1万元"
+          },
+          {
+            "end": 44,
+            "entity": "return",
+            "start": 41,
+            "value": "4．5"
+          }
+        ]
+      },
+      {
+        "text": "7.2的我买了，买完后怎么又有个7.5利率的呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.2"
+          },
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 16,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "只是感觉最近陆金所没什么好的产品，我们资金不多，也不太想弄股票基金之类的，主要还是稳定点的收益稍高点的比较好",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "还有7.2%的定期吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "7.2%"
+          }
+        ]
+      },
+      {
+        "text": "这次产品实质收益是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那其实陆金宝t+o与现金赢t+1，总的年利率算下来估计也差不多。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 3,
+            "value": "陆金宝t+o"
+          },
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 10,
+            "value": "现金赢t+1"
+          }
+        ]
+      },
+      {
+        "text": "收益是5.4%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 3,
+            "value": "5.4%"
+          }
+        ]
+      },
+      {
+        "text": "还有安益增四号和这个大华，收益大约哪个好？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 2,
+            "value": "安益增四号"
+          },
+          {
+            "end": 12,
+            "entity": "product",
+            "start": 10,
+            "value": "大华"
+          }
+        ]
+      },
+      {
+        "text": "好的，谢谢。年化是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "投1070000的话，一个月有多少收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 1,
+            "value": "1070000"
+          }
+        ]
+      },
+      {
+        "text": "哪个收益高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "21天的4.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "21天"
+          },
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "4.5"
+          }
+        ]
+      },
+      {
+        "text": "大概5～10万吧，或者有什么办法可以随时取钱，利率还可以的。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "amount",
+            "start": 2,
+            "value": "5～10万"
+          }
+        ]
+      },
+      {
+        "text": "一般收益能有多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个安e+收益降低了？4.97%?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "安e+"
+          },
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 11,
+            "value": "4.97%"
+          }
+        ]
+      },
+      {
+        "text": "鑫理财都只有4点几，哪来的7？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "鑫理财"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "4点几"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 13,
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "text": "一年稳定收益有哇？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在短期的理财利率这么低、投资券也少，陆金所咋啦？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 2,
+            "value": "短期"
+          }
+        ]
+      },
+      {
+        "text": "实际收益能达到多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "国金的项目出去费用，收益有12%吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "再有收益高的提醒我，最近工作太忙，没时间盯着",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率能多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单宝t+1怎么利率那么高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝t+1"
+          }
+        ]
+      },
+      {
+        "text": "我看了下现在你们也没啥好的产品，收益也不是很高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "5%多点的年化率，和银行没什么区别啊?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "5%多"
+          }
+        ]
+      },
+      {
+        "text": "我的爱理财收益为什么这么低",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "爱理财"
+          }
+        ]
+      },
+      {
+        "text": "也就是洗如上不了市，利息6％？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 12,
+            "value": "6％"
+          }
+        ]
+      },
+      {
+        "text": "如全部不并购，给投资人的年化收益是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "过样的话投资人净收益年化多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那加上认购都4个点了，i如果到期股东按8%回购，每年都不到6%了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "return",
+            "start": 29,
+            "value": "6%"
+          }
+        ]
+      },
+      {
+        "text": "想了解慧盈复投以后一共的利率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 3,
+            "value": "慧盈"
+          }
+        ]
+      },
+      {
+        "text": "我上一次买的100万收益多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "amount",
+            "start": 6,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "刚出的，这个7.4的是固定收益吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "产品收益低现在还发行的这么少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "07d217025这个如何？我看收益明显高出来很多7天的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 0,
+            "value": "07d217025"
+          }
+        ]
+      },
+      {
+        "text": "这款预期收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "介绍下360，有多少利润",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是多少利率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率是浮动的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是多少收益的呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是啊那个利息高点",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "帮我算算网贷到手利率是多少？我投了十四万，",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "amount",
+            "start": 17,
+            "value": "十四万"
+          }
+        ]
+      },
+      {
+        "text": "5.6%的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "5.6%"
+          }
+        ]
+      },
+      {
+        "text": "去年随便一个产品收益率至少15%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "但是扣掉服务费，也就7.5，太低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "每月总有几天资金闲置，这样收益还达不到7.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "return",
+            "start": 19,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "你好，有哪些高点收益**点的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "安e+如果返现的没复投，那产品到期之后，收益率相当于多少%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "安e+"
+          }
+        ]
+      },
+      {
+        "text": "你好，想问一下，之前说的pe投资，像中国风头的，扣除申请费和管理费，固定最低回报率大约多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益是40-50%还是运作的总资产的40-50%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 3,
+            "value": "40-50%"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 3,
+            "value": "40-50%"
+          }
+        ]
+      },
+      {
+        "text": "中硅退款的补偿：1、公司决定根据您的投资本金确认认购成功后的占用天数提供年化8%的关怀金；2、在此基础上，为了感谢您选择陆基金进行投资理财，我们为您提供投资明星股权项目——国金并购的机会，并且根据您投资此项目金额的0.1%提供关怀金",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "return",
+            "start": 38,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "0.3%的活期收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "0.3%"
+          }
+        ]
+      },
+      {
+        "text": "我怎么感觉我的10万元收益那么少啊？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "amount",
+            "start": 7,
+            "value": "10万元"
+          }
+        ]
+      },
+      {
+        "text": "我不懂为何有30倍的，但是最后退出预计收益只有138%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "return",
+            "start": 23,
+            "value": "138%"
+          }
+        ]
+      },
+      {
+        "text": "利息大约多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "大约能达到多少利息谢谢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "希望预期收益高一些",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没看到7.2的阿",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "这个的七日年化收益为什么那么高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率1.几？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "1.几"
+          }
+        ]
+      },
+      {
+        "text": "100万，3年就是回报47万？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "amount",
+            "start": 0,
+            "value": "100万"
+          },
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 5,
+            "value": "3年"
+          },
+          {
+            "end": 14,
+            "entity": "amount",
+            "start": 11,
+            "value": "47万"
+          }
+        ]
+      },
+      {
+        "text": "预计多少收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "哦，但看收益率好像是陆钱宝比较高，是看收益率吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "product",
+            "start": 10,
+            "value": "陆钱宝"
+          }
+        ]
+      },
+      {
+        "text": "哦，好的，那是至少5.5%的收益率是可以**的是吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "5.5%"
+          }
+        ]
+      },
+      {
+        "text": "智理财是**收益的？还是浮动收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "你说的这个7.7的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "7.7"
+          }
+        ]
+      },
+      {
+        "text": "请问存单保为何收益如此高？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "存单保"
+          }
+        ]
+      },
+      {
+        "text": "沈老师，我可以买慧盈产品吗？年化8.4",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 8,
+            "value": "慧盈"
+          },
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 16,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "也就是说股权项目的收益要超过8.4%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "return",
+            "start": 12,
+            "value": "超过8.4%"
+          }
+        ]
+      },
+      {
+        "text": "嗯，利率都很低，",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "今天显示的收益率就是固定的吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "帖曼，你们的智慧8+收益怎么样",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "智慧8+"
+          }
+        ]
+      },
+      {
+        "text": "这存单宝利率怎么这么高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 1,
+            "value": "存单宝"
+          }
+        ]
+      },
+      {
+        "text": "一年期收益率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "一年期"
+          }
+        ]
+      },
+      {
+        "text": "收益高的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "前面也可以退但可能不能达到预期收益或者没有收益是吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "计划最***和最低收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不过把一手安e做流动性的话，我算不准它的平均利率是多少，因为每个月利率都是不一样的。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 5,
+            "value": "安e"
+          }
+        ]
+      },
+      {
+        "text": "劳烦帮忙跟进一下是否能给一些补偿，一共三个产品总资产超100，平均持有两个月全部提前到期，两个资产亏损，一个资产收益远低于预期，实在是有些心凉。 ",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "amount",
+            "start": 27,
+            "value": "100"
+          },
+          {
+            "end": 38,
+            "entity": "period",
+            "start": 35,
+            "value": "两个月"
+          }
+        ]
+      },
+      {
+        "text": "短信说，实际利率等于预期利率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "能确定下上市后如果年化达到40%，是不是，扣除了管理费后的？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "40%"
+          }
+        ]
+      },
+      {
+        "text": "超20%后提取60%是什么概念？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "亲这个确定都是正收益？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "申请计多少收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单宝年化收益率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝"
+          }
+        ]
+      },
+      {
+        "text": "7.2年华收益，费用这么高，到头来是不不是年化收益只有6不到",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.2"
+          },
+          {
+            "end": 30,
+            "entity": "return",
+            "start": 27,
+            "value": "6不到"
+          }
+        ]
+      },
+      {
+        "text": "我的鑫理财利率怎么是4.32呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "鑫理财"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "4.32"
+          }
+        ]
+      },
+      {
+        "text": "您好，请教一下智理财的问题：1.智理财到期不赎回，收益率和上一期一样吗，还是按新的收益率。2.本金是原来的本金加收益吗?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "智理财"
+          },
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "安e实际收益达不到8.4%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "安e"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "8.4%"
+          }
+        ]
+      },
+      {
+        "text": "实际收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单保现在七天年化是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单保"
+          }
+        ]
+      },
+      {
+        "text": "这个利率怎么这么高啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "半年的尊理财一般什么利率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "半年"
+          },
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "比较高的，出来的时候和我说下",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "还是7.5是净收益了？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "每天12个月的收益率多少能告知吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那啥时候确认，拖下去，实际利率降低不少了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益如何",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这8.4平均年利率是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 1,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "新产品是什么，利率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "活期的哪个产品收益高？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是尊享收益高点",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 1,
+            "value": "尊享"
+          }
+        ]
+      },
+      {
+        "text": "收益不低，因为尊理财不是每天都上线的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "如果买一手标，（二手无费的让给你们内挂），基本完美复投，三年后年化能有多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我之前的投资回款了。怎么现在利率都这么低啊？6以上的都没有",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "return",
+            "start": 22,
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "text": "南孚净利润率这么高的吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "南孚"
+          }
+        ]
+      },
+      {
+        "text": "现在尊理财的收益走那么低了？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "两年的收益多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "其实外面有不少收益更高。我们最求的是**，安心。谢谢你的帮助。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "尊理财有高的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "为什么半年只有2.2%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 7,
+            "value": "2.2%"
+          },
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 3,
+            "value": "半年"
+          }
+        ]
+      },
+      {
+        "text": "但半年只有2，一年也就4出头",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 5,
+            "value": "2"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "4出头"
+          },
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 1,
+            "value": "半年"
+          },
+          {
+            "end": 9,
+            "entity": "period",
+            "start": 7,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "您好，近期平台上的定期理享产品收益好低，360天还是浮动5.15%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "period",
+            "start": 20,
+            "value": "360天"
+          },
+          {
+            "end": 33,
+            "entity": "return",
+            "start": 28,
+            "value": "5.15%"
+          }
+        ]
+      },
+      {
+        "text": "规定几年，如果上市会有什么样的收益呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率稳定吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那这个项目可以理解为即使不上市保底最低收益也可以年华12%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "return",
+            "start": 26,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "保守预计年化30%是什么意思",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "text": "我发现陆金宝t+0的收益与我的实际投资严重不符，请给我一个合理解释",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 3,
+            "value": "陆金宝t+0"
+          }
+        ]
+      },
+      {
+        "text": "但这个收益不是固定的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "于本月二号到期的100万，怎么收益几千元？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "amount",
+            "start": 8,
+            "value": "100万"
+          },
+          {
+            "end": 20,
+            "entity": "amount",
+            "start": 17,
+            "value": "几千元"
+          }
+        ]
+      },
+      {
+        "text": "算下来收益是多少?",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "预订收益多少啊？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我算了一下这项商品报酬只有2.4％，是否应该尽快转让？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 13,
+            "value": "2.4％"
+          }
+        ]
+      },
+      {
+        "text": "我好像算明白了，年化应该是2.4%*365\\/186=4.8%左右？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "return",
+            "start": 27,
+            "value": "4.8%"
+          }
+        ]
+      },
+      {
+        "text": "六个月的利率多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "六个月"
+          }
+        ]
+      },
+      {
+        "text": "您持有的权益类基金上周内实现了正收益，快来看看到底赚了多少吧！",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 4,
+            "value": "权益类基金"
+          }
+        ]
+      },
+      {
+        "text": "现在利率高达9.几，实际有这么高吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "9.几"
+          }
+        ]
+      },
+      {
+        "text": "这个是不是没有现在这个收益率高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那个31天的产品利率好低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 2,
+            "value": "31天"
+          }
+        ]
+      },
+      {
+        "text": "“它是管理人补足收益到5.6%的”上回你说？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 11,
+            "value": "5.6%"
+          }
+        ]
+      },
+      {
+        "text": "几点开始？收益多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "今天有尊理财吗？什么收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "1．38-1．78％不是年化收益率吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "1．38"
+          },
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 5,
+            "value": "1．78％"
+          }
+        ]
+      },
+      {
+        "text": "还是说收益是浮动的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那利率大概的浮动区间是怎么样的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "减去费用，实际收益还要打折扣吧",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "安增益4号今天看收益预估怎么只有5.46%了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "安增益4号"
+          },
+          {
+            "end": 21,
+            "entity": "return",
+            "start": 16,
+            "value": "5.46%"
+          }
+        ]
+      },
+      {
+        "text": "小张，有关陆钱宝投资收益率请回电13306117628何",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 5,
+            "value": "陆钱宝"
+          }
+        ]
+      },
+      {
+        "text": "看到了，但回报太低",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在慧赢-安e+大概年率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 2,
+            "value": "慧赢-安e+"
+          }
+        ]
+      },
+      {
+        "text": "你好，慧赢扣除手续费年化收益是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 3,
+            "value": "慧赢"
+          }
+        ]
+      },
+      {
+        "text": "晓佳好！\\n刚刚看了私募南孚电池的评论区，有一段话“认购费2%，平均每年收0.4%，管理费2%，每年要收2.4%，2023年底，无法上市，以年化8%回购，放这里，如果不能上市，单利率只有5.6%”。是这样吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 12,
+            "value": "南孚电池"
+          },
+          {
+            "end": 97,
+            "entity": "return",
+            "start": 93,
+            "value": "5.6%"
+          },
+          {
+            "end": 74,
+            "entity": "return",
+            "start": 72,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "你好，请问年化率7.84，扣了信息服务费率了吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "7.84"
+          }
+        ]
+      },
+      {
+        "text": "这个年化率是期望值，还是实际值",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我想问一下，如果我投10万元，1年后能拿多少钱",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "amount",
+            "start": 10,
+            "value": "10万元"
+          },
+          {
+            "end": 17,
+            "entity": "period",
+            "start": 15,
+            "value": "1年"
+          }
+        ]
+      },
+      {
+        "text": "收益是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "定期有5.2百分之的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "5.2"
+          }
+        ]
+      },
+      {
+        "text": "收益是不是8.41百分之？是个定数吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "8.41"
+          }
+        ]
+      },
+      {
+        "text": "那个收益高一点？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "陆钱宝优选怎么还要高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "陆钱宝优选"
+          }
+        ]
+      },
+      {
+        "text": "收益率不划算",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "之前看到过三年12的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 5,
+            "value": "三年"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 7,
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "text": "都是12个月的，利率是多少呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "period",
+            "start": 2,
+            "value": "12个月"
+          }
+        ]
+      },
+      {
+        "text": "固定收益的不",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率怎么会降了呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利润怎么核算的呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率好高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益浮动情况咋样？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "平安汇通2号，2期和3期起投金额不一样，收益就不同吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "平安汇通2号"
+          }
+        ]
+      },
+      {
+        "text": "您说的那个回报率是有点太让人吃惊了。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "本来利率就低的可怜！",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "大华短债投资回报多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "大华短债"
+          }
+        ]
+      },
+      {
+        "text": "超过百分之二十的利率百分之60作为业绩回报，比如年华30个点10个点的百分60是扣除？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "return",
+            "start": 26,
+            "value": "30个点"
+          },
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 2,
+            "value": "百分之二十"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 10,
+            "value": "百分之60"
+          },
+          {
+            "end": 34,
+            "entity": "return",
+            "start": 30,
+            "value": "10个点"
+          },
+          {
+            "end": 39,
+            "entity": "return",
+            "start": 35,
+            "value": "百分60"
+          },
+          {
+            "end": 26,
+            "entity": "product",
+            "start": 24,
+            "value": "年华"
+          }
+        ]
+      },
+      {
+        "text": "收益率就得掺不少水分了??",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没有看到保护年化收益率10-15%的条款",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 11,
+            "value": "10-15%"
+          }
+        ]
+      },
+      {
+        "text": "我主要想了解下pe股权投资基金产品的收益等",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 7,
+            "value": "pe股权投资基金"
+          }
+        ]
+      },
+      {
+        "text": "预计能有多少收益呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不知道业绩报仇如何，年回报达不到8，就没有意义",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 16,
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "text": "好低的收益呀",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在这些好少，低于5的收益好低",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 7,
+            "value": "低于5"
+          }
+        ]
+      },
+      {
+        "text": "我那些稳赢安逸+不复投的情况下年化有多少？复投的情况下年化有多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 3,
+            "value": "稳赢安逸+"
+          }
+        ]
+      },
+      {
+        "text": "金色人生只4%了么",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "金色人生"
+          },
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 5,
+            "value": "4%"
+          }
+        ]
+      },
+      {
+        "text": "我投的基金泰达宏利的七日年化收益率前所未有的低，1.59%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "return",
+            "start": 24,
+            "value": "1.59%"
+          },
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 3,
+            "value": "基金泰达宏利"
+          }
+        ]
+      },
+      {
+        "text": "7日年化1.92%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 4,
+            "value": "1.92%"
+          }
+        ]
+      },
+      {
+        "text": "多少利息",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "最少是8%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 3,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "那个人投资人实际得到的收益大概是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "8%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "return",
+            "start": 0,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "哦，回报率有多少，都是些啥产品，债券？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "product",
+            "start": 16,
+            "value": "债券"
+          }
+        ]
+      },
+      {
+        "text": "你说的国金产品保底年净收益率是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 3,
+            "value": "国金"
+          }
+        ]
+      },
+      {
+        "text": "那保底净收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率都低于活期理财，例如陆金宝",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 12,
+            "value": "陆金宝"
+          }
+        ]
+      },
+      {
+        "text": "能解释一下8.4那个",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "是4.73%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 1,
+            "value": "4.73%"
+          }
+        ]
+      },
+      {
+        "text": "还是4.73是年化率？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "4.73"
+          }
+        ]
+      },
+      {
+        "text": "已经全部收益率调整为4.5％??",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "4.5％"
+          }
+        ]
+      },
+      {
+        "text": "请问支付宝借呗日息是千分之三，那么年息是多少呀？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "千分之三"
+          }
+        ]
+      },
+      {
+        "text": "等于保底8%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "8%-12%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 0,
+            "value": "8%-12%"
+          }
+        ]
+      },
+      {
+        "text": "每年至少8%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "最多12%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "如果我投安e出来再投能否做到5.5呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 4,
+            "value": "安e"
+          },
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 14,
+            "value": "5.5"
+          }
+        ]
+      },
+      {
+        "text": "江苏中能硅年化收益8-20是吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 0,
+            "value": "江苏中能硅"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "8-20"
+          }
+        ]
+      },
+      {
+        "text": "最近定期利率都下调了吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "陆钱宝有6.84%？怎么理解？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "陆钱宝"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 4,
+            "value": "6.84%"
+          }
+        ]
+      },
+      {
+        "text": "等会吗？后面还有吗？比较下收益率。",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个基金没有收益率的嘛",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那5-6的收益率能嘛",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 1,
+            "value": "5-6"
+          }
+        ]
+      },
+      {
+        "text": "这个不是5.3吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "5.3"
+          }
+        ]
+      },
+      {
+        "text": "大概率可以做到吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率超过7的??",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 4,
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "text": "实际到手的收益是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "保底20%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "20%"
+          }
+        ]
+      },
+      {
+        "text": "利息大概是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "7天收益率写着是超过6%，该产品近二年实际年化收益率是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 10,
+            "value": "6%"
+          }
+        ]
+      },
+      {
+        "text": "我买的陆国际的基金，预期收益是？%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 3,
+            "value": "陆国际的基金"
+          }
+        ]
+      },
+      {
+        "text": "利率能达到多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年息7.8吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "7.8"
+          }
+        ]
+      },
+      {
+        "text": "鑫理财变成4.54了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "鑫理财"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "4.54"
+          }
+        ]
+      },
+      {
+        "text": "按照年化7.2%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "7.2%"
+          }
+        ]
+      },
+      {
+        "text": " 陆金宝收益怎么那么高？4.6",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 1,
+            "value": "陆金宝"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 12,
+            "value": "4.6"
+          }
+        ]
+      },
+      {
+        "text": "这个跟平安宝-金色人生比起来还是比较高吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 3,
+            "value": "平安宝-金色人生"
+          }
+        ]
+      },
+      {
+        "text": "七月份吧再凑100万利率怎么样",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "amount",
+            "start": 6,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "终于进去了，没看见收益率啊？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "预期收益率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我新收的没有到预期收益啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "为什么现在的活期收益只能达3.7%左右",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 13,
+            "value": "3.7%左右"
+          }
+        ]
+      },
+      {
+        "text": "收益率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那网贷利率高这么多怎么还会有人投鑫理财呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "product",
+            "start": 16,
+            "value": "鑫理财"
+          },
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 1,
+            "value": "网贷"
+          }
+        ]
+      },
+      {
+        "text": "多少利率的啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年化率多少，帮算下",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "安e扣完信息费，折合年化收益多少啦?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "安e"
+          }
+        ]
+      },
+      {
+        "text": "安e折合年化利率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "安e"
+          }
+        ]
+      },
+      {
+        "text": " 百分之十五的收益是？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 1,
+            "value": "百分之十五"
+          }
+        ]
+      },
+      {
+        "text": "现在一年期一百万最低也是7.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 2,
+            "value": "一年期"
+          },
+          {
+            "end": 8,
+            "entity": "amount",
+            "start": 5,
+            "value": "一百万"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 12,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "尊理财的收益率有多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "尊理财的一般收益率有多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "周期为一年的收益呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 3,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "现在化零为整凑个整数买尊理财收益是不是会更高？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "product",
+            "start": 11,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "估计收益多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "100w定期现在是多少收益率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "amount",
+            "start": 0,
+            "value": "100w"
+          }
+        ]
+      },
+      {
+        "text": "12个月的利率多少的啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 0,
+            "value": "12个月"
+          }
+        ]
+      },
+      {
+        "text": "以上信息收益等都是说的单利？整个三年期内？包括你说的可能百分之三十至百分之四十？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "return",
+            "start": 28,
+            "value": "百分之三十"
+          },
+          {
+            "end": 39,
+            "entity": "return",
+            "start": 34,
+            "value": "百分之四十"
+          }
+        ]
+      },
+      {
+        "text": "网贷算下来实际利率有多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "网贷"
+          }
+        ]
+      },
+      {
+        "text": "是5.24%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 1,
+            "value": "5.24%"
+          }
+        ]
+      },
+      {
+        "text": "收益稳定吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "多少利率的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "为什么陆金所的客户收全额20%的业绩报酬，而其他并购基金业绩报酬只收年化收益10%以上单位部分的20%呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "return",
+            "start": 38,
+            "value": "10%"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 12,
+            "value": "20%"
+          },
+          {
+            "end": 51,
+            "entity": "return",
+            "start": 48,
+            "value": "20%"
+          }
+        ]
+      },
+      {
+        "text": "每年8.4年利率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "那个上市项目，6%和12%都是年化的吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 7,
+            "value": "6%"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "收益率是一样的吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "想请问一下每年回购8%，除去一些手续费，管理费之类的，就没有8%了吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 9,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "多少利率的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "到期的这个56天的产品看起来收益不对呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 5,
+            "value": "56天"
+          }
+        ]
+      },
+      {
+        "text": "6.95吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "6.95"
+          }
+        ]
+      },
+      {
+        "text": "那个银联商务我网上查到2017年净利润只有7.3亿，比2016年11亿下降了30%多，跟你们预计的16.67%复合增长背道而驰啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "amount",
+            "start": 21,
+            "value": "7.3亿"
+          },
+          {
+            "end": 55,
+            "entity": "return",
+            "start": 49,
+            "value": "16.67%"
+          }
+        ]
+      },
+      {
+        "text": "这个产品利率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率是不变的是吗，8.4-手续费",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "如果我不复投就没有8.4吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "还是利息都要复投进去才能到7点多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "7点多"
+          }
+        ]
+      },
+      {
+        "text": "比如我投了10万，下个月出来1万，我把1万再投进去，那就还能**8.4吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 5,
+            "value": "10万"
+          },
+          {
+            "end": 16,
+            "entity": "amount",
+            "start": 14,
+            "value": "1万"
+          },
+          {
+            "end": 21,
+            "entity": "amount",
+            "start": 18,
+            "value": "把1万"
+          },
+          {
+            "end": 35,
+            "entity": "return",
+            "start": 32,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "大概有多少收益率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "你好，我在电脑上看有几个一年7.7%的，是不是最近产品都走高了？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "return",
+            "start": 14,
+            "value": "7.7%"
+          }
+        ]
+      },
+      {
+        "text": "银行的活期利率？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 3,
+            "value": "活期"
+          }
+        ]
+      },
+      {
+        "text": "这个项目利率6.71有吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 6,
+            "value": "6.71"
+          }
+        ]
+      },
+      {
+        "text": "5.5%以上",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "5.5%"
+          }
+        ]
+      },
+      {
+        "text": "收益率才3.63？比现在的活期还少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "3.63"
+          },
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 13,
+            "value": "活期"
+          }
+        ]
+      },
+      {
+        "text": "那上市成功后的年化收益率是多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不是说百分之十吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 3,
+            "value": "百分之十"
+          }
+        ]
+      },
+      {
+        "text": "收益率相同么",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是不是近期利率调低了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "近期一定不会出现7.5了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "今天买了，下周又回到7.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "12个月的是多少点？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 0,
+            "value": "12个月"
+          }
+        ]
+      },
+      {
+        "text": "还有那个网贷怎么算收益只有3%多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 13,
+            "value": "3%"
+          },
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 4,
+            "value": "网贷"
+          }
+        ]
+      },
+      {
+        "text": "如果稳赢安e，每次回款我都取出，利率大概多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "稳赢安e"
+          }
+        ]
+      },
+      {
+        "text": "是不是持有六个月内利息最高呀，这个时候大概多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 5,
+            "value": "六个月"
+          }
+        ]
+      },
+      {
+        "text": "我2月刚买的稳赢安e，是不是前六个月利率最高，六个月卖出最划算？上次你说利率5，是全年的，前6个月大概多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "稳赢安e"
+          },
+          {
+            "end": 49,
+            "entity": "period",
+            "start": 46,
+            "value": "6个月"
+          },
+          {
+            "end": 18,
+            "entity": "period",
+            "start": 15,
+            "value": "六个月"
+          },
+          {
+            "end": 39,
+            "entity": "return",
+            "start": 38,
+            "value": "5"
+          },
+          {
+            "end": 43,
+            "entity": "period",
+            "start": 41,
+            "value": "全年"
+          }
+        ]
+      },
+      {
+        "text": "你上次说复投的是7.5，怎么现在不复投第六个月也是7.5了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "7.5"
+          },
+          {
+            "end": 28,
+            "entity": "return",
+            "start": 25,
+            "value": "7.5"
+          },
+          {
+            "end": 23,
+            "entity": "period",
+            "start": 20,
+            "value": "六个月"
+          }
+        ]
+      },
+      {
+        "text": "上次你说六个月的时候利率最高，如果我这六个月都没有复投，大概利率多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 4,
+            "value": "六个月"
+          },
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 4,
+            "value": "六个月"
+          }
+        ]
+      },
+      {
+        "text": "收益应该比较低吧",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "你刚才好像说5点几",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "5点几"
+          }
+        ]
+      },
+      {
+        "text": "t+0的利息是不是就没有了？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "t+0"
+          }
+        ]
+      },
+      {
+        "text": "能比活期高一点的收益，我这块自己不用还是定期的高一点吧？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "活期"
+          },
+          {
+            "end": 22,
+            "entity": "product",
+            "start": 20,
+            "value": "定期"
+          }
+        ]
+      },
+      {
+        "text": "还是感觉这个收益率高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单宝没有提示收益率？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝"
+          }
+        ]
+      },
+      {
+        "text": "购买34天二十万收益186.3这款产品收益率太低了呀！",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 2,
+            "value": "34天"
+          },
+          {
+            "end": 8,
+            "entity": "amount",
+            "start": 5,
+            "value": "二十万"
+          },
+          {
+            "end": 15,
+            "entity": "amount",
+            "start": 10,
+            "value": "186.3"
+          }
+        ]
+      },
+      {
+        "text": "全是4点几，比银行还低？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "4点几"
+          }
+        ]
+      },
+      {
+        "text": "这个预期利率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年化利率8.4十万二十四个月利息应该是16800对吧。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "8.4"
+          },
+          {
+            "end": 9,
+            "entity": "amount",
+            "start": 7,
+            "value": "十万"
+          },
+          {
+            "end": 14,
+            "entity": "period",
+            "start": 9,
+            "value": "二十四个月"
+          },
+          {
+            "end": 24,
+            "entity": "amount",
+            "start": 19,
+            "value": "16800"
+          }
+        ]
+      },
+      {
+        "text": "怎么这个利息是八千多？而不是一万六？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "amount",
+            "start": 7,
+            "value": "八千多"
+          },
+          {
+            "end": 17,
+            "entity": "amount",
+            "start": 14,
+            "value": "一万六"
+          }
+        ]
+      },
+      {
+        "text": "收益多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率还不如投陆金宝t+1高？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "product",
+            "start": 6,
+            "value": "陆金宝t+1"
+          }
+        ]
+      },
+      {
+        "text": "这笔总计利息赚了多少钱？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "就是56天112万，我赚了10653.81？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 2,
+            "value": "56天"
+          },
+          {
+            "end": 9,
+            "entity": "amount",
+            "start": 5,
+            "value": "112万"
+          },
+          {
+            "end": 21,
+            "entity": "amount",
+            "start": 13,
+            "value": "10653.81"
+          }
+        ]
+      },
+      {
+        "text": "轻易贷活期7个多点",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "7个多点"
+          },
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "轻易贷活期"
+          }
+        ]
+      },
+      {
+        "text": "那尊理财是不是都是固定收益的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 1,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "3年不管他，整体利息多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "3年"
+          }
+        ]
+      },
+      {
+        "text": "收益稳定8%左右？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "收益多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "多少利率？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "超短债收益是多少的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "超短债"
+          }
+        ]
+      },
+      {
+        "text": "收益达到5-8%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "5-8%"
+          }
+        ]
+      },
+      {
+        "text": "活期存单宝t+1，8.45%的利息是咋回事",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 9,
+            "value": "8.45%"
+          },
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 2,
+            "value": "存单宝t+1"
+          }
+        ]
+      },
+      {
+        "text": "年化多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "但是我存的活期只有4.几",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "4.几"
+          },
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 5,
+            "value": "活期"
+          }
+        ]
+      },
+      {
+        "text": "货币基金现在最高的收益能到多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "货币基金"
+          }
+        ]
+      },
+      {
+        "text": "现在好像没有相对收益好的智理财嘛??",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 12,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "南方天天宝收益率稳定吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "南方天天宝"
+          }
+        ]
+      },
+      {
+        "text": "写的是6.8的收益率是？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "6.8"
+          }
+        ]
+      },
+      {
+        "text": "这个收益大约是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "2%的不少呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "return",
+            "start": 0,
+            "value": "2%"
+          }
+        ]
+      },
+      {
+        "text": "怎么计算的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率有区别吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "是银行利息率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "稳赢-安e收益没有想象的高哦，是不是转活期还多一些",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "稳赢-安e"
+          }
+        ]
+      },
+      {
+        "text": "鑫理财是不是固定收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "鑫理财"
+          }
+        ]
+      },
+      {
+        "text": "这个多少收益？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "等凑到100买尊理财，其他的都差不多收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "amount",
+            "start": 3,
+            "value": "100"
+          },
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "今天是多少利率的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "多少利率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现金赢好像利率不高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "现金赢"
+          }
+        ]
+      },
+      {
+        "text": "如果暂时不用，放t+1不是利率更高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 8,
+            "value": "t+1"
+          }
+        ]
+      },
+      {
+        "text": "挂了5.8，觉得比较吉利",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "5.8"
+          }
+        ]
+      },
+      {
+        "text": "1年退大概利息有多少啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "1年"
+          }
+        ]
+      },
+      {
+        "text": "陆钱宝的收益9.25%是稳定不变的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "陆钱宝"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 6,
+            "value": "9.25%"
+          }
+        ]
+      },
+      {
+        "text": "那每天的收益到底会是多少？什么时候能看到？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "7.2那个我买了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "昨天下午的产品，利率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率是税前的吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "上次的一年定期尊理财是7.5，这次怎么7.2？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "period",
+            "start": 3,
+            "value": "一年"
+          },
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "尊理财"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "7.5"
+          },
+          {
+            "end": 22,
+            "entity": "return",
+            "start": 19,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "浮动收益的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "为什么收益会是负的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "几点利率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那就是市场挂牌的4.7%的是吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "4.7%"
+          }
+        ]
+      },
+      {
+        "text": "收益有区别吧",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益怎么样？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "请问这个收益怎么样",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个8.4%是可以达到的年化收益么？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 1,
+            "value": "个8.4%"
+          }
+        ]
+      },
+      {
+        "text": "我还是尊理财吧，7.4算高的了吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "尊理财"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "另外您说这个平安大华收益大概多少呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "平安大华"
+          }
+        ]
+      },
+      {
+        "text": "还是5.95吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "5.95"
+          }
+        ]
+      },
+      {
+        "text": "5.46吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "5.46"
+          }
+        ]
+      },
+      {
+        "text": "我以为还是5.9",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "5.9"
+          }
+        ]
+      },
+      {
+        "text": "他这个显示5.72这个月就是5.72吗有浮动的吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "5.72"
+          },
+          {
+            "end": 18,
+            "entity": "return",
+            "start": 14,
+            "value": "5.72"
+          }
+        ]
+      },
+      {
+        "text": "这个我昨天买入的时候是看5.3的为什么今天成功买到就成4.3了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 12,
+            "value": "5.3"
+          },
+          {
+            "end": 30,
+            "entity": "return",
+            "start": 27,
+            "value": "4.3"
+          }
+        ]
+      },
+      {
+        "text": "这个短债基金是t+0？收益大概多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "t+0"
+          }
+        ]
+      },
+      {
+        "text": "收益南孚预期会好些吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "南孚"
+          }
+        ]
+      },
+      {
+        "text": "收益好像很低嘛",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "请问资金放在账上收益大概是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "今天的财富汇是多少利率啊？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "财富汇"
+          }
+        ]
+      },
+      {
+        "text": "10%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "text": "鑫理财设有5%以上的产品",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "鑫理财"
+          },
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 5,
+            "value": "5%"
+          }
+        ]
+      },
+      {
+        "text": "我预期在6-7个点左右",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 4,
+            "value": "6-7个点"
+          }
+        ]
+      },
+      {
+        "text": "这个收益还不如放在陆金保呢，你当初推荐我买这个，现在十几二十天了就这么多收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "product",
+            "start": 9,
+            "value": "陆金保"
+          },
+          {
+            "end": 31,
+            "entity": "period",
+            "start": 26,
+            "value": "十几二十天"
+          }
+        ]
+      },
+      {
+        "text": "就算不动它放陆金保是不是也有将近一百一天的收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 6,
+            "value": "陆金保"
+          },
+          {
+            "end": 18,
+            "entity": "amount",
+            "start": 16,
+            "value": "一百"
+          },
+          {
+            "end": 20,
+            "entity": "period",
+            "start": 18,
+            "value": "一天"
+          }
+        ]
+      },
+      {
+        "text": "还有一个爱理财5号，6.71%，看不太明白",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 4,
+            "value": "爱理财5号"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 10,
+            "value": "6.71%"
+          }
+        ]
+      },
+      {
+        "text": "陆金所的定期产品的利率怎么变得比银行理财产品还低呀",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "定期产品"
+          }
+        ]
+      },
+      {
+        "text": "大概有多少收益啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益率挺高，但是2月没人接盘，怎办",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率多少呀忘了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "几个点的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "你们把各种费用收了，我要3-4年才收到本金。那我的收益呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "平安大华短债收益不高啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "平安大华短债"
+          }
+        ]
+      },
+      {
+        "text": "我想咨询一下，像这个安e+如果我买了一个月卖掉扣掉所有费用，大概有多少个点的利息？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "product",
+            "start": 10,
+            "value": "安e+"
+          }
+        ]
+      },
+      {
+        "text": "你说的硅的pe项目超出20%部分，担保方需要扣除40%，是年指化收益吧？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 5,
+            "value": "pe项目"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "20%"
+          },
+          {
+            "end": 27,
+            "entity": "return",
+            "start": 24,
+            "value": "40%"
+          }
+        ]
+      },
+      {
+        "text": "看它投资收益写的8",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 8,
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "text": "收益能有多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "比t+0高点",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 1,
+            "value": "t+0"
+          }
+        ]
+      },
+      {
+        "text": "美元理财年化收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我找到了5.4收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "5.4"
+          }
+        ]
+      },
+      {
+        "text": "所以这个是最低8%收益上不封顶么",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 7,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "我上月日均162万，结算收益只有10300，算下年华只有7.62%，没有信息费，怎么收益不应该是8.4%左右么",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "amount",
+            "start": 5,
+            "value": "162万"
+          },
+          {
+            "end": 21,
+            "entity": "amount",
+            "start": 16,
+            "value": "10300"
+          },
+          {
+            "end": 33,
+            "entity": "return",
+            "start": 28,
+            "value": "7.62%"
+          },
+          {
+            "end": 52,
+            "entity": "return",
+            "start": 48,
+            "value": "8.4%"
+          }
+        ]
+      },
+      {
+        "text": "智理财多少收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "我看那个现金理财，也有5个点呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "现金理财"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "5个点"
+          }
+        ]
+      },
+      {
+        "text": "按7.4年化，迟一个月计息我利息损失近一万",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 1,
+            "value": "7.4"
+          },
+          {
+            "end": 21,
+            "entity": "amount",
+            "start": 19,
+            "value": "一万"
+          },
+          {
+            "end": 11,
+            "entity": "period",
+            "start": 8,
+            "value": "一个月"
+          }
+        ]
+      },
+      {
+        "text": "利息到多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "存单保是固定利率还是浮动",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单保"
+          }
+        ]
+      },
+      {
+        "text": "为何这么低的年率5.45%还有人愿意买呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 8,
+            "value": "5.45%"
+          }
+        ]
+      },
+      {
+        "text": "难道现在的利率都不高？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年化吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "之前那个私幕产品说好的8％回报率呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 11,
+            "value": "8％"
+          }
+        ]
+      },
+      {
+        "text": "12%是年利率吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "50%也是年利率吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "50%"
+          }
+        ]
+      },
+      {
+        "text": "也就是说3+2，5年在40%－250%之间吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "period",
+            "start": 8,
+            "value": "5年"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "40%"
+          },
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 15,
+            "value": "250%"
+          },
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 4,
+            "value": "3+2"
+          }
+        ]
+      },
+      {
+        "text": "之前的回报率扣除佣金大约有多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "一年半利率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "一年半"
+          }
+        ]
+      },
+      {
+        "text": "存单宝有8%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单宝"
+          },
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "三个月利率多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "三个月"
+          }
+        ]
+      },
+      {
+        "text": "三个月7.3？那很高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "三个月"
+          },
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "7.3"
+          }
+        ]
+      },
+      {
+        "text": "7.5以上吧，不然100万一笔不如十万一笔方便",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.5"
+          },
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 9,
+            "value": "100万"
+          },
+          {
+            "end": 19,
+            "entity": "amount",
+            "start": 17,
+            "value": "十万"
+          }
+        ]
+      },
+      {
+        "text": "收益率高的没有",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "对了，产品时间长了好多，但利率就差不多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "period",
+            "start": 7,
+            "value": "长了"
+          }
+        ]
+      },
+      {
+        "text": "每月回款按多少利率呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "智慧8十的止盈止损我有点没看懂。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "智慧8十"
+          }
+        ]
+      },
+      {
+        "text": "财富汇年化率这么低？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "财富汇"
+          }
+        ]
+      },
+      {
+        "text": "一年收益有多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益大约多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "网贷是怎么算利息的，8.4是固定的吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "8.4"
+          },
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "网贷"
+          }
+        ]
+      },
+      {
+        "text": "是按7天年化收益啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益看起来不一样啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在活期利息多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "活期"
+          }
+        ]
+      },
+      {
+        "text": "年化多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "就相当于上市的话12%年化，不上市的话8%的年化",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "12%"
+          },
+          {
+            "end": 21,
+            "entity": "return",
+            "start": 19,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "尊理财有7.4%的收益。比慧盈好吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "尊理财"
+          },
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "7.4%"
+          },
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 13,
+            "value": "慧盈"
+          }
+        ]
+      },
+      {
+        "text": " 国金鼎泰二号有保底10%, 正常有15%左右的回报每年。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 1,
+            "value": "国金鼎泰二号"
+          },
+          {
+            "end": 23,
+            "entity": "return",
+            "start": 18,
+            "value": "15%左右"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "text": "我看到这个产品一年有7.5收益啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "period",
+            "start": 7,
+            "value": "一年"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "那这个意思年百分之8是有的，是吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 5,
+            "value": "年百分之8"
+          }
+        ]
+      },
+      {
+        "text": "年化大概是多少呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个预期收益怎么样啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "你这个8%的利率很吸引人。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 3,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "存单包息那么高？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "存单包"
+          }
+        ]
+      },
+      {
+        "text": "利率呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "最后合下来收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不是5.2吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "5.2"
+          }
+        ]
+      },
+      {
+        "text": "今天是5.3",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "5.3"
+          }
+        ]
+      },
+      {
+        "text": "现在银行贷款利率是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "银行贷款"
+          }
+        ]
+      },
+      {
+        "text": "我的收益利率感觉和我算的不一样的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "现在t+0的利息都好低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "t+0"
+          }
+        ]
+      },
+      {
+        "text": "4%都没有",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "return",
+            "start": 0,
+            "value": "4%"
+          }
+        ]
+      },
+      {
+        "text": "最近t+0收益太低了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "t+0"
+          }
+        ]
+      },
+      {
+        "text": "我的每天收益为什么这么低呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "之前放招行的朝朝盈备用但是收益太低了～～～我看好像如果补余款也不是那么急准备买现金赢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 6,
+            "value": "朝朝盈"
+          },
+          {
+            "end": 42,
+            "entity": "product",
+            "start": 39,
+            "value": "现金赢"
+          }
+        ]
+      },
+      {
+        "text": "为什么这么多天收益才77块????，还是说每天看不到收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 10,
+            "value": "77块"
+          }
+        ]
+      },
+      {
+        "text": "我放在平安保一天都能有一百多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "平安保"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "一百多"
+          }
+        ]
+      },
+      {
+        "text": " 100万一年会有多少收益呢？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "amount",
+            "start": 1,
+            "value": "100万"
+          },
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 5,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "4月收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "t+1里面我有这么多钱，为什么收益才几分呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "t+1"
+          }
+        ]
+      },
+      {
+        "text": "7.4是吧？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "尊理财都是七点四吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "尊理财"
+          },
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "七点四"
+          }
+        ]
+      },
+      {
+        "text": "刚才看到你们的陆钱宝利率比活期高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 7,
+            "value": "陆钱宝"
+          },
+          {
+            "end": 15,
+            "entity": "product",
+            "start": 13,
+            "value": "活期"
+          }
+        ]
+      },
+      {
+        "text": "不会出现负数吧，别像a|理财一样买了两月了还是负收益率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "product",
+            "start": 10,
+            "value": "a|理财"
+          },
+          {
+            "end": 20,
+            "entity": "period",
+            "start": 18,
+            "value": "两月"
+          }
+        ]
+      },
+      {
+        "text": "安增益今天5.19%太不稳定",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "安增益"
+          },
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 5,
+            "value": "5.19%"
+          }
+        ]
+      },
+      {
+        "text": "还是尊理财收益率高吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "应该收益也低",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "哦，那为什么收益率低一些呢？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我看到首页有爱理财的收益好像不错",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 6,
+            "value": "爱理财"
+          }
+        ]
+      },
+      {
+        "text": "利率只有5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 4,
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "text": "麻烦你算一下私募股权到期后利率是多少去",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "amount",
+            "start": 6,
+            "value": "私募股权"
+          }
+        ]
+      },
+      {
+        "text": "t+0是4.36",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "t+0"
+          },
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "4.36"
+          }
+        ]
+      },
+      {
+        "text": "利率怎么没有之前高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "有点低",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我一部分可能用可能不用的钱可以买稳赢？能放两月以上的就肯定比放灵活宝划算？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "product",
+            "start": 16,
+            "value": "稳赢"
+          },
+          {
+            "end": 25,
+            "entity": "period",
+            "start": 21,
+            "value": "两月以上"
+          },
+          {
+            "end": 34,
+            "entity": "product",
+            "start": 31,
+            "value": "灵活宝"
+          }
+        ]
+      },
+      {
+        "text": "在活期的收益怎么只有100多",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "100多"
+          }
+        ]
+      },
+      {
+        "text": "日日赢赎回只有180多的收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "日日赢"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 7,
+            "value": "180多"
+          }
+        ]
+      },
+      {
+        "text": "这个产品的实际结息比挂出来的七日收益率是不是不会差太多？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没有看到财富汇-尊理财，一年期7.2%左右的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 4,
+            "value": "财富汇-尊理财"
+          },
+          {
+            "end": 15,
+            "entity": "period",
+            "start": 12,
+            "value": "一年期"
+          },
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 15,
+            "value": "7.2%"
+          }
+        ]
+      },
+      {
+        "text": "3年一共6，还是每年6，",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "3年"
+          },
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 4,
+            "value": "6"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 10,
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "text": "3年以后上市是每年12，包括在等的3年对吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 9,
+            "value": "12"
+          },
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "3年"
+          },
+          {
+            "end": 19,
+            "entity": "period",
+            "start": 17,
+            "value": "3年"
+          }
+        ]
+      },
+      {
+        "text": "给3年的6就完了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 1,
+            "value": "3年"
+          },
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 4,
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "text": "稳赢宝目前收益率多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "稳赢宝"
+          }
+        ]
+      },
+      {
+        "text": "原6.9，转让是5.33，也不会最终利息这么少啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 1,
+            "value": "6.9"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "5.33"
+          }
+        ]
+      },
+      {
+        "text": "没买到5.07的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 3,
+            "value": "5.07"
+          }
+        ]
+      },
+      {
+        "text": "那上面是5,81",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "5,81"
+          }
+        ]
+      },
+      {
+        "text": "陆金宝ｔ＋０，3.93%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "陆金宝ｔ＋０"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 7,
+            "value": "3.93%"
+          }
+        ]
+      },
+      {
+        "text": "惠盈安e项目，是通常理解的理财吗？收益似乎很高啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "惠盈安e"
+          }
+        ]
+      },
+      {
+        "text": "如果ipo不成功就是年回报15%左右如果上市了按照pe估算是238%？是这么理解吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "15%"
+          },
+          {
+            "end": 34,
+            "entity": "return",
+            "start": 30,
+            "value": "238%"
+          },
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "ipo"
+          },
+          {
+            "end": 27,
+            "entity": "product",
+            "start": 25,
+            "value": "pe"
+          }
+        ]
+      },
+      {
+        "text": "投160多万，平均每天的利息是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "amount",
+            "start": 1,
+            "value": "160多万"
+          }
+        ]
+      },
+      {
+        "text": "那投资100万，按理想的算法有多少利润",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "amount",
+            "start": 3,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "那如果投了100万，如果预计是2.76-4.18倍，那利润是有多少到多少??",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "amount",
+            "start": 5,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "现在参考业绩能达到5么",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 9,
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "text": "重阳的那个好像业绩不如中欧博瑞金",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "重阳"
+          },
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 11,
+            "value": "中欧博瑞金"
+          }
+        ]
+      },
+      {
+        "text": "定期到账了，的确是低于收益率的。怎么回事啊？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "定期"
+          }
+        ]
+      },
+      {
+        "text": "这个收益率低啊",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这利息很低的年收益没有5.8的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 11,
+            "value": "5.8"
+          }
+        ]
+      },
+      {
+        "text": "我的网贷的收益怎么这么少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "网贷"
+          }
+        ]
+      },
+      {
+        "text": "实际到手利率多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "后的利息还是15%左右吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "平时一年前的是7.5",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 7,
+            "value": "7.5"
+          },
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 2,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "但是收益不高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "意思已经减去这两个费用后是6.8是么",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "6.8"
+          }
+        ]
+      },
+      {
+        "text": "回报率",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个陆钱宝收益有八点多？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "八点多"
+          },
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "陆钱宝"
+          }
+        ]
+      },
+      {
+        "text": "半年期尊理财收益率大概多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "尊理财"
+          },
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "半年期"
+          }
+        ]
+      },
+      {
+        "text": "这个一天比一天低呀??，这到时候收益率很低的了",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个最终收益有7.2吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 7,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "意思是最坏的情况都有不低于10%的收益吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 13,
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "text": "现在app首页首发的大华基金债券年化多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "product",
+            "start": 10,
+            "value": "大华基金债券"
+          }
+        ]
+      },
+      {
+        "text": "请教慧盈安额额e的产品我看回报率也蛮高的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "慧盈"
+          },
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "安额额e"
+          }
+        ]
+      },
+      {
+        "text": "上市按照12吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "text": "不上市8吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 3,
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "text": "那个国金并购项目上市回购协议是安年利率多少来做回购的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "国金并购"
+          }
+        ]
+      },
+      {
+        "text": "预期大概率收益多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这是年化收益么？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "也是25-40+%的年化收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 2,
+            "value": "25-40+%"
+          }
+        ]
+      },
+      {
+        "text": "慧盈一安e以后是否要取消了？为什么麻袋理财会比陆金所的利率高很多？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "慧盈一安e"
+          },
+          {
+            "end": 21,
+            "entity": "product",
+            "start": 17,
+            "value": "麻袋理财"
+          }
+        ]
+      },
+      {
+        "text": "有预期收益吗？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我有个国华半月赢产品,收益率是多少?随时提现吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 3,
+            "value": "国华半月赢"
+          }
+        ]
+      },
+      {
+        "text": "收益率多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "7.4的收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "利息是5.5到7对吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 3,
+            "value": "5.5"
+          },
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 7,
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "text": "还有智理财明天后天的有利息高点的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "我知道是年化5.6，但去年九月至今，十个月才有2.3%收益，怎么去承兑5.6%的年化收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "5.6"
+          },
+          {
+            "end": 27,
+            "entity": "return",
+            "start": 23,
+            "value": "2.3%"
+          },
+          {
+            "end": 39,
+            "entity": "return",
+            "start": 35,
+            "value": "5.6%"
+          },
+          {
+            "end": 21,
+            "entity": "period",
+            "start": 18,
+            "value": "十个月"
+          }
+        ]
+      },
+      {
+        "text": "年化能有15%吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 4,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "年化8%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 2,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "介绍说年化8.几",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "8.几"
+          }
+        ]
+      },
+      {
+        "text": "放一个月收益能有多少呀",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 1,
+            "value": "一个月"
+          }
+        ]
+      },
+      {
+        "text": "一年利率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "收益大概什么水平",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "它的利率怎么这么高？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我之前的理财产品每天至少还有300的收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "amount",
+            "start": 14,
+            "value": "300"
+          }
+        ]
+      },
+      {
+        "text": "怎么都是5％以下年利率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "5％"
+          }
+        ]
+      },
+      {
+        "text": "国金并购怎么样？我看收益好像不高。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "国金并购"
+          }
+        ]
+      },
+      {
+        "text": "请问这个是不是相对收益高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "七日年化4.35.我有250万，存一个月，预计收益大概多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 4,
+            "value": "4.35"
+          },
+          {
+            "end": 15,
+            "entity": "amount",
+            "start": 11,
+            "value": "250万"
+          },
+          {
+            "end": 20,
+            "entity": "period",
+            "start": 17,
+            "value": "一个月"
+          }
+        ]
+      },
+      {
+        "text": "我近期买的鑫理财怎么收益这么低，买的时候挺高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 5,
+            "value": "鑫理财"
+          }
+        ]
+      },
+      {
+        "text": "当时定的利率是4.96%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 7,
+            "value": "4.96%"
+          }
+        ]
+      },
+      {
+        "text": "大华短债那个收益大概多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "大华短债"
+          }
+        ]
+      },
+      {
+        "text": "今天那产品利率才只有5.46%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 10,
+            "value": "5.46%"
+          }
+        ]
+      },
+      {
+        "text": "中南的私募，除去管理费啥的纯收益区间是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "中南的私募"
+          }
+        ]
+      },
+      {
+        "text": "最低的年收益在8％是这个意思吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 7,
+            "value": "8％"
+          }
+        ]
+      },
+      {
+        "text": "这个利率多少的",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我昨天怎么只有2块钱收益啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "amount",
+            "start": 7,
+            "value": "2块"
+          }
+        ]
+      },
+      {
+        "text": "7.4十五个月收益不高啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.4"
+          },
+          {
+            "end": 7,
+            "entity": "period",
+            "start": 3,
+            "value": "十五个月"
+          }
+        ]
+      },
+      {
+        "text": "也就是说收益端应该是7.05-0.08，就是6.97，对吧？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "7.05"
+          },
+          {
+            "end": 19,
+            "entity": "return",
+            "start": 15,
+            "value": "0.08"
+          },
+          {
+            "end": 26,
+            "entity": "return",
+            "start": 22,
+            "value": "6.97"
+          }
+        ]
+      },
+      {
+        "text": "4.53？好低呀",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "4.53"
+          }
+        ]
+      },
+      {
+        "text": "我昨天交易的财富汇-18m875b，提前到期，为什么预期收益显示我收款少了近9000块钱？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "product",
+            "start": 6,
+            "value": "财富汇-18m875b"
+          },
+          {
+            "end": 43,
+            "entity": "amount",
+            "start": 38,
+            "value": "9000块"
+          }
+        ]
+      },
+      {
+        "text": "我看现在的项目利率都不是很理想！",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我刚看到411天的，利息有点低，我就没约",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 4,
+            "value": "411天"
+          }
+        ]
+      },
+      {
+        "text": "那我等待的这半个月有活期收益吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没看到利率是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我在陆金宝中的钱为什么收益那么低啊？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "陆金宝"
+          }
+        ]
+      },
+      {
+        "text": "爱理财5号年化收益是7.67吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "爱理财5号"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "7.67"
+          }
+        ]
+      },
+      {
+        "text": "正常年化收益是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "26.1是什么，年化吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "26.1"
+          }
+        ]
+      },
+      {
+        "text": "一直不太了解稳赢安e+这类网贷是否划算，都说看是8.4，但因每月定额返还利率总的看不划算，是吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 6,
+            "value": "稳赢安e+"
+          },
+          {
+            "end": 27,
+            "entity": "return",
+            "start": 24,
+            "value": "8.4"
+          }
+        ]
+      },
+      {
+        "text": "请问慧盈的8.4%年华收益是怎么算出来的？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "8.4%"
+          },
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "慧盈"
+          }
+        ]
+      },
+      {
+        "text": "年化18，十万那就是1万8左右呗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 2,
+            "value": "18"
+          },
+          {
+            "end": 7,
+            "entity": "amount",
+            "start": 5,
+            "value": "十万"
+          },
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 10,
+            "value": "1万8"
+          }
+        ]
+      },
+      {
+        "text": "这个收益怎么这么低",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "国金收益测算也就12-15个点是吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "国金"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 8,
+            "value": "12-15个点"
+          }
+        ]
+      },
+      {
+        "text": "我五月较四月新增投资13万，买的都稳盈安e，结果两个月收益却是一样的。为什么？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 10,
+            "value": "13万"
+          },
+          {
+            "end": 21,
+            "entity": "product",
+            "start": 17,
+            "value": "稳盈安e"
+          }
+        ]
+      },
+      {
+        "text": "理享安增益t+31年化利率5.01是吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 0,
+            "value": "理享安增益t+31"
+          },
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 13,
+            "value": "5.01"
+          }
+        ]
+      },
+      {
+        "text": "那它的收益陆金宝呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "return",
+            "start": 5,
+            "value": "陆金宝"
+          }
+        ]
+      },
+      {
+        "text": "之前买的t+31说的年化利率5.01结果买进后是4.91",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "t+31"
+          },
+          {
+            "end": 18,
+            "entity": "return",
+            "start": 14,
+            "value": "5.01"
+          },
+          {
+            "end": 28,
+            "entity": "return",
+            "start": 24,
+            "value": "4.91"
+          }
+        ]
+      },
+      {
+        "text": "利率什么样",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "能提前发我看下吗收益率时间多长",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "业绩基准的产品是吗",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年利率只有3.65%啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 5,
+            "value": "3.65%"
+          }
+        ]
+      },
+      {
+        "text": " 8.4%这个年化利率你们是已经算了复投之后的？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 1,
+            "value": "8.4%"
+          }
+        ]
+      },
+      {
+        "text": "帮我看看这个产品的收益怎么样？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "看你们有两种，1种是3.96，另一种是4.38，这两种啥区别？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "3.96"
+          },
+          {
+            "end": 23,
+            "entity": "return",
+            "start": 19,
+            "value": "4.38"
+          }
+        ]
+      },
+      {
+        "text": "还有就是8%或12%不是实际投资者到手年化率吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          },
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 7,
+            "value": "12%"
+          }
+        ]
+      },
+      {
+        "text": "扣除之后大致的年化收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "时间？\\n一次还？每月还？\\n利率？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我想咨询一下国金并购预期收益多少？历史数据15%指的是扣费前还是后？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 6,
+            "value": "国金并购"
+          },
+          {
+            "end": 24,
+            "entity": "return",
+            "start": 21,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "收益率？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不是按预设利率计算的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "惠赢安哦，7.84利息扣出服务费的利息是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "惠赢安"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "7.84"
+          }
+        ]
+      },
+      {
+        "text": "每月等额本息后，一年的收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年7.20%还要不要扣除管理费等其它什么费用，如要是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 1,
+            "value": "7.20%"
+          }
+        ]
+      },
+      {
+        "text": "我买的智理财产品，怎么没有显示到期的收益多少呢??",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 3,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "以后8%的话还要扣除1.6%手续费，实际只有6.2吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 2,
+            "value": "8%"
+          },
+          {
+            "end": 25,
+            "entity": "return",
+            "start": 22,
+            "value": "6.2"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 10,
+            "value": "1.6%"
+          }
+        ]
+      },
+      {
+        "text": "想问一下白分之八点四1万块钱一年期怎么算，我到手的收益是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "amount",
+            "start": 10,
+            "value": "1万块"
+          },
+          {
+            "end": 17,
+            "entity": "period",
+            "start": 14,
+            "value": "一年期"
+          },
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 4,
+            "value": "白分之八点四"
+          }
+        ]
+      },
+      {
+        "text": "利息会有多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个提前到5\\/16号的项目24m579a预计到期的金额是最终的金额？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "product",
+            "start": 14,
+            "value": "24m579a"
+          }
+        ]
+      },
+      {
+        "text": "利率大概多少的？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "14天5.74收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "14天"
+          },
+          {
+            "end": 7,
+            "entity": "return",
+            "start": 3,
+            "value": "5.74"
+          }
+        ]
+      },
+      {
+        "text": "利率是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那我怎么能知道收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我的活期说是利率4.45%，实际算下来只有3.89",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 8,
+            "value": "4.45%"
+          },
+          {
+            "end": 25,
+            "entity": "return",
+            "start": 21,
+            "value": "3.89"
+          }
+        ]
+      },
+      {
+        "text": "那收益率是多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "大概是什么样的收益率呀",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "没有前几天的7.5的年化呀？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 6,
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "text": "也是这个收益率么？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "预期利润是多少呀??",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率大概是多少呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我想查看我之前放的91天那款短期的收益怎么查看呀",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "period",
+            "start": 9,
+            "value": "91天"
+          },
+          {
+            "end": 16,
+            "entity": "period",
+            "start": 14,
+            "value": "短期"
+          }
+        ]
+      },
+      {
+        "text": "智理财收益稳定吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "智理财"
+          }
+        ]
+      },
+      {
+        "text": "电话我时听到的是5.5%啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "5.5%"
+          }
+        ]
+      },
+      {
+        "text": "好像这个金色人生收益还可以",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "金色人生"
+          }
+        ]
+      },
+      {
+        "text": "我私募这个项目收益不怎么好啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 1,
+            "value": "私募"
+          }
+        ]
+      },
+      {
+        "text": "100万可以多少收益",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "amount",
+            "start": 0,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "到期后一共多少收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "不是一年7.4万吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "amount",
+            "start": 4,
+            "value": "7.4万"
+          },
+          {
+            "end": 4,
+            "entity": "period",
+            "start": 2,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "万分收益是什么意思",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这样一算，哪里可能有7.5的收益，整体来看最多也就7.2不到了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "7.5"
+          },
+          {
+            "end": 28,
+            "entity": "return",
+            "start": 25,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "年化率多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "如果投资100万，五年后的收益和最差是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "amount",
+            "start": 4,
+            "value": "100万"
+          }
+        ]
+      },
+      {
+        "text": "是每年按8%共5年吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 4,
+            "value": "8%"
+          },
+          {
+            "end": 9,
+            "entity": "period",
+            "start": 7,
+            "value": "5年"
+          }
+        ]
+      },
+      {
+        "text": "是3个点?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 1,
+            "value": "3个点"
+          }
+        ]
+      },
+      {
+        "text": "基金收益率也这么低连4%都不到",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 10,
+            "value": "4%"
+          }
+        ]
+      },
+      {
+        "text": "收益率多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "5.79%加奖励1·6%是不是就是按年利率7.39%算啊？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "return",
+            "start": 21,
+            "value": "7.39%"
+          },
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 0,
+            "value": "5.79%"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "1·6%"
+          }
+        ]
+      },
+      {
+        "text": "转让挂牌的收益率，写5%是吗。",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 10,
+            "value": "5%"
+          }
+        ]
+      },
+      {
+        "text": "大概年化复利收益是8.22%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 9,
+            "value": "8.22%"
+          }
+        ]
+      },
+      {
+        "text": "智慧8+固定收益能保持8%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "智慧8+"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 11,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "一年现在多少息",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "period",
+            "start": 0,
+            "value": "一年"
+          }
+        ]
+      },
+      {
+        "text": "现在是收益1.05.可以吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "1.05"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "1.05"
+          }
+        ]
+      },
+      {
+        "text": "6o天转让能几点的利息呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "period",
+            "start": 0,
+            "value": "6o天"
+          }
+        ]
+      },
+      {
+        "text": "七日年化收益率9.78%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 7,
+            "value": "9.78%"
+          }
+        ]
+      },
+      {
+        "text": "最低15%是吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "15%"
+          }
+        ]
+      },
+      {
+        "text": "这个是怎么样的收益",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "7.3是啥？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.3"
+          }
+        ]
+      },
+      {
+        "text": "不是6.95吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "return",
+            "start": 2,
+            "value": "6.95"
+          }
+        ]
+      },
+      {
+        "text": "金色人生，4.75，t+1",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "金色人生"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "4.75"
+          },
+          {
+            "end": 13,
+            "entity": "product",
+            "start": 10,
+            "value": "t+1"
+          }
+        ]
+      },
+      {
+        "text": "利率多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "利率呢",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那这个产品一个月大概能合多少利率的呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 5,
+            "value": "一个月"
+          }
+        ]
+      },
+      {
+        "text": "8.4那个5个月转让帮我算一下扣除各费用后的利率",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "8.4"
+          },
+          {
+            "end": 8,
+            "entity": "period",
+            "start": 5,
+            "value": "5个月"
+          }
+        ]
+      },
+      {
+        "text": "利率多少，我已经有20万到账了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "amount",
+            "start": 9,
+            "value": "20万"
+          }
+        ]
+      },
+      {
+        "text": "看不到收益率啊？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "这个收益高",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "定期尊理财现在收益多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 2,
+            "value": "尊理财"
+          }
+        ]
+      },
+      {
+        "text": "利率？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "上次175天到期的利息也不太对呀，6.6应该是31643.84，实际到账为什么是30797.16?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "period",
+            "start": 2,
+            "value": "175天"
+          },
+          {
+            "end": 20,
+            "entity": "return",
+            "start": 17,
+            "value": "6.6"
+          },
+          {
+            "end": 31,
+            "entity": "amount",
+            "start": 23,
+            "value": "31643.84"
+          },
+          {
+            "end": 48,
+            "entity": "amount",
+            "start": 40,
+            "value": "30797.16"
+          }
+        ]
+      },
+      {
+        "text": "利息多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那上面的产品写的10%，5%，还有的甚至30%都是预期收益对吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 8,
+            "value": "10%"
+          },
+          {
+            "end": 14,
+            "entity": "return",
+            "start": 12,
+            "value": "5%"
+          },
+          {
+            "end": 23,
+            "entity": "return",
+            "start": 20,
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "text": "前期收益能到多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "我想问下汇尊理财产品收益多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 4,
+            "value": "汇尊理财"
+          }
+        ]
+      },
+      {
+        "text": "预期每年回报率不少于10%？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "text": "他不是预期也就9.5？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 7,
+            "value": "9.5"
+          }
+        ]
+      },
+      {
+        "text": "这种产品的年收益是多少",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "为何收益这么少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "万分之二的收益吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "return",
+            "start": 0,
+            "value": "万分之二"
+          }
+        ]
+      },
+      {
+        "text": "7.4的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "return",
+            "start": 0,
+            "value": "7.4"
+          }
+        ]
+      },
+      {
+        "text": "收益如何？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "一般保底收益到底有多少？",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "年化50%两年翻番？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 2,
+            "value": "50%"
+          }
+        ]
+      },
+      {
+        "text": "我看到是最低只保8%啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "return",
+            "start": 8,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "多少利率?",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "那这种项目，收益稳定性怎么样?",
+        "intent": "invest_return",
+        "entities": []
+      },
+      {
+        "text": "慧盈安e转让的话利率自己决定吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "慧盈安e"
+          }
+        ]
+      },
+      {
+        "text": "没上市8%,上市后12%,上市并盈利4年累计26-70%,可这样理解吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "return",
+            "start": 3,
+            "value": "8%"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 9,
+            "value": "12%"
+          },
+          {
+            "end": 28,
+            "entity": "return",
+            "start": 22,
+            "value": "26-70%"
+          }
+        ]
+      },
+      {
+        "text": "我投的金色人生的七日年化收益率前所未有的低，1.59%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 3,
+            "value": "金色人生"
+          },
+          {
+            "end": 27,
+            "entity": "return",
+            "start": 22,
+            "value": "1.59%"
+          }
+        ]
+      },
+      {
+        "text": "咱们金色人生折合年化利率多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "金色人生"
+          }
+        ]
+      },
+      {
+        "text": "上次的一年定期富盈是7.5，这次怎么7.2？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "product",
+            "start": 7,
+            "value": "富盈"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 10,
+            "value": "7.5"
+          },
+          {
+            "end": 21,
+            "entity": "return",
+            "start": 18,
+            "value": "7.2"
+          }
+        ]
+      },
+      {
+        "text": "重阳的那个好像业绩不如富盈",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "product",
+            "start": 11,
+            "value": "富盈"
+          },
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "重阳"
+          }
+        ]
+      },
+      {
+        "text": "我有个富盈产品,收益率是多少?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 3,
+            "value": "富盈"
+          }
+        ]
+      },
+      {
+        "text": "富盈收益测算也就12-15个点是吧",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "富盈"
+          },
+          {
+            "end": 15,
+            "entity": "return",
+            "start": 8,
+            "value": "12-15个点"
+          }
+        ]
+      },
+      {
+        "text": "请问富盈的8.4%年华收益是怎么算出来的？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 2,
+            "value": "富盈"
+          },
+          {
+            "end": 9,
+            "entity": "return",
+            "start": 5,
+            "value": "8.4%"
+          }
+        ]
+      },
+      {
+        "text": "富盈7852，7.84利息扣出服务费的利息是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "富盈7852"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 7,
+            "value": "7.84"
+          }
+        ]
+      },
+      {
+        "text": "像这个聚金7733号如果我买了一个月卖掉扣掉所有费用，大概有多少个点的利息？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "product",
+            "start": 3,
+            "value": "聚金7733号"
+          }
+        ]
+      },
+      {
+        "text": "聚金7733号收益不高啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 0,
+            "value": "聚金7733号"
+          }
+        ]
+      },
+      {
+        "text": "聚金这个如何？我看收益明显高出来很多7天的",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "聚金"
+          }
+        ]
+      },
+      {
+        "text": "这个金色人生收益降低了？4.98%?",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 2,
+            "value": "金色人生"
+          },
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 12,
+            "value": "4.98%"
+          }
+        ]
+      },
+      {
+        "text": "这个跟稳盈-安e比起来还是比较高吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 3,
+            "value": "稳盈-安e"
+          }
+        ]
+      },
+      {
+        "text": "稳盈-安e+收益怎么那么高？4.8",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "return",
+            "start": 14,
+            "value": "4.8"
+          },
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "稳盈-安e+"
+          }
+        ]
+      },
+      {
+        "text": "稳盈-安e收益高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "稳盈-安e"
+          }
+        ]
+      },
+      {
+        "text": "还有同盈CDB明天后天的有利息高点的吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 2,
+            "value": "同盈CDB"
+          }
+        ]
+      },
+      {
+        "text": "同盈CDB固定收益能保持8%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "同盈CDB"
+          }
+        ]
+      },
+      {
+        "text": "立盈-聚信变成4.54了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "立盈-聚信"
+          },
+          {
+            "end": 11,
+            "entity": "return",
+            "start": 7,
+            "value": "4.54"
+          }
+        ]
+      },
+      {
+        "text": "久盈智投收益稳定吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈智投"
+          }
+        ]
+      },
+      {
+        "text": "久盈智投收益率稳定吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈智投"
+          }
+        ]
+      },
+      {
+        "text": "我买的久盈智投，预期收益是？%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 3,
+            "value": "久盈智投"
+          }
+        ]
+      },
+      {
+        "text": "稳盈-变现通变成4.54了",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "稳盈-变现通"
+          },
+          {
+            "end": 12,
+            "entity": "return",
+            "start": 8,
+            "value": "4.54"
+          }
+        ]
+      },
+      {
+        "text": "稳盈-变现通回报不高",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "稳盈-变现通"
+          }
+        ]
+      },
+      {
+        "text": "稳盈-变现通收益不怎么好啊",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "稳盈-变现通"
+          }
+        ]
+      },
+      {
+        "text": "久盈收益大约多少呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈"
+          }
+        ]
+      },
+      {
+        "text": "久盈是不是固定收益？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈"
+          }
+        ]
+      },
+      {
+        "text": "久盈实际收益是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈"
+          }
+        ]
+      },
+      {
+        "text": "久盈实际收益达不到8.5%",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 9,
+            "value": "8.5%"
+          }
+        ]
+      },
+      {
+        "text": "智享-安e+这个没看懂！它的基金净值只有1.28!折算成年利率是多少？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "product",
+            "start": 0,
+            "value": "智享-安e+"
+          }
+        ]
+      },
+      {
+        "text": " 稳盈-变现通固定收益能保持8%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "product",
+            "start": 0,
+            "value": " 稳盈-变现通"
+          },
+          {
+            "end": 16,
+            "entity": "return",
+            "start": 14,
+            "value": "8%"
+          }
+        ]
+      },
+      {
+        "text": "这个稳盈-变现通收益有九点多？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "product",
+            "start": 2,
+            "value": "稳盈-变现通"
+          },
+          {
+            "end": 13,
+            "entity": "return",
+            "start": 11,
+            "value": "九点"
+          }
+        ]
+      },
+      {
+        "text": "利率都低于活期理财，例如智享-安e+",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "product",
+            "start": 12,
+            "value": "智享-安e+"
+          }
+        ]
+      },
+      {
+        "text": "利率都低于活期理财，例如久盈",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "product",
+            "start": 12,
+            "value": "久盈"
+          }
+        ]
+      },
+      {
+        "text": "立盈-聚信大约又多少呢",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "product",
+            "start": 0,
+            "value": "立盈-聚信"
+          }
+        ]
+      },
+      {
+        "text": "不过把一手稳盈-变现通做流动性的话，我算不准它的平均利率是多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "product",
+            "start": 5,
+            "value": "稳盈-变现通"
+          }
+        ]
+      },
+      {
+        "text": "久盈固定收益能保持9%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "product",
+            "start": 0,
+            "value": "久盈"
+          }
+        ]
+      },
+      {
+        "text": "易方达的收益多少",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "product",
+            "start": 0,
+            "value": "易方达"
+          }
+        ]
+      },
+      {
+        "text": "8%有吗",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "8%",
+            "entity": "return"
+          }
+        ]
+      },
+      {
+        "text": "能有7%吗？",
+        "intent": "invest_return",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "7%",
+            "entity": "return"
+          }
+        ]
+      }
+    ]
+  }
+}

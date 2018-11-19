@@ -1,0 +1,3360 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "847"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问我需要转入多少钱，才能使用847的优惠券？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "如果今天下午还在申请中就会影响我的活动福利"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "四月集花卡福利为什么还没有发放"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "百尺竿头进步卡怎么兑换啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "400"
+                    },
+                    {
+                        "end": 34,
+                        "entity": "amount",
+                        "start": 30,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问晋升vip给400京东卡那个活动，如果我今天把总资产提到100万，是不是就ok了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我邀请了家人注册投资，为何没见到给我的奖励？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我升级为黑金账户时，送了爱奇艺的vip黄金会员半年卡"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返的券用不了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资券怎么用啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "已转入，用不了投资券啊??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "1万元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次投资这个百万项目，你说有1万元奖励，怎么兑现？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那我有优惠券可用了吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返的投资卷有消息了吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "今天还不会返券吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我记得原来这种返券的是项目成立那天就券到账了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "券怎么还没到，已经有七个工作日了吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "以前我买过返券的都是项目成立那天就返的，这个问题你要想领导提提意见，不能比原来体验还倒退了呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "100元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "达标贡献礼会在什么时候发放？100元投资券使用条件是什么呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1533"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "陆金宝t十1"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "amount",
+                        "start": 20,
+                        "value": "1534"
+                    },
+                    {
+                        "end": 32,
+                        "entity": "amount",
+                        "start": 27,
+                        "value": "1534元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "怎么1533用不了，我买了陆金宝t十1，1534，付了1534元，投资券不给用"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "500元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "还有就是，我记得有个百万产品新秀500元券的，但系统显示权益升级中，暂时不能发放。请问怎么回事？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "百万"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 21,
+                        "value": "500元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我还有个问题，没有解决。和关于百万产品新秀500元券的，为何总是显示权益升级中，无法领用？帮我问下，多谢！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "送的投资抵扣券呢，这次的我没有看到？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "2300"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "1000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "2300的投资券，还有个1000的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "等券到账了，一起用呗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1500多"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "有个1500多的券是啥？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "250万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我上次买的250万返券0.4怎么还没到"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "送话费在哪里啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "100元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "自升级为vip以来，每个月100元现金抵扣券好像都没法用了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "1千多"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问下定期理财成功后，那个1千多的理财券在哪里？怎么使用？谢谢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "当时反0.4的优惠怎么返？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，几张话费卷只能兑换同一人?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问兑换的滴滴专车券怎么用？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问兑换的滴滴专车券、爱奇艺vip怎么用？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "券码在滴滴里输入，提示无效"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "券码早就有啊，没有使用说明！券码在滴滴里输入，提示无效"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "申请的投资券有了吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "它有25000积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "看看怎么样拿25000积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那张投资券需投乡少"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "说是要有邀请短信的才能参加这个活动，我为什么没有邀请短信？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "最近总资产提升有什么活动吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 22,
+                        "value": "10万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "陆金所的我看了，应该是我之前看到的投资券，投10万美元以上才能用券。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "140元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我看到补了140元钱。投资券什么时候发？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "上次那个备案失败的产品的投资券发了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "财富汇"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "现在还没看到因为之前财富汇项目备案不成功发的投资券诶"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为什么我不能报名lu能量？！！！！\\n"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "但这个活动，那里也没注明是哪些会员参加啊！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我好像没有收到这个活动的邀请，可以麻烦看一下吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆金宝t＋o"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "陆金宝t＋o无可用投资劵？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这次买，有没有优惠券？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "amount",
+                        "start": 27,
+                        "value": "5000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你看看是不是我邀请了另一个账号这个pe产品，我就能得到5000奖励？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "没有返券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "在吗？我积分兑换了话费，显示兑换码无效"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "200元"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "200元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": " 200元话费卡的电子券码为200元话费兑换码：so3nvfwc。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "该项目不可抵投资券?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1000元"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "南孚电池"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我的1000元投资券呢?买了南孚电池"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "100元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "给我的100元券都能做什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "积分手机可以兑换码"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "5元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，我的权益卡对了5元电话劵，怎么用呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "4000元"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "1000元"
+                    },
+                    {
+                        "end": 27,
+                        "entity": "product",
+                        "start": 24,
+                        "value": "t+1"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "4000元的投资券怎么使用？我转入了1000元到t+1也没抵扣。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "陆金所网上推荐，投资是有返现么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "尊理财的投资券什么时候给呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问没有收到短信和站内信，这个活动能参加吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问这个活动我能参加吗？不要给我打电话，就在这里给我答复。谢谢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问上次投资的尊理财的返券什么时候到账"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返券什么时候返啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 31,
+                        "entity": "amount",
+                        "start": 27,
+                        "value": "1000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "在吗？我之前参与了春花活动，资产达到100万，可以兑换1000的京东e卡，这个券什么时候发给我"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "季小姐，五月份没有发券吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，请问5月专属福利中的话费还会有吗？这几天看了一下都是兑完的状态。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我符合这个活动吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "补偿的投资券何时发放？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "卡券包在那里？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你们没有给客户的返券返利之类的活动吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个券什么时候能兑换？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我想问一下投资卷咋样发放，"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "100元的投资卷买那款？仅限转让30天以上吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好！我早晨兑换的电话费怎么换不了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好！已兑换话费了，谢谢！谢谢！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "要是能有投资券就更好了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "发的券可能不能用吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "有一个资金增值送券的活动，我报名的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "积分兑换礼品的地方"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "权益卡那里的礼品兑换卡，还没兑换，就都没了呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "还在有效期，就是奖品还没兑换上，就光了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "4000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "赵经理，4000返券已到，怎样使用？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "t+0"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "4001元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "为什么显示是从t+0支出4001元啊？券确实也没了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "赵经理，买返的券何时到账?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "不是说预约返门槛券的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "晋升铂金vip享好礼，只在成长中心有任务提示，没收到站内信，能否参加活动？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "三点上的产品没有返券吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好！请问我的尊理财返现券为什么这么久了还没有到？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "为什么我的尊理财券等了这么久？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "券没法选取"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "会员狂欢日兑换的假话费券码，根本充不了话费，怎么回事"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "陆金所给的卷要是买基金能用就好了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你上面还说过年的时候私募股权投资卷发的很多，我从陆金所发行股权就在陆金所我怎么一次都没有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "1903块"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "前天收到1903块的投资券，是每个月都有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "彗盈"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "给点券啊亲买彗盈"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "之前100万不是有0.4的返券吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "慧盈安"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，这个券是指可以用在慧盈安系列?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "还有我再买，能不能送点投资券给我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "t十1"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "5100元"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "product",
+                        "start": 20,
+                        "value": "t十0"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我看上次t十1购的5100元！都是从我个t十0账户中转出的！不是送的卷呀"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资卷肯定是t+1可以取回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "500元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "会有500元卷吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "能有投资券吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "现在投资券给的好少啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "奖励金"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "奖励金，月底充钱不划算是吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "月初充钱划算，领的奖励金时间长，是这样吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "您的开户申请已提交,请您耐心等待,开户成功后会短信通知您账号（回复t退订）【恒泰证券】陈经理这个有25000积分领的你有时间帮我看看。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "100万"
+                    },
+                    {
+                        "end": 31,
+                        "entity": "amount",
+                        "start": 26,
+                        "value": "4000元"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我的100万尊理财在手机页靣显示的还是申请中，你说的4000元返券也没信息显示，也不知道如何操作"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "那100的券还没回来"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "优惠券5月什么时候发呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个投资券是额外的福利还是在利息里面的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 15,
+                        "value": "t+1"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我看到投资券到账了，可怎么没有t+1了？买不起来"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "现在的福利投资券等于没有了呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "4000元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "4000元的劵是买产品送的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "怎么投资劵不能用吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "上次买的理财，返卷什么时候返？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "尊理财的奖励投资券什么时候发？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "尊理财返券？？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次说那个尊理财不是有0.4%的返券吗，怎么到现在还没有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "亲，上次买的尊理财今天起息了，那么他返的券什么时候到位？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "上一次返的券还没下来吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "4000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "嗯嗯，一直以为返4000的券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "没看到这个活动"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我准备套陆金所送给我的券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你上次跟我说的6号那个活动怎么说呀。我跟个客户都说好了一起去了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "t＋1"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "一元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "昨天按提示买入t＋1的产品，买了一元钱，却显示没有可用代用券。今天又重新操作，也一样。代用券用不了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "这次投资的国金私募认购费用，希望能给个折扣优惠返还。谢谢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我没有投资券了，可以发吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "5月份的会员福利为啥到现在还没入账呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "以后每月vip客户的投资券就不再发放了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财70b144"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我投资的尊理财70b144号不是预约有什么券的吗？怎么我看不到在哪里的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "18号活动用积分兑换的劵居然16号就过期了?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "12万"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "product",
+                        "start": 17,
+                        "value": "存单宝"
+                    },
+                    {
+                        "end": 28,
+                        "entity": "amount",
+                        "start": 24,
+                        "value": "288元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我看这里面说的是要一次性投入12万存单宝才能奖励288元是这样吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我老婆也有陆账户，和我说钻石有爱奇艺会员年卡，是吗，"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "尊理财的卷什么时候返"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "70a984"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "70a984的卷什么时候返啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "总资产保持活动，是只要525当天=425当天,还是要保持一个月？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "买私幕可送些抵扣券？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "200"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "如200，可再有多少折扣"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "上次你们说的赠送投资券怎么还没有收到呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "那个投资券已到。买陆金宝t+1就可以用上是吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "己申请。没有优惠？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "好的，看到这个活动昨天18点就开始抢票了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "很喜欢这个活动，努力帮我争取一下哦"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "2000元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "3月底冲刺还有2000元奖励是本月发放吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "2000元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "3月底的冲刺奖励还有2000元，准备什么时候发放啊！本月有的话记得提醒我，不会不给了吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "说给反的投资券怎么没有看到？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资券有啥要求"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "1741"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "今日收到一张1741单用券，限指定产品，什么产品？没法用，麻烦了解一下。谢谢！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "另，有个奖励金的活动，但奖励金周一没有到帐好像"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "领过三天奖励金"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "200"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我想问问，4.25到5.25的200奖金我今天充值至总金额达4.25，奖励应该有吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，上次的返券什么时候能收到？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "尊理财70b131"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，那个尊理财70b131有返券啥的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "国金并购"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，那个国金并购有优惠政策吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你们有优惠政策吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "您好，能否帮忙申请一点小额的慧盈安e的投资卷??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "朋友告诉我，你可以给我投资券的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "没收到安逸卷啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那是月度卷？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "亲，没找到投资券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "记得之前有说尊理财买了之后会有返券是吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我想咨询一下，我的首页有个vip特权活动，我是不是有资格参加，另外4月25的总资产是多少"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "return",
+                        "start": 8,
+                        "value": "0.2%"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "怎么没收到返门坎0.2%"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "当时买的尊理财返券什么时候呀？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返券的时候麻烦和我说一声"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我最近有积分换礼品吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "product",
+                        "start": 23,
+                        "value": "平安大华短债e"
+                    },
+                    {
+                        "end": 37,
+                        "entity": "amount",
+                        "start": 35,
+                        "value": "50"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "您好！记得5月11号前有个活动，是邀请一人投资平安大华短债e，邀请人得50券，最多5人，我邀请两人投了。至今没给券。有人已得到券。为什么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "小宋你好，你说的那个返利的劵怎么没有啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我专享券都没有了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我18号积分兑换的商品，怎么还没有收到货"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "100块"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "差100块，能用券吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "可以了，怎么没用券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "客户经理您好！请教“摇一摇领积分”怎么玩！谢谢！"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "amount",
+                        "start": 24,
+                        "value": "10元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好！早晨用积分兑换了两个电子券，考拉券找不到，10元话费券兑换通不过，显示券码有误，我是粘贴的，我操作无误。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "小王你好，刚才我在电脑上试了下话费券的兑换，成功充值了。你的建议是对的。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "最近能帮我申请一张100万的券么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "一点券都没有么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "return",
+                        "start": 0,
+                        "value": "5.79"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "5.79是有返券？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个返多少券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "1000"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "product",
+                        "start": 15,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "好！我的4000劵，买1000陆金宝t+1就可以拿了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "amount",
+                        "start": 19,
+                        "value": "1元"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "4000多元"
+                    },
+                    {
+                        "end": 28,
+                        "entity": "amount",
+                        "start": 23,
+                        "value": "1000元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "4000多元的投资券已到帐。请问您我投1元还是1000元就能拿到该券金兀数?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "有什么返券活动吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "资金较大你们不给优惠吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，我账户里有一张抵扣券，不知道怎么用"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 12,
+                        "value": "1万"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 15,
+                        "value": "t+0"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，帮我看看有个优惠，1万起t+0的怎么弄合适"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "2000元"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 21,
+                        "value": "685元"
+                    },
+                    {
+                        "end": 28,
+                        "entity": "product",
+                        "start": 25,
+                        "value": "t＋0"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你说的赠2000元投资券没查到，只看到一个685元t＋0可以使。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "直接告送我给投资券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "1个多月"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "投资1个多月，实际收益负数。听说可以通过客户经理申请投资券补偿"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资卷要怎么用呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 1,
+                        "value": "2000元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": " 2000元投资券是没发，还是我没看见。麻烦你给我留言，我今天有事，可能不方便接电话。谢谢！"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "847"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "847的券我可以买点？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我刚申请的送券多少？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "安e"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 22,
+                        "value": "650"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次麻烦你确认的遗漏两笔安e转让的补偿投资券650，说好5月15日补发，可还是没收到，陆金所做事情要靠谱才能获得投资者信任??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "明天你给我发信息就行了，估计打电话我接不过来，明天门店有活动"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "礼品兑换怎么弄啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "300元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "四月小增值大奖励，300元京东卡，我抽中了。不知道怎么兑奖。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资券咋用呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "500"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "在哪能看到500投资券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "慧盈安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "能送我慧盈安e产品的投资券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问上次的产品今天确认了，但是返投资券怎么没看到？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返的投资券今天可以到账吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次买的尊理财，4月21日已成立，好久送券呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，我有两个号，今天早上大约是6点20签到，有一个今天应该是可以奖励积分，但系统显示还需再签到14天才能奖励积分；另一个号应该是本月签到了13天，但今早显示还需再签到14天才能奖励积分。这是什么情况？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "202.8万"
+                    },
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "并购基金"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "并购基金也是买202.8万，是七折对吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 20,
+                        "entity": "amount",
+                        "start": 16,
+                        "value": "3000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "小公，前几天一位姓顾的女士电话说3000的投资券批复了，可一直还没到账。麻烦帮我跟踪一下，谢谢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "10万"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "150元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "那我可以买10万进去抵150元的券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "500"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次谁说有500的投资券，没有看到呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资返卷还没发，是吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，抵扣卷已到帐，但为什么无法选中？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "50美金"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "活动抵用卷就只有50美金"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "本月还有优惠券吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "200"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次投的200不是有红包吗？是以什么方式给的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "是返卷吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "短信收到4月份推荐好友奖励发放的通知，可是账户里没看到投资券啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "张经理看看发个投资券给我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "50元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问，我抽中50元话费，不知道怎么用，按照链接打开输入兑奖号又说不存在?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 22,
+                        "value": "50元"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "amount",
+                        "start": 22,
+                        "value": "50元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "不知道你能否看到我的账户，我的商品，找到这个50元话费页面，在电脑上，确实找不到活动规则，找不到上哪个网，用什么方法把这50元转到手机里。关键找不到规则说明在哪里"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "50元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "在订单图片50元话费栏的任意位置点击，都得到抽奖的这个图片画面"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "amount",
+                        "start": 14,
+                        "value": "50元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "另外可以得到一个发送到手机的50元号码，这个号码我一直有，可我能够怎么样才领得到？找不到任何活动规则，如何使用指导方法"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "没有看到券呢？是要再等等吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "4月份的邀请好友奖励是今天发放吗？怎么还没发下来呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "4000"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我那个4000的券你帮我看下已经购买成功啦吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "最近慧盈的投资券还会发吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，给我申请投资卷或其它礼品吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我刚说的是这个活动，怎么参与"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好我想问一下我现在买的理财产品，送的券怎么不能用了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "买理财给积分也不给了吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问投资返券什么时候可以到帐？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 6,
+                        "value": "1%"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你好，赠送的1%投资券大概什么到账户？麻烦帮忙确认一下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "活动是这时候，但兑换开始时间没说"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "礼品兑换卡已发放至您的账户，有效期至2018年05月26日00时。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "上次买的理财，0.4的投资券还没发放？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资券到了，如何操作，请教一下，我试了一下，没有抵扣投资券呀"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "您好！我的群一卡里面可以用积分兑换礼品，但是我的积分差一点，有时有什么办法可以增加一些积分。例如，相互赠送，或者用钱来买可以吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "500"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "说有500投资券送"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我上个月买的理财，成功了之后不是返卷的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "一万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "一万的投资券在哪里呀??????还没给"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "现在每个月送的券基本没法用"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返券一直没有返"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我收到短信已经申购成功，但还没有收到返券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 4,
+                        "value": "7.3%"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "return",
+                        "start": 16,
+                        "value": "7.5%"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你不是说7.3%固定收益+返券=7.5%的年化收益吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "1元起"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "说的是1元起投那种返券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我买的尊理财怎么还没有看到起息？还在申请中？还有你说的返券也没有到账"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "t+1"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "88元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "因为有张88元t+1的券，我今天想先用"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个月没专享券了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个月怎么没有专享劵了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这活动我能参加么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，我的积分月底到期如何解决？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我有足够积分兑换吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我查不到我的积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个是还剩下的积分吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "刚换了一个充电宝，用了16200积分，我都不知道有多少积分可以用的，直接点兑换了??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我的投资券无法激活"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "500"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "有个500的投资券想用掉的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "忘用优惠券了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我就想问问我的券啥时候给"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "今天15号了，补偿的券能到吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "要再不给券，我就投诉并清仓了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "最近怎么没投资券啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "优惠卷不能用"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "一直没有收到过什么补偿券啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中硅"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "中硅退款包括手续费和投资款，你所说的收益补偿未到账啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "千一是返现还是返券？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返的是基金份额？没看懂"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "pe"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "听说买pe,业务员给客户返点，100万能返多少？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "近期咱家的券少了，能多送点券吗??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "安增益"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问安增益参加能量活动吗？看着好像活期多似的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "好的感谢你投资券到账了你通知我下哈"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "前面说的投资券还没补发给我，帮我催下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "总资产提升，立得鼓励金：这个活动的鼓励金是怎么计算的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "麻烦问一下，咱们项目的返券什么时候可以呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "刚发现，为何我没有五月会员福利卡（就是以前的专享券）？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财70a984"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "买的那个尊理财70a984怎么还没有返券？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你说我有消费券还是什么券？除了投资券没找到还有其他的券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我可不可以参加增资赠券活动？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我竞猜猜中了5月21号美股，可是为何积分还没有到呢？非常感谢！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "今天鼓励金怎么没有翻倍了呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我5.22参加的陆能量的活动，怎么还没有收到奖励啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "10万"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 7,
+                        "value": "200"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "为什么10万用200券，投资失败，但是券没有了??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "10申购陆金宝是因为资金没到绑定卡??但是200券给浪费了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资失败显示已经使用的券还能返回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问单用券和叠加券到底有什么区别？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "尊理财已经成立，返劵什么时候能到账？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "野兽派那个活动，可以帮我报名进去吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "有优惠券吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "1400"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我想咨询我优惠券里有1400的优惠券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我成了黑金怎么优惠"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那个抵扣券不会不把我吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我另一个账号安e降杠杆投资券一直没有到，能帮我查一下吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "预约有礼是什么礼呀"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "有投资券送吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "一千元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我记得首次完成私募合格投资者认证，有一千元的投资券奖励。我现在要做认证，你能帮我搞到吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那现在什么活动都没有了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "稳安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次你电话里说的用于稳安e的投资券最近没有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "折后是什么意思"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个有优惠吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "可以优惠多少呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "在1.6%基础上你还可以打8折？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "拉霸赢积分怎么没了?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问那个一百万的项目说了0.4%的返券，不知道什么时候返，谢谢！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返现券大概什么时候能到账？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我看投资券已经到账，应该怎么操作"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "最近有什么活动吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "当时说明中返0.4%的，何时返？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "没有，有过期的4多积分，以前查看过没有什么可以兑换的啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "4万元"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "稳赢安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "有没有4万元稳赢安e的投资卷？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "2万元"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "稳赢安e"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "有没有2万元稳赢安e的投资卷，发了很多投资卷都没用"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我收到一个投资券，但使用时无法勾选已阅读栏，导致无法投资，怎么回事？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个月怎么不送券了，越来越小气了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "嗨，我的积分是在哪里查呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "今天看到这个活动，我是不是符合资格的？??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这张券只要购买就可以了是吧，没看到金额的限制嘛"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "今天是最后一天应该券会到了吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "陆金所账号直接登录也能赠送投资卷吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "一万元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": ".你说我有一万元券，明天还可以买吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为什么我18号参加活动兑换的话费券，去兑换页面兑换时候显示过期不可兑换?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "陆金所送的优酷的电子券怎么用哦？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "4274元"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 11,
+                        "value": "中能硅业"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "4274元的投资券是否中能硅业的利息哦?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我申请的那笔可以抵扣吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为什么我的账户没有活期券啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "我购买尊理财，能给些抵用券吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "能派发投资券吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "前些天你还是谁专门打电话给我，说赠送陆金币的，怎么现在还没收到？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "中抢100积分显示已领取，可积分明细中并未显示+100积分，为什么啊？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "帮我争取一些投资券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "慧盈-安+"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "争取一些慧盈-安+项目的投资券"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "帮我争取慧盈的投资券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "给我打个电话，积分兑换话费如何使用"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "5元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "请问5元话费积分兑换怎么用？我就收到一条短信"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "把我陆国际的优惠券激活一下"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我之前看有5张券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "陆金所夏日狂欢，理财盛宴两个活动，都没法报名参加。太难看了。越是vip越不能参加。强烈不满！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "赚积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好，在吗？送的投资券，一直无法使用是怎么回事啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "说给券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个活动限参加还是只要能看到该推荐广告的都能参与？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "vip特权季，每月保持资产，享300券，是每个帐户都有吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "5元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "5元话费卷怎么用？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "5月2日确认的这款产品本来说好有返券的怎么到现在还没进账"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "还是不能用券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "帮忙看看那张千分之四的返券为什么还没到"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "您好！我领了滴滴快车优惠券去哪才能用到？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "40元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "滴滴专车40元券的电子券码为e89ce37f795235。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "但是我今天查滴滴出行没有这张优惠券，不知什么原因？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "昨晚领取的滴滴优惠券在我的微信滴滴出行没有"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "想问下陆金所的话费充值电子券码如何使用？谢谢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个月的vip奖励怎么还没有发放？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "代金券也少了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "最近代金券少了？哪里有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "88"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "每天三次抽88红包，今天还有吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "活动时间到21号，问问今天还有没有？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "amount",
+                        "start": 21,
+                        "value": "800"
+                    },
+                    {
+                        "end": 28,
+                        "entity": "amount",
+                        "start": 25,
+                        "value": "450"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上次你说的我有优惠券的在金管家要投资多少的800和450的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我这个月怎么不送权益卡了啊？另一个号有"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "参加这个活动的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "现在好像也没有投资券兑换了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我用积分换了这个礼品。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我兑换了星巴克的消费券，不小心把短信删除啦"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "可以用投资券吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "贾经理好，如果购入尊理财有投资券返还没?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "amount",
+                        "start": 18,
+                        "value": "200"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "为啥我朋友都有会员券有京东卡话费什么200"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "已上传身份证，怎么不能领取积分？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "100"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "那个券是不是上次买的100退回的补贴啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为啥投资券用不了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "慧盈"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "显示可以用在慧盈但是付款时不会抵扣？？？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "希望补发推荐奖励卷"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我有52块钱的券是什么活动得来的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "返券什么时候？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个损失其实也蛮大的，以前都有投资券还有返现，还可以弥补下，现在都没有了"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "该电子券码如何用？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为什么邀请人奖励还没有？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "生日月专享福利在哪里领?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "1积分福利不告诉我一声，没有了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "把投资券用了，谢谢提醒哈??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "网贷"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "有没有网贷的投资券可以领?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "一般什么时候会发放一些券?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问怎样操作用上劵"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "是积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "才1万多积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我的积分有问题"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "才1万积分吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我的积分帮我问了吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "为什么积分这么少，很多年没变过"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这么多年积分没增加过"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我的铂金礼怎么没有呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "这个这个也和上次一样有返点？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我抽中204个积分"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "点过了，就是积分，没别的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我的积分太少，啥都换不到"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我就800多积分，????"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "那个补贴卷咋用？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "每日领现金的活动怎么没有了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "一百万"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 9,
+                        "value": "一千"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "是不是投资一百万有一千京东卡"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问优惠券啥时候发放？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "amount",
+                        "start": 13,
+                        "value": "300"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "问下那个vip特权季活动送300券\\n"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "通过了，那个母亲节专享券在哪儿呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "1000元"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "投入1000元陆金宝t+1也没抵扣这张卷??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "之前不是都有返投资券，现在怎么没有"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "400元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "晋升铂金vip，获赠400元京东e卡活动，为何一直未到账？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "投资券没用啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "张经理，你原来说买尊理财产品有积分赠送，还有那0.2%的投资券，为何都不见踪影？??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "张经理，尊理财的投资券应该到账了吧？已经有七个工作日啦！??"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "你好象说积分是第二天到位，但至今没有看到，希望投资券你所不要食言哦！"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "我已连续签到20天，为什么没有积分奖励？找谁能解决？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "lu能量的活动为什么不能参加"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "amount",
+                        "start": 0,
+                        "value": "100w"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 4,
+                        "value": "0.4%"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "100w0.4%返现什么时候发"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "通过陆钱宝购买基金，费率有优惠吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "163万"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "return",
+                        "start": 15,
+                        "value": "7.3%"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "return",
+                        "start": 20,
+                        "value": "0.2%"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "你看这张券是我上次投163万（7.3%返0.2%现金券）返的券吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "十万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "最近还有十万要买，帮我搞点优惠卷"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "请问我前几天参与了劳动“财”光荣，注册恒泰证券送25000积分，为什么没有送积分呢？活动在4月30号就结束了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "amount",
+                        "start": 32,
+                        "value": "5万"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "上个月通过一个陆金所活动的链接，邀请了一位朋友注册陆金所，理财了5万，我哪天能拿到陆金所邀请奖励？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "这次一年的有没有券"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "抵用券是资金实际起息开始返还吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_coupon",
+                "text": "券是还要投才会反吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 4,
+                        "value": "1元"
+                    }
+                ],
+                "intent": "invest_coupon",
+                "text": "是投活期1元也会反现金吗……"
+            }
+        ]
+    }
+}

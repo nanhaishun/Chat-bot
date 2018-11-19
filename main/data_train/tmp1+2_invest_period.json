@@ -1,0 +1,2893 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "定期理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为什么我的定期理财到期了，它还是在封闭期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安大华"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "period",
+                        "start": 15,
+                        "value": "一个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "平安大华那只基金封闭期原来说是一个月，现在过了一个为什么还封闭"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "t+0"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "amount",
+                        "start": 15,
+                        "value": "20万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "转到陆金所t+0，要转出的话超20万就是下个交易日才到账"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "19万"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "安增益"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "买了19万的安增益，因为是周期型的，到期么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "预估赎回日是那天可以赎回的日期是吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "441天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "锁定期441天是吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "周期多久您知道吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "return",
+                        "start": 6,
+                        "value": "7.4"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我看到有一个7.4的上架了，相关协议上没有说明多少天呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "私募基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我的私募基金是否可以赎回了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "重阳一号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "重阳一号，今天可以赎回吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "相当于这笔钱要5年后才能出来"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中金项目"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "股票型基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "中金项目那种股票型基金有期限吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "随时可赎回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "上次买的基金我忘记了是多长时间的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我24号申请赎回的基金，本来说26号到账，现在还没有赎回。咋回事？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "爱理财5号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "麻烦问下爱理财5号投资后随时可以赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "period",
+                        "start": 13,
+                        "value": "3年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "它也属于基金，你昨天说封闭3年，对吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "有短一点期限的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我的那基金怎么还是封闭期呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "请问我申请赎回被冻结了怎么回事？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "你介绍的那款我没看到封闭期多长时间？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "005754"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为什么我买的005754一直显示状态是在申请中？它的封闭期多久？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "827天"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "两年半"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "挂网827天，两年半？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "740天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "期限是740天"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "五年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "期限是3+2五年吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这没期限的吧"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "收益日是到24号，现在怎么是封闭期"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "不是24号到期吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "今天怎么还是封闭期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "807天"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 31,
+                        "entity": "period",
+                        "start": 28,
+                        "value": "一年期"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "period",
+                        "start": 20,
+                        "value": "807天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我申购了807天的尊理财。是不是最长期限807天，其实是一年期的，明年这个时候还款？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "要锁定多久"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "现金羸"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝，现金羸？有锁定期吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "问一下，应该五月二日到期的产品现在还处于封闭期，是这款产品出现问题了吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "为什么不能赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "2万"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "增赢保"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "活期t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我昨天赎回2万增赢保，是活期t+1的产品，怎么到今天还没有赎回呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "3个月可赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "不能赎回么？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "为什么不全额赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "红利优享计划"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "曾经购买的红利优享计划如何赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "如果知道何时可以赎回请告知我一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我的陆钱宝怎么赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "期限是几年？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "70a755号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我想问一下，我的那笔定期投资70a755号，可以赎回或转让吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "半年"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "9个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "时间半年或9个月的呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "看下我的理财是不是到期了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "中能硅业"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为何中能硅业赎回了?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "6个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "6个月以后也是每天可以卖？还是每个月月底"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "那我的尊理财是提前到期吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "那我的是要到11月到期的，应该也会提前了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "不能取现赎回？？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "五年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这是五年的项目？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "两年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "两年后就可以退出了？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "005756"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你上次推荐的005756我先少买了点，不知道封闭期多长时间？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你好，为什么我的智理财产品申请赎回失败呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "智理财e62083号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "预约赎回的智理财e62083号未能成功受理，在下个开放期操作赎回。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "return",
+                        "start": 6,
+                        "value": "5.7"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你之前跟我说5.7能赎回，怎么今天还不能赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我投的那个基金什么时间可以赎回的呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "30天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "存单宝是不是30天后可随取不用手续费？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "中海货币基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "那个中海货币基金，可随时赎么"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "它有赎回期限么？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "智理财ba6337"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我想问一下我投资的智理财ba6337产品(5月15日到期)怎样赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "今天那个是多少天？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "如何赎回呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "现在显示可赎回是100万份"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "但是没有办法赎回啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我看看能不能赎回哈"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "说可以赎回?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "也是5年啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "鑫理财"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "7天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "鑫理财每7天开放一次赎回如果有产品会来不及赎回买吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "灵活赎回的是随时可以收回所有的么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为什么我智理财到期了还没有赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "投资多长时间？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "合赢一号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "合赢一号何时可以赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我还不能随意赎回是吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "730天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "赎回要持有730天才免赎回费？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "灵活赎回是不是天天能赎"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝现金赢灵活赎回能买吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "赎回了基金产生了赎回费用"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "请问这种智理财，如何赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "period",
+                        "start": 14,
+                        "value": "60天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "一直是封闭期，无法申请赎回，60天到期后，就自动续约，好奇怪。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这样都正确吗？到期会自动赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "月月增利8号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "月月增利8号什么时候赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "怎么样赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "因诺基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我买的因诺基金怎么赎回一部分？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 10,
+                        "value": "陆金宝t+0"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我20号下午1点转到陆金宝t+0的活期款请问什么时候可以解冻赎回啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 1,
+                        "value": "28天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "每28天赎回是什么概念"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安宝-聚金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "平安宝-聚金不是t+1吗？为什么过了一整天都不能赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "陆钱宝是随时赎回吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 8,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "period",
+                        "start": 12,
+                        "value": "一年以上"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "那你看如果发行的尊理财是一年以上的就打电话给我"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "定期项目"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "最近的定期项目时间很都长吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "488天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "抢了个488天的，觉得时间有点长了，这个会提前结束吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "艾汇金害"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "艾汇金害没退出呢啥时候到期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    },
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "国金是5年的吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "5年投资期吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我明天赎回还是后天赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个多少天的？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安宝金色人生"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "平安宝金色人生赎回要多久呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "艾汇金1号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "艾汇金1号何时到期？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "艾汇金1号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "艾汇金1号什么时候到期？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个是可以随时赎回的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "金色人生"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "金色人生的收益是不是可以随时提取？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "为什么还在锁定期"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚股权"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "南孚股权那个几年退出"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "基金到期了可以随时赎回吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "2年"
+                    },
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "国金2十2十1？不是2年？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "半年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "约了个半年的??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 1,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "?一年不是好些吗，赎回，起息都快"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "节节高"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "跃跃升"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 13,
+                        "value": "t+0"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "节节高、跃跃升的赎回时间是t+0吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "84天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个要84天的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "是可以灵活赎回的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "一个月一赎回，对吧？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个赎回期是指什么时候？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "刚申购了，现在就能赎回吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个多长期限"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "刚刚看了一下这个产品是债劵性基金，有3个月的封闭期呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "amount",
+                        "start": 26,
+                        "value": "50万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "不是，因为银行也是一个零活性的理财，所以每天最多赎回50万"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "确定是一年就可以赎回的对吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "因诺私募基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "本人投资的因诺私募基金什么时候到期啊？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "827天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "可是明明写了827天??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你确定是一年？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "3-6个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "是的，3-6个月的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "怎么还是封闭期呢？我12号要用钱的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "你说随时可以赎回来的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "富盈t+45"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "富盈t+45的产品，是不是满45天后随时可赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "三个月"
+                    },
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "半年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "三个月或着放半年呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "6个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "实际封闭期是6个月左右吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "艾汇金"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "period",
+                        "start": 20,
+                        "value": "18个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我之前买的那个艾汇金的私募产品，之前说是18个月，应该已经到了，但为啥还没有提醒赎回呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "私募产品"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "昨天让您帮我查一下我那个私募产品是否到期的问题？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "确认一两天就赎回了"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "847天"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "半年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "现在这个847天的会半年就赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "t+0"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 5,
+                        "value": "20万元"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "t+0超过20万元一次性赎回也是多一个工作日吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "陆钱宝t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "陆钱宝t+1也好赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "陆钱宝t+1优选"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "买上陆钱宝t+1优选，想赎回几天能到账？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "amount",
+                        "start": 10,
+                        "value": "1万"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "陆金宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "今天五点左右用券买的1万陆金宝什么时候可以赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝是没有封闭期随时可以赎回吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "现金赢是当天赎回当天到吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个基金要封闭多长时间"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝-现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝-现金赢赎回是t+1到帐吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "存单宝"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "period",
+                        "start": 14,
+                        "value": "30天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "存单宝的规则就是要把资金放满30天，之后随时都可以掉走，对吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "把资金赎回的手续麻烦不？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我已撤消赎回，不知要多少时间再能操作赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "陆钱宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我已买了陆钱宝但没法赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为什么我的现金赢还没赎回呢"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我买的基金期限多长来着？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "也就是说到7月份才能赎回，是吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 5,
+                        "value": "7.4"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "刚才你说的7.4的多少天"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "amount",
+                        "start": 3,
+                        "value": "五十万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我这个五十万怎么今天不好赎回呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "什么时候开放赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "1年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "已经买了，期限实际是1年，对吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "1年"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "827天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "实际年限是1年还是827天"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这笔还在封闭期，麻烦查一下"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "新出的尊理财一般期限几天"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "400天左右"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "还是400天左右的吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "过了封闭期呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年期"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "一年期没??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "800多天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "还是800多天的嘛"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "amount",
+                        "start": 2,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我那一百万什么时候可以赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "乐享智投"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我想问下乐享智投可以提前赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "return",
+                        "start": 2,
+                        "value": "7.3"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "六个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个7.3的实际是六个月？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "16个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这是16个月？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "需要投资多长时间？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "31天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我看31天就可以赎回了呀"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "陆钱宝t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你好陆钱宝t+1是可以随时赎回的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "爱理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "爱理财期限是多久没看出来"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "怎么还在封闭期？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "大华"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "大华可以赎回和购买了？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "可以按月赎回吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "return",
+                        "start": 5,
+                        "value": "7.4"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "period",
+                        "start": 13,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我买了那个7.4的，确定是一年期的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "一百万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我想问一下我一百万的理财什么时候可以赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "巴菲特基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我的巴菲特基金赎回为什么失败？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "平安短债基金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "上次你推荐的平安短债基金，怎么赎回啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "何时可以赎回?能查下吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "要随时能赎回的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "3+2"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "也是3+2的年限吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我想知道什么时间才可以赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "大概几号到期"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我什么时候能赎回啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "那我不用申请赎回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "那什么时候申请赎回啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我有一个产品今天到期我想赎回的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 6,
+                        "value": "南方日添益"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "基金赎回到了南方日添益，明早可以秒到赎回对吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "但没说封闭期多长时间"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这笔尊理财申请已经1o天多了，什么时候能获批准成立进入封闭期呀？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "etf"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "对了那个etf封闭期何时结束啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝–现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝–现金赢，赎回几个工作日到银行卡呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "31天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "只有31天？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "赎回有何规定"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "国金"
+                    },
+                    {
+                        "end": 29,
+                        "entity": "period",
+                        "start": 27,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "国金产品，分配时间是每个投资项目结束就分配，还是统一到5年结束分配？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "网货"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我有一笔网货，要怎么赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "今天这个可以随时赎回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这种股票时间长是多少?"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "买的理财在备案申请期间能赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "智理财ba6334"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我有一单智理财ba6334在5月8号到期了，怎么现在还是封闭期呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "3+2"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "投资期限3+2啥意思"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个产品是多长时间呢，有没详细资料?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "71号"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "81号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "71号81号上面是分别标的是多少天呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "基金多少天"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "多久可以赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "是封闭了吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "私募重阳"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "私募重阳建议持多久"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "半年的"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "都是半年的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "36个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "36个月??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "平安宝"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "平安宝不是灵活赎回的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "也就是要持有5年才能退出?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "859214号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "859214号这个产品怎么还在封闭期"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "可以随时提吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "财富汇"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "period",
+                        "start": 13,
+                        "value": "125天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我的到期财富汇投资期应该是125天吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "3个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "时间显示的就是3个月吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "426天"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "period",
+                        "start": 11,
+                        "value": "三个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "那我选426天的实际是三个月对吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "时间期限呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "智理财e62063"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我购买的智理财e62063到期为什么没有赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "200天"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "period",
+                        "start": 10,
+                        "value": "600多天"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "period",
+                        "start": 17,
+                        "value": "700多天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "哪有200天啊，都是600多天了，700多天了。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "period",
+                        "start": 9,
+                        "value": "两百天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我记得你跟我说的是两百天。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 1,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "得5年吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "547天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "是啊！547天的。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "增赢宝现金赢"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "增赢宝现金赢可以随时赎回吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "为什么5月2日到期，现在还封闭着？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "聚金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "聚金是t+1起息和赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "跃跃升一号"
+                    },
+                    {
+                        "end": 11,
+                        "entity": "amount",
+                        "start": 8,
+                        "value": "98万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我赎回跃跃升一号98万多，怎么快一周了还没有到帐啊"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "product",
+                        "start": 12,
+                        "value": "陆t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "那我怎么知道什么时候赎回陆t+1?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "product",
+                        "start": 9,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "看了下5月2日到期尊理财状况，为啥显示0状况？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个今天到期能赎回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "今天自己赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "amount",
+                        "start": 6,
+                        "value": "100万"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "请问我九月的100万的产品有提前到期的吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "麻烦帮我确定一下赎回时间吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "尊理财期限是封闭的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我有期理财15号到期，现在看怎么还在封闭期不能赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "一年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "一年的吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "大华沪深"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我的大华沪深可以赎回了吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "国金鼎泰一号"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "period",
+                        "start": 18,
+                        "value": "2+2+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我看了一下国金鼎泰一号，投资期仍然是2+2+1。"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "不赎回就自动续到下一期是吗"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "是多少天的产品呢"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "31天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "另外是每隔31天后任意一天可以提取吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "6个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "实际也是6个月回款吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "智理财如何赎回，"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这只在认购期啊还要有一段时间封闭期？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "3+2年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "怎么是3+2年？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "合盈一号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "合盈一号下次什么时候可以赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "我不是新购买客户帮忙确认下是不是今年9月赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 36,
+                        "entity": "period",
+                        "start": 32,
+                        "value": "208天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "项目收款期2017\\/10\\/13～2018\\/5\\/8，应该是208天。"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "平安保聚金"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个平安保聚金也是随时可以赎回吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这次上的产品期限？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "3年"
+                    },
+                    {
+                        "end": 4,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "南孚电池"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "南孚电池是不是3年不能赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "增赢宝现金赢"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "product",
+                        "start": 14,
+                        "value": "t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "请问增赢宝现金赢的赎回时间是t+1么"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "847天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "也是847天吗？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "投资期多久"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 5,
+                        "value": "艾汇金1号"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "请问一下，艾汇金1号好久时间可以赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "大华短债e"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "大华短债e什么时候能赎回"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "看到了，起息t+1，赎回呢？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "平安大华短债"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "请问平安大华短债认购结束后封闭期有多长？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "amount",
+                        "start": 11,
+                        "value": "371天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "为何将该项目期限变更为371天？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "尊理财"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这期的尊理财是多少期限的"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "要多久啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个产品实际是几年呢？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "啥时候赎回?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "31天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "31天一个周期赎回"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "太长"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "还有就是期限太长也受不了*^_^*"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "50天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "50天后可以部分赎回？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "六个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个算是六个月到期吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "product",
+                        "start": 3,
+                        "value": "陆金宝t+1"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "可以投陆金宝t+1，我可以投了之后第二天赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 4,
+                        "value": "陆金宝t+0"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "我想赎回陆金宝t+0，但显示资金冻结，请问何时能赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这款产品是多长时间的"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "period",
+                        "start": 0,
+                        "value": "七天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "七天赎回的？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "那有锁定期有说法吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "短债"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "短债投资期限？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "随时可赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "还有一般基金购买后，多久可以赎回??"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "中柜"
+                    },
+                    {
+                        "end": 7,
+                        "entity": "period",
+                        "start": 5,
+                        "value": "5年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "中柜要持有5年啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "多长周期?"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "天添盈"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个天添盈好像是灵活赎回？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "这个有封闭期吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "四年"
+                    },
+                    {
+                        "end": 5,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "三年起"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "就是三年起可能四年对吧？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "product",
+                        "start": 2,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 9,
+                        "entity": "period",
+                        "start": 6,
+                        "value": "这么长"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "这个尊理财要这么长时间啊"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "属于活期灵活赎回的吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "节节高"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "节节高是7天锁定期？7个工作日？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "时间多长？"
+            },
+            {
+                "entities": [],
+                "intent": "invest_period",
+                "text": "每月想赎回都可以是吗"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 4,
+                        "value": "两年"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "确定只有两年投资期吧"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "product",
+                        "start": 0,
+                        "value": "智理财"
+                    },
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 3,
+                        "value": "29天"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "智理财29天可以赎回吗？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "period",
+                        "start": 7,
+                        "value": "9个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你的意思是期限9个月左右？"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "period",
+                        "start": 2,
+                        "value": "488天"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "product",
+                        "start": 7,
+                        "value": "尊理财"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "period",
+                        "start": 11,
+                        "value": "9个月"
+                    }
+                ],
+                "intent": "invest_period",
+                "text": "你说488天的尊理财是9个月的?"
+            }
+        ]
+    }
+}
