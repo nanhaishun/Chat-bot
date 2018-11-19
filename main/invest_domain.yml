@@ -1,0 +1,68 @@
+slots:
+  amount:
+    type: text
+
+  period:
+    type: text
+
+  return:
+    type: text
+  
+  product:
+    type: text
+
+  last_product_information:
+    type: unfeaturized
+
+  last_product_intent:
+    type: unfeaturized
+
+  last_product_name:
+    type: unfeaturized
+
+intents:
+- invest_scope
+- invest_return
+- invest_manager
+- invest_risk
+- invest_period
+- invest_amount
+- invest_time
+- invest_coupon
+- operation
+- others
+- rec_products
+- product_names
+- statements
+
+
+entities:
+  - amount
+  - period
+  - return
+  - product
+
+
+templates:
+  utter_rec_products:
+    - "请咨询人工客服，我这里可以查询产品信息。"
+  utter_statements:
+    - 感谢您对陆金所的支持，还有什么可以帮您的？
+    - 我是小陆，有什么可以为您效劳的？
+    - 我们一直在努力，还有什么需要咨询的？  
+  utter_default:
+    - "换个说法，您能再说一遍吗?"
+    - "我不理解你，请换个说法"
+    - "您说什么，我不懂"    
+
+
+actions:
+  - utter_statements
+  - utter_rec_products
+  - utter_default
+  - bot.ActionSearchProduct
+  - bot.ActionTuling
+  - bot.ActionCleanSlot
+  - bot.ActionXiaoan
+
+
