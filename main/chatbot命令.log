@@ -1,0 +1,77 @@
+### Install dependency
+install or update to python 3
+install chinese version of rasa nlu
+
+### Install rasa NLU
+$pip install rasa_nlu 或者 copy rasa_nlu_chi下的rasa_nlu目录到_rasa_chatbot下
+
+git clone https://github.com/crownpku/Rasa_NLU_Chi.git
+cd rasa_nlu_chi
+pip install -r requirements.txt
+python setup.py install
+
+### Install sklearn and MITIE
+
+pip install -U scikit-learn sklearn-crfsuite
+pip install git+https://github.com/mit-nlp/MITIE.git
+
+### Install rasa NLG
+
+$git clone https://github.com/RasaHQ/rasa_core.git
+$cd rasa_core
+$pip install -r requirements.txt
+$pip install -e .
+
+$python -c "import rasa_nlu; print(rasa_nlu.__version__);"
+$python -c "import rasa_core; print(rasa_core.__version__);"
+
+### Train/Run rasa NLU
+python -m rasa_nlu.train -t 4 -c invest_nlu_model_config.yml --data data_train --path models --project vip --fixed_model_name demo --verbose
+
+CUDA_VISIBLE_DEVICES=0 python bot.py train-nlu
+
+python -m rasa_nlu.server --num_threads 4 -c invest_nlu_model_config.yml --path models
+python -m rasa_nlu.run  -m  models/vip/demo
+
+curl -XPOST localhost:5000/parse -d '{"q":"操作"}' | jq
+python -m rasa_nlu.evaluate --data data/tmp1+2_test.json -m models/vip/demo
+
+### Train/Run rasa core
+python -m rasa_core.train -d invest_domain.yml -s data/invest_story.md -o models/dialogue --epochs 300 --verbose
+
+python -m rasa_core.server_new -d models/dialogue -u models/vip/demo --verbose
+python -m rasa_core.run -d models/dialogue -u models/vip/demo --verbose --debug
+
+curl -XPOST localhost:5005/conversations/default/parse -d '{"query":"操作"}'|jq
+curl -XPOST http://localhost:5005/conversations/default/continue -d '{"executed_action": "utter_operation", "events": []}'|jq
+curl -XPOST localhost:5005/conversations/default/respond -d '{"query":"操作"}' | jq
+curl http://localhost:5005/conversations/default/tracker |jq
+
+
+curl -XPOST localhost:50005/dlg-app/service/chat/v1/im -d '{"partyNo":"111", "question":"操作","channel":"APP","appVersion":"3.7.3.1","msgId":"EDEDE12345678"}'| jq
+
+curl -XPOST 172.23.16.10:58914/dlg-svc/service/data/v1/xiaoan -d "userId=sdswed2322&question=爱理财收益"
+
+
+python -m rasa_core.visualize -d invest_domain.yml -s data/invest_story.md -o graph.png
+
+
+### Slack
+workspace_url:fangningworkspace
+user name:fangnster@gmail.com
+password:open2000
+https://api.slack.com/
+./ngrok http 5004
+
+### Install nodejs
+安装nodejs
+
+npm i -g rasa-nlu-trainer
+
+data/rasa-nlu-trainer
+
+
+### request dlg-svc
+curl -XPOST 172.23.16.24:80/dlg-svc/service/data/v1/search -d "keywords=智理财&pageIndex=1&pageSize=10" |jq
+curl -XPOST 172.23.16.24:80/dlg-svc/service/data/v1/product -d "id=14201917" |jq
+curl -XPOST 172.23.16.24:80/dlg-svc/service/data/v1/xiaoan -d "userId=sdswed2322&question=爱理财收益"|jq
