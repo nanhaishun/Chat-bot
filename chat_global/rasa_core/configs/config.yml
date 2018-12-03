@@ -1,0 +1,20 @@
+MYSQL_CONF:
+  - host: rec01p.lufax.storage
+    port: 3307
+    database: dlgmydata
+    user: dlgmyopr
+    password: okm6ij5n
+
+
+REDIS_CONF:
+  - host: cache03.lufax.storage
+    host2: cache04.lufax.storage
+    port: 6602
+    database: xdata-cache
+    password: redis1
+
+
+API_CONF:
+  - host_search: dlg-data.lufax.app
+    host_product: dlg-data.lufax.app
+    host_qq: dlg.lufax.gw

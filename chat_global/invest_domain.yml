@@ -1,0 +1,102 @@
+slots:
+  amount:
+    type: text
+
+  period:
+    type: text
+
+  return:
+    type: text
+  
+  product:
+    type: text
+
+  # choice_product:
+  #   type: categorical
+  #   values:
+  #   - "智理财"            
+  #   - "鑫理财"
+  #   - "保险定期"
+  #   - "银行存款"
+  #   - "P2P"
+  #   - "尊理财"
+  #   - "私理财"
+  #   - "信理财"
+  #   - "非货币公募基金"
+  #   - "爱理财6号"
+  #   - "信托"
+  #   - "私募"
+
+  # choice_amount:
+  #   type: categorical
+  #   values:
+  #   - "小于一百万"
+  #   - "大于等于一百万"
+
+  # choice_risk:
+  #   type: categorical
+  #   values:
+  #   - "高"
+  #   - "低"
+
+  choice_product:
+    type: unfeaturized
+
+  choice_amount:
+    type: unfeaturized
+
+  choice_risk:
+    type: unfeaturized
+
+  last_product_information:
+    type: unfeaturized
+
+  last_product_intent:
+    type: unfeaturized
+
+  last_product_name:
+    type: unfeaturized
+
+intents:
+- invest_scope
+- invest_return
+- invest_manager
+- invest_risk
+- invest_period
+- invest_amount
+- invest_time
+- invest_coupon
+- operation
+- others
+- rec_products
+- product_names
+- statements
+- person
+
+entities:
+  - amount
+  - period
+  - return
+  - product
+
+
+templates:
+  utter_statements:
+    - "['我是您的专属客户经理助理，可以为您查询产品信息，挑选产品，解答流程问题。请问有什么可以为您效劳的呢？']"
+  utter_default:
+    - "['换个说法，您能再说一遍吗？']"
+    - "['我不理解你，请换个说法']"
+    - "['您说什么，我不懂']"
+
+
+actions:
+  - utter_statements
+  - utter_default
+  - bot.ActionToPerson
+  - bot.ActionSearchProduct
+  - bot.ActionTuling
+  - bot.ActionCleanSlot
+  - bot.ActionXiaoan
+  - bot.ActionRecProduct
+
+

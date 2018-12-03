@@ -1,0 +1,11 @@
+
+python -m rasa_nlu.train  -t 4 -c invest_nlu_model_config.yml --data data/tmp1+2_train.json -o models --project vip --fixed_model_name demo 
+
+python -m rasa_nlu.server -c invest_nlu_model_config.yml --path models --endpoints endpoints.yml
+
+python -m rasa_core.train -d invest_domain.yml -s data/invest_story.md -o models/dialogue --epochs 300
+
+python -m rasa_core_sdk.endpoint --actions bot &
+python -m rasa_core.run --enable_api -d models/dialogue -u vip/demo -o out.log --endpoints endpoints.yml
+
+curl -XPOST localhost:5005/conversations/default/respond -d '{"query":"Hello there! Wanna do anything?"}' | python -mjson.tool

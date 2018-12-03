@@ -1,0 +1,20 @@
+MYSQL_CONF:
+  - host: 172.19.78.67
+    port: 3306
+    database: dlgmydata
+    user: qa
+    password: qa
+
+
+REDIS_CONF:
+  - host: 172.23.16.29
+    host2: 172.22.64.166
+    port: 6601
+    database: xdata-cache
+    password: redis1
+
+
+API_CONF:
+  - host_search: 172.22.64.67
+    host_product: 172.22.64.67
+    host_qq: 172.22.64.67

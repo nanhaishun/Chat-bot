@@ -1,0 +1,4140 @@
+{
+    "intent_errors": [
+        {
+            "text": "我看到了，感觉收益都很低。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8309532403945923
+            }
+        },
+        {
+            "text": "现在没什么好投资吗？利率太低了??",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6391140818595886
+            }
+        },
+        {
+            "text": "现在陆家的产品和银行理财利率差不多也没什么优势了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8584601283073425
+            }
+        },
+        {
+            "text": "私募都不是固定收益",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9325076341629028
+            }
+        },
+        {
+            "text": "重阳拿1-2个月呗？扣除申购赎回费用，估计收益率？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9687920808792114
+            }
+        },
+        {
+            "text": "近一年涨16.58%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8984025716781616
+            }
+        },
+        {
+            "text": "都买了7.4的了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.5067899823188782
+            }
+        },
+        {
+            "text": "固定4.7的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8644819259643555
+            }
+        },
+        {
+            "text": "存单宝的收益不固定？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7561942934989929
+            }
+        },
+        {
+            "text": "昨天是7.7的。7.47太低了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7779778838157654
+            }
+        },
+        {
+            "text": "这个产品太奇葩，时间怎么长。收益还不算高。继续等吧。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5166402459144592
+            }
+        },
+        {
+            "text": "超过18个月除非收益超高，否则就不用告诉我我了。如果产品好你再给我家人打电话",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7919957041740417
+            }
+        },
+        {
+            "text": "收益虽然低点，资金不会躺着",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.971699059009552
+            }
+        },
+        {
+            "text": "那8%是指年回报吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.5647770762443542
+            }
+        },
+        {
+            "text": "中短期的预期收益大概在什么范围内呀",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7166701555252075
+            }
+        },
+        {
+            "text": "181天的有两种收益率？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.6542753577232361
+            }
+        },
+        {
+            "text": "是保收益的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4414200484752655
+            }
+        },
+        {
+            "text": "1年期的一般都会在7.5左右吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.532956600189209
+            }
+        },
+        {
+            "text": "他是保底8个点吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9918428063392639
+            }
+        },
+        {
+            "text": "这个年化率多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6417012214660645
+            }
+        },
+        {
+            "text": "目前看到的最多也只有四点多，比以前低了很多。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9179086089134216
+            }
+        },
+        {
+            "text": "短期利息比银行还低。那我不如转到银行了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8259387612342834
+            }
+        },
+        {
+            "text": "陆钱宝t+1怎么样？收益高吗？**吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8667445182800293
+            }
+        },
+        {
+            "text": "投了6.8%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.5372488498687744
+            }
+        },
+        {
+            "text": "时间比较长，要扣除不少费用，希望最后的收益能不错",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7740206718444824
+            }
+        },
+        {
+            "text": "直接退出的实到手多少收益，转股退出呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7580063343048096
+            }
+        },
+        {
+            "text": "陆钱宝有一个8.几的，怎么比别的高那么多",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8818631768226624
+            }
+        },
+        {
+            "text": "收益超过8%时，业绩报酬20%的基数是什么?感觉挂网资料描述不清楚。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9249247312545776
+            }
+        },
+        {
+            "text": "你说的预期是指年化吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.4409693479537964
+            }
+        },
+        {
+            "text": "定期的收益稳健点至少5%以上",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6587380170822144
+            }
+        },
+        {
+            "text": "只有6.72把",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8965837955474854
+            }
+        },
+        {
+            "text": "我觉得利息都不是很高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7131365537643433
+            }
+        },
+        {
+            "text": "是智理财。系统通知赎回日期时能否告知下一期的收益率呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9529154896736145
+            }
+        },
+        {
+            "text": "年化7.3的那个",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4481382369995117
+            }
+        },
+        {
+            "text": "买了7.2的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.6502451300621033
+            }
+        },
+        {
+            "text": "t＋30天后免手续费，这个的收益率比陆金宝高吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.797836184501648
+            }
+        },
+        {
+            "text": "约为6左右吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9010541439056396
+            }
+        },
+        {
+            "text": "以前买的高点收益(6以上)找不到了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5714622735977173
+            }
+        },
+        {
+            "text": "5%的那个",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6854190826416016
+            }
+        },
+        {
+            "text": "什么时间回款，另近期有好的尊理财吗。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8854694366455078
+            }
+        },
+        {
+            "text": "你好，我帐上有一百万，想向一下怎样理财收益高且稳定",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7217936515808105
+            }
+        },
+        {
+            "text": "到手收益好像少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6578445434570312
+            }
+        },
+        {
+            "text": "保尊宝的百万理财，7.1%什么时候有",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9726104736328125
+            }
+        },
+        {
+            "text": "你说的31天的富盈宝5．05％吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5335522890090942
+            }
+        },
+        {
+            "text": "那请你帮我算一下10万两个月后转的话扣除服务费能赚多钱",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8408074975013733
+            }
+        },
+        {
+            "text": "信理财没有收益率可参考，直接投，我赎回的时候，参考是什么呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9078561067581177
+            }
+        },
+        {
+            "text": "那边收益率是多少只能绑定一张银行卡？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8225685358047485
+            }
+        },
+        {
+            "text": "增赢宝4点多年化",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.5105154514312744
+            }
+        },
+        {
+            "text": "这个是新基金吧受益如何",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.934779703617096
+            }
+        },
+        {
+            "text": "我们公司也是独角兽还在排队呢??证监会的问题很多的??上市真的是个运气问题了，真上了发行价的限制、锁定期和退出时机都是问题，上不了就是不到6个点的回报了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9805220365524292
+            }
+        },
+        {
+            "text": "我意思是总结算周期拉长了几天，收益率会有点降低。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8269314765930176
+            }
+        },
+        {
+            "text": "现在这几只收益都不算高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6585278511047363
+            }
+        },
+        {
+            "text": "没有稍微高的收益的理财？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9335179924964905
+            }
+        },
+        {
+            "text": "只是感觉最近陆金所没什么好的产品，我们资金不多，也不太想弄股票基金之类的，主要还是稳定点的收益稍高点的比较好",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5971677303314209
+            }
+        },
+        {
+            "text": "还有7.2%的定期吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8672925233840942
+            }
+        },
+        {
+            "text": "还有安益增四号和这个大华，收益大约哪个好？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6530495882034302
+            }
+        },
+        {
+            "text": "好的，谢谢。年化是多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.711586594581604
+            }
+        },
+        {
+            "text": "哪个收益高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.961239218711853
+            }
+        },
+        {
+            "text": "21天的4.5",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9216792583465576
+            }
+        },
+        {
+            "text": "大概5～10万吧，或者有什么办法可以随时取钱，利率还可以的。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8300210237503052
+            }
+        },
+        {
+            "text": "鑫理财都只有4点几，哪来的7？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4584977626800537
+            }
+        },
+        {
+            "text": "一年稳定收益有哇？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8760926127433777
+            }
+        },
+        {
+            "text": "现在短期的理财利率这么低、投资券也少，陆金所咋啦？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7524829506874084
+            }
+        },
+        {
+            "text": "国金的项目出去费用，收益有12%吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.5335652232170105
+            }
+        },
+        {
+            "text": "再有收益高的提醒我，最近工作太忙，没时间盯着",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8162004947662354
+            }
+        },
+        {
+            "text": "我看了下现在你们也没啥好的产品，收益也不是很高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.799176037311554
+            }
+        },
+        {
+            "text": "5%多点的年化率，和银行没什么区别啊?",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8146502375602722
+            }
+        },
+        {
+            "text": "产品收益低现在还发行的这么少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7750399708747864
+            }
+        },
+        {
+            "text": "介绍下360，有多少利润",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.9760293960571289
+            }
+        },
+        {
+            "text": "收益率是浮动的？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.543829619884491
+            }
+        },
+        {
+            "text": "是啊那个利息高点",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7148709297180176
+            }
+        },
+        {
+            "text": "去年随便一个产品收益率至少15%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7228015661239624
+            }
+        },
+        {
+            "text": "但是扣掉服务费，也就7.5，太低了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9071266651153564
+            }
+        },
+        {
+            "text": "你好，有哪些高点收益**点的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8832231760025024
+            }
+        },
+        {
+            "text": "你好，想问一下，之前说的pe投资，像中国风头的，扣除申请费和管理费，固定最低回报率大约多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9153700470924377
+            }
+        },
+        {
+            "text": "中硅退款的补偿：1、公司决定根据您的投资本金确认认购成功后的占用天数提供年化8%的关怀金；2、在此基础上，为了感谢您选择陆基金进行投资理财，我们为您提供投资明星股权项目——国金并购的机会，并且根据您投资此项目金额的0.1%提供关怀金",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9855391383171082
+            }
+        },
+        {
+            "text": "希望预期收益高一些",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7447828054428101
+            }
+        },
+        {
+            "text": "没看到7.2的阿",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.575525164604187
+            }
+        },
+        {
+            "text": "100万，3年就是回报47万？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.4592083692550659
+            }
+        },
+        {
+            "text": "你说的这个7.7的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5307896733283997
+            }
+        },
+        {
+            "text": "沈老师，我可以买慧盈产品吗？年化8.4",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5801465511322021
+            }
+        },
+        {
+            "text": "也就是说股权项目的收益要超过8.4%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8193855881690979
+            }
+        },
+        {
+            "text": "嗯，利率都很低，",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7021060585975647
+            }
+        },
+        {
+            "text": "收益高的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8198628425598145
+            }
+        },
+        {
+            "text": "劳烦帮忙跟进一下是否能给一些补偿，一共三个产品总资产超100，平均持有两个月全部提前到期，两个资产亏损，一个资产收益远低于预期，实在是有些心凉。 ",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8162875771522522
+            }
+        },
+        {
+            "text": "超20%后提取60%是什么概念？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8471875190734863
+            }
+        },
+        {
+            "text": "亲这个确定都是正收益？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6215757727622986
+            }
+        },
+        {
+            "text": "您好，请教一下智理财的问题：1.智理财到期不赎回，收益率和上一期一样吗，还是按新的收益率。2.本金是原来的本金加收益吗?",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6938032507896423
+            }
+        },
+        {
+            "text": "存单保现在七天年化是多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8475377559661865
+            }
+        },
+        {
+            "text": "比较高的，出来的时候和我说下",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9632724523544312
+            }
+        },
+        {
+            "text": "收益如何",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6695561408996582
+            }
+        },
+        {
+            "text": "新产品是什么，利率多少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.703860878944397
+            }
+        },
+        {
+            "text": "活期的哪个产品收益高？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9616121053695679
+            }
+        },
+        {
+            "text": "是尊享收益高点",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.882595419883728
+            }
+        },
+        {
+            "text": "如果买一手标，（二手无费的让给你们内挂），基本完美复投，三年后年化能有多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8087666034698486
+            }
+        },
+        {
+            "text": "南孚净利润率这么高的吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9617840647697449
+            }
+        },
+        {
+            "text": "现在尊理财的收益走那么低了？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8373228907585144
+            }
+        },
+        {
+            "text": "其实外面有不少收益更高。我们最求的是**，安心。谢谢你的帮助。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.4889942407608032
+            }
+        },
+        {
+            "text": "尊理财有高的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.63169926404953
+            }
+        },
+        {
+            "text": "但半年只有2，一年也就4出头",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.948373556137085
+            }
+        },
+        {
+            "text": "规定几年，如果上市会有什么样的收益呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7866120934486389
+            }
+        },
+        {
+            "text": "收益率稳定吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9864241480827332
+            }
+        },
+        {
+            "text": "保守预计年化30%是什么意思",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6170799136161804
+            }
+        },
+        {
+            "text": "我发现陆金宝t+0的收益与我的实际投资严重不符，请给我一个合理解释",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6801921725273132
+            }
+        },
+        {
+            "text": "我算了一下这项商品报酬只有2.4％，是否应该尽快转让？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.4051095247268677
+            }
+        },
+        {
+            "text": "那个31天的产品利率好低了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.50788813829422
+            }
+        },
+        {
+            "text": "今天有尊理财吗？什么收益？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8300113081932068
+            }
+        },
+        {
+            "text": "还是说收益是浮动的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6168738603591919
+            }
+        },
+        {
+            "text": "减去费用，实际收益还要打折扣吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4301185607910156
+            }
+        },
+        {
+            "text": "看到了，但回报太低",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.945542573928833
+            }
+        },
+        {
+            "text": "晓佳好！\\n刚刚看了私募南孚电池的评论区，有一段话“认购费2%，平均每年收0.4%，管理费2%，每年要收2.4%，2023年底，无法上市，以年化8%回购，放这里，如果不能上市，单利率只有5.6%”。是这样吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7105703353881836
+            }
+        },
+        {
+            "text": "你好，请问年化率7.84，扣了信息服务费率了吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9889816045761108
+            }
+        },
+        {
+            "text": "这个年化率是期望值，还是实际值",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7626861333847046
+            }
+        },
+        {
+            "text": "我想问一下，如果我投10万元，1年后能拿多少钱",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6778508424758911
+            }
+        },
+        {
+            "text": "定期有5.2百分之的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8128564357757568
+            }
+        },
+        {
+            "text": "那个收益高一点？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7233740091323853
+            }
+        },
+        {
+            "text": "陆钱宝优选怎么还要高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9306656718254089
+            }
+        },
+        {
+            "text": "之前看到过三年12的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9563759565353394
+            }
+        },
+        {
+            "text": "利润怎么核算的呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9265844821929932
+            }
+        },
+        {
+            "text": "收益率好高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8546507358551025
+            }
+        },
+        {
+            "text": "收益浮动情况咋样？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8897354602813721
+            }
+        },
+        {
+            "text": "平安汇通2号，2期和3期起投金额不一样，收益就不同吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.7832193374633789
+            }
+        },
+        {
+            "text": "您说的那个回报率是有点太让人吃惊了。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.3998997211456299
+            }
+        },
+        {
+            "text": "本来利率就低的可怜！",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.4966905117034912
+            }
+        },
+        {
+            "text": "大华短债投资回报多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6477326154708862
+            }
+        },
+        {
+            "text": "超过百分之二十的利率百分之60作为业绩回报，比如年华30个点10个点的百分60是扣除？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8722181916236877
+            }
+        },
+        {
+            "text": "收益率就得掺不少水分了??",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.918806791305542
+            }
+        },
+        {
+            "text": "我主要想了解下pe股权投资基金产品的收益等",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9763295650482178
+            }
+        },
+        {
+            "text": "不知道业绩报仇如何，年回报达不到8，就没有意义",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.961808443069458
+            }
+        },
+        {
+            "text": "好低的收益呀",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.772640585899353
+            }
+        },
+        {
+            "text": "现在这些好少，低于5的收益好低",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8401473164558411
+            }
+        },
+        {
+            "text": "最少是8%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7341119647026062
+            }
+        },
+        {
+            "text": "8%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8218498229980469
+            }
+        },
+        {
+            "text": "能解释一下8.4那个",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.6032904386520386
+            }
+        },
+        {
+            "text": "还是4.73是年化率？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5517857670783997
+            }
+        },
+        {
+            "text": "请问支付宝借呗日息是千分之三，那么年息是多少呀？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.806161642074585
+            }
+        },
+        {
+            "text": "等于保底8%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9730058312416077
+            }
+        },
+        {
+            "text": "每年至少8%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.882688581943512
+            }
+        },
+        {
+            "text": "最多12%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5750911235809326
+            }
+        },
+        {
+            "text": "如果我投安e出来再投能否做到5.5呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8374733328819275
+            }
+        },
+        {
+            "text": "等会吗？后面还有吗？比较下收益率。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.852928638458252
+            }
+        },
+        {
+            "text": "这个不是5.3吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9121333360671997
+            }
+        },
+        {
+            "text": "大概率可以做到吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6978768110275269
+            }
+        },
+        {
+            "text": "保底20%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9638833999633789
+            }
+        },
+        {
+            "text": "我买的陆国际的基金，预期收益是？%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.938837468624115
+            }
+        },
+        {
+            "text": "年息7.8吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6460530757904053
+            }
+        },
+        {
+            "text": "鑫理财变成4.54了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5754673480987549
+            }
+        },
+        {
+            "text": "这个跟平安宝-金色人生比起来还是比较高吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8724846243858337
+            }
+        },
+        {
+            "text": "终于进去了，没看见收益率啊？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5800834894180298
+            }
+        },
+        {
+            "text": "年化率多少，帮算下",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.6552363634109497
+            }
+        },
+        {
+            "text": " 百分之十五的收益是？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5033484697341919
+            }
+        },
+        {
+            "text": "现在一年期一百万最低也是7.5",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.8487733602523804
+            }
+        },
+        {
+            "text": "周期为一年的收益呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8879693746566772
+            }
+        },
+        {
+            "text": "以上信息收益等都是说的单利？整个三年期内？包括你说的可能百分之三十至百分之四十？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.776034414768219
+            }
+        },
+        {
+            "text": "收益稳定吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.968739926815033
+            }
+        },
+        {
+            "text": "那个上市项目，6%和12%都是年化的吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8619059920310974
+            }
+        },
+        {
+            "text": "收益率是一样的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8675343990325928
+            }
+        },
+        {
+            "text": "想请问一下每年回购8%，除去一些手续费，管理费之类的，就没有8%了吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9923496842384338
+            }
+        },
+        {
+            "text": "到期的这个56天的产品看起来收益不对呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.7505621314048767
+            }
+        },
+        {
+            "text": "6.95吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8721809387207031
+            }
+        },
+        {
+            "text": "利率是不变的是吗，8.4-手续费",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9067870378494263
+            }
+        },
+        {
+            "text": "如果我不复投就没有8.4吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6211304068565369
+            }
+        },
+        {
+            "text": "比如我投了10万，下个月出来1万，我把1万再投进去，那就还能**8.4吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6237707734107971
+            }
+        },
+        {
+            "text": "你好，我在电脑上看有几个一年7.7%的，是不是最近产品都走高了？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8657373189926147
+            }
+        },
+        {
+            "text": "5.5%以上",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7212532758712769
+            }
+        },
+        {
+            "text": "收益率才3.63？比现在的活期还少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5951969027519226
+            }
+        },
+        {
+            "text": "不是说百分之十吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8480161428451538
+            }
+        },
+        {
+            "text": "近期一定不会出现7.5了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9648787379264832
+            }
+        },
+        {
+            "text": "今天买了，下周又回到7.5",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9687583446502686
+            }
+        },
+        {
+            "text": "12个月的是多少点？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9119933247566223
+            }
+        },
+        {
+            "text": "收益应该比较低吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7415264248847961
+            }
+        },
+        {
+            "text": "你刚才好像说5点几",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9000072479248047
+            }
+        },
+        {
+            "text": "能比活期高一点的收益，我这块自己不用还是定期的高一点吧？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6011084318161011
+            }
+        },
+        {
+            "text": "还是感觉这个收益率高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7847108840942383
+            }
+        },
+        {
+            "text": "购买34天二十万收益186.3这款产品收益率太低了呀！",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8286181688308716
+            }
+        },
+        {
+            "text": "全是4点几，比银行还低？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7237995862960815
+            }
+        },
+        {
+            "text": "就是56天112万，我赚了10653.81？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4918158948421478
+            }
+        },
+        {
+            "text": "轻易贷活期7个多点",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5653502941131592
+            }
+        },
+        {
+            "text": "收益稳定8%左右？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6862838268280029
+            }
+        },
+        {
+            "text": "但是我存的活期只有4.几",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6734574437141418
+            }
+        },
+        {
+            "text": "南方天天宝收益率稳定吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9750522971153259
+            }
+        },
+        {
+            "text": "2%的不少呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8599592447280884
+            }
+        },
+        {
+            "text": "收益率有区别吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8498589396476746
+            }
+        },
+        {
+            "text": "是银行利息率",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8222636580467224
+            }
+        },
+        {
+            "text": "挂了5.8，觉得比较吉利",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.4497773051261902
+            }
+        },
+        {
+            "text": "陆钱宝的收益9.25%是稳定不变的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8835225105285645
+            }
+        },
+        {
+            "text": "7.2那个我买了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7133849859237671
+            }
+        },
+        {
+            "text": "浮动收益的？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7740277647972107
+            }
+        },
+        {
+            "text": "那就是市场挂牌的4.7%的是吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8052801489830017
+            }
+        },
+        {
+            "text": "收益有区别吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6502960324287415
+            }
+        },
+        {
+            "text": "请问这个收益怎么样",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6851965188980103
+            }
+        },
+        {
+            "text": "我还是尊理财吧，7.4算高的了吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6880772113800049
+            }
+        },
+        {
+            "text": "还是5.95吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.915489912033081
+            }
+        },
+        {
+            "text": "5.46吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6458656191825867
+            }
+        },
+        {
+            "text": "我以为还是5.9",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8361561894416809
+            }
+        },
+        {
+            "text": "他这个显示5.72这个月就是5.72吗有浮动的吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8395342826843262
+            }
+        },
+        {
+            "text": "这个我昨天买入的时候是看5.3的为什么今天成功买到就成4.3了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6858509182929993
+            }
+        },
+        {
+            "text": "收益南孚预期会好些吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5759710669517517
+            }
+        },
+        {
+            "text": "收益好像很低嘛",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8762664198875427
+            }
+        },
+        {
+            "text": "10%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.41602790355682373
+            }
+        },
+        {
+            "text": "鑫理财设有5%以上的产品",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6093661785125732
+            }
+        },
+        {
+            "text": "我预期在6-7个点左右",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8921689987182617
+            }
+        },
+        {
+            "text": "就算不动它放陆金保是不是也有将近一百一天的收益？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.691697359085083
+            }
+        },
+        {
+            "text": "陆金所的定期产品的利率怎么变得比银行理财产品还低呀",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8938833475112915
+            }
+        },
+        {
+            "text": "几个点的？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9419821500778198
+            }
+        },
+        {
+            "text": "你们把各种费用收了，我要3-4年才收到本金。那我的收益呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9244171977043152
+            }
+        },
+        {
+            "text": "看它投资收益写的8",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.4249626696109772
+            }
+        },
+        {
+            "text": "比t+0高点",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9012064933776855
+            }
+        },
+        {
+            "text": "我看那个现金理财，也有5个点呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9243672490119934
+            }
+        },
+        {
+            "text": "年化吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7178242206573486
+            }
+        },
+        {
+            "text": "之前那个私幕产品说好的8％回报率呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8645502328872681
+            }
+        },
+        {
+            "text": "存单宝有8%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.784567654132843
+            }
+        },
+        {
+            "text": "三个月利率多少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9472633600234985
+            }
+        },
+        {
+            "text": "三个月7.3？那很高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9239475727081299
+            }
+        },
+        {
+            "text": "7.5以上吧，不然100万一笔不如十万一笔方便",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8154374361038208
+            }
+        },
+        {
+            "text": "对了，产品时间长了好多，但利率就差不多",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8940773606300354
+            }
+        },
+        {
+            "text": "智慧8十的止盈止损我有点没看懂。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9929268956184387
+            }
+        },
+        {
+            "text": "财富汇年化率这么低？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8888199925422668
+            }
+        },
+        {
+            "text": "收益看起来不一样啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7185191512107849
+            }
+        },
+        {
+            "text": " 国金鼎泰二号有保底10%, 正常有15%左右的回报每年。",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6758308410644531
+            }
+        },
+        {
+            "text": "我看到这个产品一年有7.5收益啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6768918037414551
+            }
+        },
+        {
+            "text": "那这个意思年百分之8是有的，是吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9824292063713074
+            }
+        },
+        {
+            "text": "存单包息那么高？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9858065843582153
+            }
+        },
+        {
+            "text": "不是5.2吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.4129887819290161
+            }
+        },
+        {
+            "text": "今天是5.3",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8699870109558105
+            }
+        },
+        {
+            "text": "现在t+0的利息都好低了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.5964095592498779
+            }
+        },
+        {
+            "text": "4%都没有",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7460798621177673
+            }
+        },
+        {
+            "text": "最近t+0收益太低了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6498478651046753
+            }
+        },
+        {
+            "text": "我放在平安保一天都能有一百多",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7345190048217773
+            }
+        },
+        {
+            "text": "4月收益",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.6296958923339844
+            }
+        },
+        {
+            "text": "7.4是吧？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5284817814826965
+            }
+        },
+        {
+            "text": "尊理财都是七点四吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.945315420627594
+            }
+        },
+        {
+            "text": "刚才看到你们的陆钱宝利率比活期高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7737732529640198
+            }
+        },
+        {
+            "text": "不会出现负数吧，别像a|理财一样买了两月了还是负收益率",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9892284870147705
+            }
+        },
+        {
+            "text": "还是尊理财收益率高吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6157844662666321
+            }
+        },
+        {
+            "text": "应该收益也低",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9320640563964844
+            }
+        },
+        {
+            "text": "哦，那为什么收益率低一些呢？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6798303127288818
+            }
+        },
+        {
+            "text": "t+0是4.36",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7258473634719849
+            }
+        },
+        {
+            "text": "有点低",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9565674066543579
+            }
+        },
+        {
+            "text": "我一部分可能用可能不用的钱可以买稳赢？能放两月以上的就肯定比放灵活宝划算？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.7969586253166199
+            }
+        },
+        {
+            "text": "日日赢赎回只有180多的收益",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8661642074584961
+            }
+        },
+        {
+            "text": "没有看到财富汇-尊理财，一年期7.2%左右的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9611927270889282
+            }
+        },
+        {
+            "text": "3年一共6，还是每年6，",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9184318780899048
+            }
+        },
+        {
+            "text": "3年以后上市是每年12，包括在等的3年对吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7563866376876831
+            }
+        },
+        {
+            "text": "给3年的6就完了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9039212465286255
+            }
+        },
+        {
+            "text": "没买到5.07的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9763673543930054
+            }
+        },
+        {
+            "text": "那上面是5,81",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.6348341703414917
+            }
+        },
+        {
+            "text": "那投资100万，按理想的算法有多少利润",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.7697199583053589
+            }
+        },
+        {
+            "text": "现在参考业绩能达到5么",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5855242013931274
+            }
+        },
+        {
+            "text": "重阳的那个好像业绩不如中欧博瑞金",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7241529822349548
+            }
+        },
+        {
+            "text": "定期到账了，的确是低于收益率的。怎么回事啊？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6592528223991394
+            }
+        },
+        {
+            "text": "这个收益率低啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5979537963867188
+            }
+        },
+        {
+            "text": "平时一年前的是7.5",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8290225267410278
+            }
+        },
+        {
+            "text": "但是收益不高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9504562616348267
+            }
+        },
+        {
+            "text": "意思已经减去这两个费用后是6.8是么",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8794224858283997
+            }
+        },
+        {
+            "text": "回报率",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8593699336051941
+            }
+        },
+        {
+            "text": "这个陆钱宝收益有八点多？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5255789756774902
+            }
+        },
+        {
+            "text": "意思是最坏的情况都有不低于10%的收益吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9912923574447632
+            }
+        },
+        {
+            "text": "请教慧盈安额额e的产品我看回报率也蛮高的",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8467655181884766
+            }
+        },
+        {
+            "text": "上市按照12吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9210419654846191
+            }
+        },
+        {
+            "text": "不上市8吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9296002388000488
+            }
+        },
+        {
+            "text": "慧盈一安e以后是否要取消了？为什么麻袋理财会比陆金所的利率高很多？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9716368913650513
+            }
+        },
+        {
+            "text": "有预期收益吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8301641345024109
+            }
+        },
+        {
+            "text": "还有智理财明天后天的有利息高点的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6579098105430603
+            }
+        },
+        {
+            "text": "年化8%？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5574833154678345
+            }
+        },
+        {
+            "text": "介绍说年化8.几",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.4935074746608734
+            }
+        },
+        {
+            "text": "收益大概什么水平",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.763756513595581
+            }
+        },
+        {
+            "text": "我之前的理财产品每天至少还有300的收益",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8236716389656067
+            }
+        },
+        {
+            "text": "请问这个是不是相对收益高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6410839557647705
+            }
+        },
+        {
+            "text": "今天那产品利率才只有5.46%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6230435371398926
+            }
+        },
+        {
+            "text": "4.53？好低呀",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6119176745414734
+            }
+        },
+        {
+            "text": "我刚看到411天的，利息有点低，我就没约",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6831325888633728
+            }
+        },
+        {
+            "text": "那我等待的这半个月有活期收益吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5697327256202698
+            }
+        },
+        {
+            "text": "26.1是什么，年化吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.63991379737854
+            }
+        },
+        {
+            "text": "年化18，十万那就是1万8左右呗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5587838888168335
+            }
+        },
+        {
+            "text": "我五月较四月新增投资13万，买的都稳盈安e，结果两个月收益却是一样的。为什么？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9664300680160522
+            }
+        },
+        {
+            "text": "能提前发我看下吗收益率时间多长",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9083728790283203
+            }
+        },
+        {
+            "text": "业绩基准的产品是吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8034693598747253
+            }
+        },
+        {
+            "text": "帮我看看这个产品的收益怎么样？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.5562306046485901
+            }
+        },
+        {
+            "text": "看你们有两种，1种是3.96，另一种是4.38，这两种啥区别？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.5601062178611755
+            }
+        },
+        {
+            "text": "年7.20%还要不要扣除管理费等其它什么费用，如要是多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9828230142593384
+            }
+        },
+        {
+            "text": "大概是什么样的收益率呀",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.69632488489151
+            }
+        },
+        {
+            "text": "没有前几天的7.5的年化呀？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6666595339775085
+            }
+        },
+        {
+            "text": "预期利润是多少呀??",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.4541216492652893
+            }
+        },
+        {
+            "text": "智理财收益稳定吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9913569688796997
+            }
+        },
+        {
+            "text": "电话我时听到的是5.5%啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.731950581073761
+            }
+        },
+        {
+            "text": "我私募这个项目收益不怎么好啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7656999230384827
+            }
+        },
+        {
+            "text": "不是一年7.4万吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.7290010452270508
+            }
+        },
+        {
+            "text": "万分收益是什么意思",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5926192402839661
+            }
+        },
+        {
+            "text": "年化率多少？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.396200954914093
+            }
+        },
+        {
+            "text": "是每年按8%共5年吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.3855507969856262
+            }
+        },
+        {
+            "text": "是3个点?",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9536852836608887
+            }
+        },
+        {
+            "text": "一年现在多少息",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8281101584434509
+            }
+        },
+        {
+            "text": "最低15%是吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.48147886991500854
+            }
+        },
+        {
+            "text": "7.3是啥？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6944398880004883
+            }
+        },
+        {
+            "text": "不是6.95吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6248099207878113
+            }
+        },
+        {
+            "text": "金色人生，4.75，t+1",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.4187230169773102
+            }
+        },
+        {
+            "text": "看不到收益率啊？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7055497169494629
+            }
+        },
+        {
+            "text": "这个收益高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8615418672561646
+            }
+        },
+        {
+            "text": "那上面的产品写的10%，5%，还有的甚至30%都是预期收益对吧",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5249745845794678
+            }
+        },
+        {
+            "text": "他不是预期也就9.5？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.3880998194217682
+            }
+        },
+        {
+            "text": "这种产品的年收益是多少",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8893224000930786
+            }
+        },
+        {
+            "text": "万分之二的收益吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6177693009376526
+            }
+        },
+        {
+            "text": "7.4的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7008023858070374
+            }
+        },
+        {
+            "text": "收益如何？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5184332132339478
+            }
+        },
+        {
+            "text": "年化50%两年翻番？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9015591740608215
+            }
+        },
+        {
+            "text": "我看到是最低只保8%啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.3874889016151428
+            }
+        },
+        {
+            "text": "那这种项目，收益稳定性怎么样?",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.966742992401123
+            }
+        },
+        {
+            "text": "没上市8%,上市后12%,上市并盈利4年累计26-70%,可这样理解吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8709145784378052
+            }
+        },
+        {
+            "text": "重阳的那个好像业绩不如富盈",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.5868159532546997
+            }
+        },
+        {
+            "text": "这个跟稳盈-安e比起来还是比较高吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8582219481468201
+            }
+        },
+        {
+            "text": "稳盈-安e收益高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "product_names",
+                "confidence": 0.9657272696495056
+            }
+        },
+        {
+            "text": "还有同盈CDB明天后天的有利息高点的吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6735107898712158
+            }
+        },
+        {
+            "text": "立盈-聚信变成4.54了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.6471448540687561
+            }
+        },
+        {
+            "text": "久盈智投收益稳定吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9845115542411804
+            }
+        },
+        {
+            "text": "久盈智投收益率稳定吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9858116507530212
+            }
+        },
+        {
+            "text": "我买的久盈智投，预期收益是？%",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5182744860649109
+            }
+        },
+        {
+            "text": "稳盈-变现通变成4.54了",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.7586791515350342
+            }
+        },
+        {
+            "text": "稳盈-变现通回报不高",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "product_names",
+                "confidence": 0.725418746471405
+            }
+        },
+        {
+            "text": "稳盈-变现通收益不怎么好啊",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5897907614707947
+            }
+        },
+        {
+            "text": "这个稳盈-变现通收益有九点多？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.4925251305103302
+            }
+        },
+        {
+            "text": "立盈-聚信大约又多少呢",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.5910349488258362
+            }
+        },
+        {
+            "text": "8%有吗",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9079053401947021
+            }
+        },
+        {
+            "text": "能有7%吗？",
+            "intent": "invest_return",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8189315795898438
+            }
+        },
+        {
+            "text": "转到陆金所t+0，要转出的话超20万就是下个交易日才到账",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.43420442938804626
+            }
+        },
+        {
+            "text": "我看到有一个7.4的上架了，相关协议上没有说明多少天呢？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8104680776596069
+            }
+        },
+        {
+            "text": "上次买的基金我忘记了是多长时间的？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6216930150985718
+            }
+        },
+        {
+            "text": "有短一点期限的吗？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5950151681900024
+            }
+        },
+        {
+            "text": "我申购了807天的尊理财。是不是最长期限807天，其实是一年期的，明年这个时候还款？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7267516255378723
+            }
+        },
+        {
+            "text": "为什么不全额赎回",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "operation",
+                "confidence": 0.7811774015426636
+            }
+        },
+        {
+            "text": "看下我的理财是不是到期了",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.443284273147583
+            }
+        },
+        {
+            "text": "这是五年的项目？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8483319282531738
+            }
+        },
+        {
+            "text": "预约赎回的智理财e62083号未能成功受理，在下个开放期操作赎回。",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "operation",
+                "confidence": 0.7814010381698608
+            }
+        },
+        {
+            "text": "存单宝是不是30天后可随取不用手续费？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7192166447639465
+            }
+        },
+        {
+            "text": "今天那个是多少天？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8530114889144897
+            }
+        },
+        {
+            "text": "但是没有办法赎回啊",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "operation",
+                "confidence": 0.760640025138855
+            }
+        },
+        {
+            "text": "投资多长时间？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8693665266036987
+            }
+        },
+        {
+            "text": "金色人生的收益是不是可以随时提取？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.9023649096488953
+            }
+        },
+        {
+            "text": "不是，因为银行也是一个零活性的理财，所以每天最多赎回50万",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6202089190483093
+            }
+        },
+        {
+            "text": "昨天让您帮我查一下我那个私募产品是否到期的问题？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.794380784034729
+            }
+        },
+        {
+            "text": "把资金赎回的手续麻烦不？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "operation",
+                "confidence": 0.6706330180168152
+            }
+        },
+        {
+            "text": "刚才你说的7.4的多少天",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.965234637260437
+            }
+        },
+        {
+            "text": "一年期没??",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6217641830444336
+            }
+        },
+        {
+            "text": "这个7.3的实际是六个月？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.47731316089630127
+            }
+        },
+        {
+            "text": "需要投资多长时间？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7340022921562195
+            }
+        },
+        {
+            "text": "也是3+2的年限吗？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.4820738434791565
+            }
+        },
+        {
+            "text": "这笔尊理财申请已经1o天多了，什么时候能获批准成立进入封闭期呀？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7582364678382874
+            }
+        },
+        {
+            "text": "买的理财在备案申请期间能赎回吗？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7291467785835266
+            }
+        },
+        {
+            "text": "这个产品是多长时间呢，有没详细资料?",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8398056030273438
+            }
+        },
+        {
+            "text": "基金多少天",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5549322366714478
+            }
+        },
+        {
+            "text": "可以随时提吗",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5489658117294312
+            }
+        },
+        {
+            "text": "我记得你跟我说的是两百天。",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.49099570512771606
+            }
+        },
+        {
+            "text": "一年的吗？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7360661029815674
+            }
+        },
+        {
+            "text": "项目收款期2017\\/10\\/13～2018\\/5\\/8，应该是208天。",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.9346038103103638
+            }
+        },
+        {
+            "text": "这次上的产品期限？",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9279245734214783
+            }
+        },
+        {
+            "text": "还有就是期限太长也受不了*^_^*",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6345076560974121
+            }
+        },
+        {
+            "text": "这款产品是多长时间的",
+            "intent": "invest_period",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9308050274848938
+            }
+        },
+        {
+            "text": "我想看看私募的产品",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.8134362697601318
+            }
+        },
+        {
+            "text": "看看有没有投向好一点的",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9316491484642029
+            }
+        },
+        {
+            "text": "是否有其他短期的稳妥点的其他方案？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7792668342590332
+            }
+        },
+        {
+            "text": "放哪个活期比较好？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9578075408935547
+            }
+        },
+        {
+            "text": "那些短期产品？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8916032910346985
+            }
+        },
+        {
+            "text": "这是不是房地产项目",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7628496885299683
+            }
+        },
+        {
+            "text": "感觉没买对时间这期出现了7.7%的底层资产也类似",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9014933705329895
+            }
+        },
+        {
+            "text": "有个100万在委托中，是什么产品？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8193365931510925
+            }
+        },
+        {
+            "text": "那上面那个9.7的不是货币基金吗",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6887273788452148
+            }
+        },
+        {
+            "text": "之前买的稳赢产品是**型理财产品吧？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7783752679824829
+            }
+        },
+        {
+            "text": "请介绍一下产品",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6916374564170837
+            }
+        },
+        {
+            "text": "标的公司是谁物色的？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_manager",
+                "confidence": 0.8197690844535828
+            }
+        },
+        {
+            "text": "我的理财里有这样的产品吗",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5800028443336487
+            }
+        },
+        {
+            "text": "100万起的，12和18个月是什么产品？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.882871150970459
+            }
+        },
+        {
+            "text": "现金嬴是证券类",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8883475065231323
+            }
+        },
+        {
+            "text": "现在的慧盈和原来的安益是一样吗？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7315142154693604
+            }
+        },
+        {
+            "text": "平安大华短债e?",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "product_names",
+                "confidence": 0.9597519636154175
+            }
+        },
+        {
+            "text": "现在那个存贷宝是啥",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5729539394378662
+            }
+        },
+        {
+            "text": "你们的尊理财都是投些什么项目？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8600710034370422
+            }
+        },
+        {
+            "text": "6.8这项目标的还可以吗？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.875715970993042
+            }
+        },
+        {
+            "text": "爱理财5号，服务期限，灵话赎回，是属于活期吗？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9666620492935181
+            }
+        },
+        {
+            "text": "一年期7%多的是什么项目",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7633981108665466
+            }
+        },
+        {
+            "text": "主要投资什么项目呀？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8813251256942749
+            }
+        },
+        {
+            "text": "这个pe项目现在募集40亿元的资金用途是什么？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6911050081253052
+            }
+        },
+        {
+            "text": "哪个属于财富汇，尊理财吗。",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5868761539459229
+            }
+        },
+        {
+            "text": "请问存单宝丅＋1也是活期存款吗？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9100359678268433
+            }
+        },
+        {
+            "text": "陆金所定期项目在哪里才能看到？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "operation",
+                "confidence": 0.7808105945587158
+            }
+        },
+        {
+            "text": "说的是314天的那个定期吗",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.7174037098884583
+            }
+        },
+        {
+            "text": "我看收益还可以，但对它不了解",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.4969225525856018
+            }
+        },
+        {
+            "text": "这是固定收益么？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.7512940168380737
+            }
+        },
+        {
+            "text": "都是些什么产品？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.718315064907074
+            }
+        },
+        {
+            "text": "李经理，怎么购买类固定收益理财？",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.6360844969749451
+            }
+        },
+        {
+            "text": "请问这产品您觉得如何",
+            "intent": "invest_scope",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7065823078155518
+            }
+        },
+        {
+            "text": "这几天会有一百万的定期产品吗？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8535022139549255
+            }
+        },
+        {
+            "text": "最近有没有100万以上的产品了？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8516401648521423
+            }
+        },
+        {
+            "text": "最近还有类似产品吗?我现在都在活期里。",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9378801584243774
+            }
+        },
+        {
+            "text": "请问三点出来的是哪个理财？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8260288238525391
+            }
+        },
+        {
+            "text": "下来要等哪天才有？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.611876368522644
+            }
+        },
+        {
+            "text": "今天的项目什么时间起售？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6808541417121887
+            }
+        },
+        {
+            "text": "最近还有尊理财项目的话，请记得通知我",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6883244514465332
+            }
+        },
+        {
+            "text": "昨天的尊理财不是太适合我，没太看懂里面的投向，下次你知道是什么时间点么？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9122709631919861
+            }
+        },
+        {
+            "text": "有100w起的排期吗",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.6030936241149902
+            }
+        },
+        {
+            "text": "最近看看尊理财有没有产品",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8632545471191406
+            }
+        },
+        {
+            "text": "最近尊享有项目吗？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8842045068740845
+            }
+        },
+        {
+            "text": "现在能买吗？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8288911581039429
+            }
+        },
+        {
+            "text": "问下之前申请的那个是何时开始?",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.8128345608711243
+            }
+        },
+        {
+            "text": "货币基金要3日后才能买？？",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6568939685821533
+            }
+        },
+        {
+            "text": "后面固收排期出来没?",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6010593175888062
+            }
+        },
+        {
+            "text": "今天有没有一年或者两年期的慧赢产品",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9288146495819092
+            }
+        },
+        {
+            "text": "产品还没有出来?",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8824210166931152
+            }
+        },
+        {
+            "text": "又错过一次机会，过几天还有吗",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.654524028301239
+            }
+        },
+        {
+            "text": "22日我有产品到期，请问100万的定期一般什么时候抢",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8076527714729309
+            }
+        },
+        {
+            "text": "7.2的这个上了么",
+            "intent": "invest_time",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7544390559196472
+            }
+        },
+        {
+            "text": "再帮我确认下有没有平安承保吧",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8646180033683777
+            }
+        },
+        {
+            "text": "那个4颗半星，我比较喜欢",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7087482810020447
+            }
+        },
+        {
+            "text": "项目有什么风险吗？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7290018796920776
+            }
+        },
+        {
+            "text": "这个保险好吗？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8413004279136658
+            }
+        },
+        {
+            "text": "四颗星的算是比较的了？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6702424883842468
+            }
+        },
+        {
+            "text": "还是不清楚风险想再学习下再碰",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7221429347991943
+            }
+        },
+        {
+            "text": "风险大的不要",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9486168026924133
+            }
+        },
+        {
+            "text": "还不了解产品的特点，风险情况",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7183722853660583
+            }
+        },
+        {
+            "text": "这种的风险大不",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8756870031356812
+            }
+        },
+        {
+            "text": "风险多大",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7175220251083374
+            }
+        },
+        {
+            "text": "风险远远高于定期是吧",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9557886123657227
+            }
+        },
+        {
+            "text": "这个风险高",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8246220350265503
+            }
+        },
+        {
+            "text": "有担包吗？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7609257102012634
+            }
+        },
+        {
+            "text": "这个风险大不",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8415727615356445
+            }
+        },
+        {
+            "text": "30天持有，可以随时取现，有分险吗",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9701486825942993
+            }
+        },
+        {
+            "text": "4个半星?",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6347581148147583
+            }
+        },
+        {
+            "text": "基金风险太高了",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9523791074752808
+            }
+        },
+        {
+            "text": "他是不是和财富汇、彩虹一样，比较稳妥。",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7854661345481873
+            }
+        },
+        {
+            "text": "这个有保险公司承保吗？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8205814361572266
+            }
+        },
+        {
+            "text": "刚刚看了一个产品慧盈安e6个月6%，五颗星，这个应该不错吧?",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6504966616630554
+            }
+        },
+        {
+            "text": "你认为还有什么风险呢？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9012264013290405
+            }
+        },
+        {
+            "text": "他是不是和财富汇、彩虹一样，比较稳妥？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7917913198471069
+            }
+        },
+        {
+            "text": "都是有风险的投资，不要了",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9030604362487793
+            }
+        },
+        {
+            "text": "南孚资金就是稳妥的？收益也***？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9402817487716675
+            }
+        },
+        {
+            "text": "这种风险还是很大的，时间也很久",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7354429960250854
+            }
+        },
+        {
+            "text": "不要有什么风险",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8616583943367004
+            }
+        },
+        {
+            "text": "以及这个也是某地产项目投资，风险不小",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6870068311691284
+            }
+        },
+        {
+            "text": "这是安邦的产品。有点危险吧。我不太信任安邦。",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8937681317329407
+            }
+        },
+        {
+            "text": "那好想风险大",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.7922050952911377
+            }
+        },
+        {
+            "text": "风险很高吗",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6911769509315491
+            }
+        },
+        {
+            "text": "说pe风险大的很",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.9240427613258362
+            }
+        },
+        {
+            "text": "而且基金风险大大啊？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.8362423181533813
+            }
+        },
+        {
+            "text": "风险反而低？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "statements",
+                "confidence": 0.6863418221473694
+            }
+        },
+        {
+            "text": "他是不是和乐享、乐享智投，比较稳妥。？",
+            "intent": "invest_risk",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6335986852645874
+            }
+        },
+        {
+            "text": "怎么上面显示是一万元起投的",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9212236404418945
+            }
+        },
+        {
+            "text": "提现额度是不是500万每天？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9374411702156067
+            }
+        },
+        {
+            "text": "刚才投资的项目10元就可以起投的",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7090549468994141
+            }
+        },
+        {
+            "text": "为什么还会有1万多起投的？？？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9282002449035645
+            }
+        },
+        {
+            "text": "我没有看到你之前说的100起投的项目",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5790651440620422
+            }
+        },
+        {
+            "text": "多少起卖",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.7131391763687134
+            }
+        },
+        {
+            "text": "每天最多只能取现20万吗？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8894938826560974
+            }
+        },
+        {
+            "text": "“产品详情”页面上的“起投资金”10160元？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9278140068054199
+            }
+        },
+        {
+            "text": "现在定期产品都要百万起买了吧",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7993022203445435
+            }
+        },
+        {
+            "text": "陆金宝t+1赎回，单笔或者单日是否有限额？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.9574800133705139
+            }
+        },
+        {
+            "text": "是t+0一天只能赎1万？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.6186949014663696
+            }
+        },
+        {
+            "text": "t+1一天能赎多少？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.9190187454223633
+            }
+        },
+        {
+            "text": "11011基金，想再补一点可以吗？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5886805057525635
+            }
+        },
+        {
+            "text": "需要投资多少钱",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5584700107574463
+            }
+        },
+        {
+            "text": "我钱已经转到零活宝了，下次有百万起投的提前告诉我怎么投",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7561901211738586
+            }
+        },
+        {
+            "text": "所有平台的私募都是吗？100万起投，账户得300万?",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9425604343414307
+            }
+        },
+        {
+            "text": "这个产品门槛多高？不记得了？还没有正式上架吧？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9067604541778564
+            }
+        },
+        {
+            "text": "为什么7月1日起，一天只能体现一万啦？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.8466367721557617
+            }
+        },
+        {
+            "text": "这些私募购买的话需要什么条件吗",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6443250179290771
+            }
+        },
+        {
+            "text": "你居然推荐我最低50万",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7554177045822144
+            }
+        },
+        {
+            "text": "我怎么没有看到100万起投的产品",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.5663824081420898
+            }
+        },
+        {
+            "text": "需要一百万以上是吧？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.7252546548843384
+            }
+        },
+        {
+            "text": "我可以买吗？多少钱起买？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.6954028010368347
+            }
+        },
+        {
+            "text": "有300w起的更好",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.747011125087738
+            }
+        },
+        {
+            "text": "不够一百万买不成吧",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7270065546035767
+            }
+        },
+        {
+            "text": "继续投资慧盈能买多少如何？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.629530668258667
+            }
+        },
+        {
+            "text": "没有100万起买的产品？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7225825190544128
+            }
+        },
+        {
+            "text": "比如可以加个1w么？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.851163387298584
+            }
+        },
+        {
+            "text": "这个什么时候可以追加啊？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.959148108959198
+            }
+        },
+        {
+            "text": "最近有没有100万起的产品",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8651757836341858
+            }
+        },
+        {
+            "text": "今天下午3点尊理财7.4%的很快就售完了，起步1万元？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8867156505584717
+            }
+        },
+        {
+            "text": "尊理财都得100万以上的投资吗？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8790296912193298
+            }
+        },
+        {
+            "text": "起投资金怎么只是10000元了？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_coupon",
+                "confidence": 0.9899537563323975
+            }
+        },
+        {
+            "text": "定期都要几十万??",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8110316395759583
+            }
+        },
+        {
+            "text": "不知道哪里买几万起？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9477116465568542
+            }
+        },
+        {
+            "text": "你说的百万起售的高端产品没有啊",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8158023357391357
+            }
+        },
+        {
+            "text": "不知道为什么7.4%的这款标示是1万元起",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.7691324949264526
+            }
+        },
+        {
+            "text": "近期有百万起的理财吗",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9617196917533875
+            }
+        },
+        {
+            "text": "南孚电池有没有最小资金要求？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.5910784006118774
+            }
+        },
+        {
+            "text": "最近没有100万起的尊理财产品？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8325191736221313
+            }
+        },
+        {
+            "text": "最近百万起投的有吗？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.8571653366088867
+            }
+        },
+        {
+            "text": "那购买一个产品要多少金额以上？5万美元吗",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.4851521849632263
+            }
+        },
+        {
+            "text": "下周一的产品是100万以上就可以了吗？",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8871532678604126
+            }
+        },
+        {
+            "text": "周五百万产品出来了吗",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8626100420951843
+            }
+        },
+        {
+            "text": "为什么两个理财起始投资金额不同",
+            "intent": "invest_amount",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8055548071861267
+            }
+        },
+        {
+            "text": "等券到账了，一起用呗？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.5030269622802734
+            }
+        },
+        {
+            "text": "你好，请问5月专属福利中的话费还会有吗？这几天看了一下都是兑完的状态。",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.49857282638549805
+            }
+        },
+        {
+            "text": "卡券包在那里？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.7497901916503906
+            }
+        },
+        {
+            "text": "你上面还说过年的时候私募股权投资卷发的很多，我从陆金所发行股权就在陆金所我怎么一次都没有",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.7716538310050964
+            }
+        },
+        {
+            "text": "会有500元卷吗？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.919904351234436
+            }
+        },
+        {
+            "text": "尊理财的卷什么时候返",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7454438209533691
+            }
+        },
+        {
+            "text": "3月底的冲刺奖励还有2000元，准备什么时候发放啊！本月有的话记得提醒我，不会不给了吧",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8605488538742065
+            }
+        },
+        {
+            "text": "是返卷吗",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.934565544128418
+            }
+        },
+        {
+            "text": "你好我想问一下我现在买的理财产品，送的券怎么不能用了",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6869891285896301
+            }
+        },
+        {
+            "text": "你不是说7.3%固定收益+返券=7.5%的年化收益吗",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_return",
+                "confidence": 0.9297391176223755
+            }
+        },
+        {
+            "text": "你好，我的积分月底到期如何解决？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_period",
+                "confidence": 0.7303638458251953
+            }
+        },
+        {
+            "text": "返的是基金份额？没看懂",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.8502323031425476
+            }
+        },
+        {
+            "text": "近期咱家的券少了，能多送点券吗??",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6846209764480591
+            }
+        },
+        {
+            "text": "尊理财已经成立，返劵什么时候能到账？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.7577634453773499
+            }
+        },
+        {
+            "text": "返现券大概什么时候能到账？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9742256999015808
+            }
+        },
+        {
+            "text": "最近有什么活动吗",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.6670657396316528
+            }
+        },
+        {
+            "text": "这个月怎么不送券了，越来越小气了",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.9646029472351074
+            }
+        },
+        {
+            "text": "这张券只要购买就可以了是吧，没看到金额的限制嘛",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.7732850313186646
+            }
+        },
+        {
+            "text": "前些天你还是谁专门打电话给我，说赠送陆金币的，怎么现在还没收到？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.4813641309738159
+            }
+        },
+        {
+            "text": "每天三次抽88红包，今天还有吗？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9811583757400513
+            }
+        },
+        {
+            "text": "活动时间到21号，问问今天还有没有？",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.9505912065505981
+            }
+        },
+        {
+            "text": "这么多年积分没增加过",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_risk",
+                "confidence": 0.6922744512557983
+            }
+        },
+        {
+            "text": "100w0.4%返现什么时候发",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.6874158382415771
+            }
+        },
+        {
+            "text": "最近还有十万要买，帮我搞点优惠卷",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_time",
+                "confidence": 0.8828344941139221
+            }
+        },
+        {
+            "text": "是投活期1元也会反现金吗……",
+            "intent": "invest_coupon",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.6241329908370972
+            }
+        },
+        {
+            "text": "资金托管是谁啊？",
+            "intent": "invest_manager",
+            "intent_prediction": {
+                "name": "invest_scope",
+                "confidence": 0.9369133710861206
+            }
+        },
+        {
+            "text": "哪家知道吗",
+            "intent": "invest_manager",
+            "intent_prediction": {
+                "name": "rec_products",
+                "confidence": 0.9103909730911255
+            }
+        },
+        {
+            "text": "刚才说的新三板企业是哪一家",
+            "intent": "invest_manager",
+            "intent_prediction": {
+                "name": "invest_amount",
+                "confidence": 0.8535351157188416
+            }
+        }
+    ]
+}
